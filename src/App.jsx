@@ -1,5 +1,6 @@
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Home from "./Home";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           {/* <Route path="/choufferservices" element={<ChoufferServices />} /> */}
           {/* <Route path="/limousineservices" element={<LimousineServices />} /> */}
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );

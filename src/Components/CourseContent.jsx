@@ -22,7 +22,7 @@ const CourseContent = () => {
                     <div className="flex items-center gap-3">
                       <div className="w-[21px] h-[21px] rounded-[50%] border-[1px] border-solid border-[#767676] "></div>
                       <h1>
-                        <span className="text-[17px] font-semibold hover:underline">
+                        <span className="text-[17px] hover:underline u-headingitem">
                           Introduction to using Google Workspace for Education
                           in the classroom
                         </span>
@@ -49,46 +49,46 @@ const CourseContent = () => {
                     </p>
                     {/* links ===========> */}
                     <div className="">
-                      <ul class="activitysection__list courselist">
-                        <li class="activitysection__item courselist__item">
-                          <NavLink class="double_click_protection">
-                            <div class="courselist__marker"></div>
-                            <div class="courselist__itemcontent">
-                              <h3 class="u-headingitem activitysection__itemname hover:underline">
+                      <ul className="activitysection__list courselist">
+                        <li className="activitysection__item courselist__item">
+                          <NavLink className="double_click_protection">
+                            <div className="courselist__marker"></div>
+                            <div className="courselist__itemcontent">
+                              <h3 className="u-headingitem activitysection__itemname hover:underline">
                                 Consolidate your files in Google Drive
                               </h3>
-                              <ul class="activitymeta activitymeta--inline">
-                                <li class="activitymeta__item text-[12px]">
+                              <ul className="activitymeta activitymeta--inline">
+                                <li className="activitymeta__item text-[12px]">
                                   7 m
                                 </li>
                               </ul>
                             </div>
                           </NavLink>{" "}
                         </li>
-                        <li class="activitysection__item courselist__item">
-                          <NavLink class="double_click_protection">
-                            <div class="courselist__marker"></div>
-                            <div class="courselist__itemcontent">
-                              <h3 class="u-headingitem activitysection__itemname hover:underline">
+                        <li className="activitysection__item courselist__item">
+                          <NavLink className="double_click_protection">
+                            <div className="courselist__marker"></div>
+                            <div className="courselist__itemcontent">
+                              <h3 className="u-headingitem activitysection__itemname hover:underline">
                                 Manage your files in Google Drive
                               </h3>
-                              <ul class="activitymeta activitymeta--inline">
-                                <li class="activitymeta__item text-[12px]">
+                              <ul className="activitymeta activitymeta--inline">
+                                <li className="activitymeta__item text-[12px]">
                                   6 m
                                 </li>
                               </ul>
                             </div>
                           </NavLink>{" "}
                         </li>
-                        <li class="activitysection__item courselist__item">
-                          <NavLink class="double_click_protection">
-                            <div class="courselist__marker"></div>
-                            <div class="courselist__itemcontent">
-                              <h3 class="u-headingitem activitysection__itemname hover:underline">
+                        <li className="activitysection__item courselist__item">
+                          <NavLink className="double_click_protection">
+                            <div className="courselist__marker"></div>
+                            <div className="courselist__itemcontent">
+                              <h3 className="u-headingitem activitysection__itemname hover:underline">
                                 Collaborate and share with Google Docs
                               </h3>
-                              <ul class="activitymeta activitymeta--inline">
-                                <li class="activitymeta__item text-[12px]">
+                              <ul className="activitymeta activitymeta--inline">
+                                <li className="activitymeta__item text-[12px]">
                                   5 m
                                 </li>
                               </ul>
@@ -119,61 +119,61 @@ const CourseContent = () => {
                     </p>
                     {/* links */}
                     <div className="">
-                      <ul class="activitysection__list courselist">
-                        <li class="activitysection__item courselist__item">
-                          <NavLink class="double_click_protection">
-                            <div class="courselist__marker"></div>
-                            <div class="courselist__itemcontent">
-                              <h3 class="u-headingitem activitysection__itemname hover:underline">
+                      <ul className="activitysection__list courselist">
+                        <li className="activitysection__item courselist__item">
+                          <NavLink className="double_click_protection">
+                            <div className="courselist__marker"></div>
+                            <div className="courselist__itemcontent">
+                              <h3 className="u-headingitem activitysection__itemname hover:underline">
                                 Organize and search your Gmail
                               </h3>
-                              <ul class="activitymeta activitymeta--inline">
-                                <li class="activitymeta__item text-[12px]">
+                              <ul className="activitymeta activitymeta--inline">
+                                <li className="activitymeta__item text-[12px]">
                                   7 m
                                 </li>
                               </ul>
                             </div>
                           </NavLink>{" "}
                         </li>
-                        <li class="activitysection__item courselist__item">
-                          <NavLink class="double_click_protection">
-                            <div class="courselist__marker"></div>
-                            <div class="courselist__itemcontent">
-                              <h3 class="u-headingitem activitysection__itemname hover:underline">
+                        <li className="activitysection__item courselist__item">
+                          <NavLink className="double_click_protection">
+                            <div className="courselist__marker"></div>
+                            <div className="courselist__itemcontent">
+                              <h3 className="u-headingitem activitysection__itemname hover:underline">
                                 Message colleagues instantly with Google Chat
                               </h3>
-                              <ul class="activitymeta activitymeta--inline">
-                                <li class="activitymeta__item text-[12px]">
+                              <ul className="activitymeta activitymeta--inline">
+                                <li className="activitymeta__item text-[12px]">
                                   5 m
                                 </li>
                               </ul>
                             </div>
                           </NavLink>{" "}
                         </li>
-                        <li class="activitysection__item courselist__item">
-                          <NavLink class="double_click_protection">
-                            <div class="courselist__marker"></div>
-                            <div class="courselist__itemcontent">
-                              <h3 class="u-headingitem activitysection__itemname hover:underline">
+                        <li className="activitysection__item courselist__item">
+                          <NavLink className="double_click_protection">
+                            <div className="courselist__marker"></div>
+                            <div className="courselist__itemcontent">
+                              <h3 className="u-headingitem activitysection__itemname hover:underline">
                                 Share student work with Google sites
                               </h3>
-                              <ul class="activitymeta activitymeta--inline">
-                                <li class="activitymeta__item text-[12px]">
+                              <ul className="activitymeta activitymeta--inline">
+                                <li className="activitymeta__item text-[12px]">
                                   7 m
                                 </li>
                               </ul>
                             </div>
                           </NavLink>{" "}
                         </li>
-                        <li class="activitysection__item courselist__item">
-                          <NavLink class="double_click_protection">
-                            <div class="courselist__marker"></div>
-                            <div class="courselist__itemcontent">
-                              <h3 class="u-headingitem activitysection__itemname hover:underline">
+                        <li className="activitysection__item courselist__item">
+                          <NavLink className="double_click_protection">
+                            <div className="courselist__marker"></div>
+                            <div className="courselist__itemcontent">
+                              <h3 className="u-headingitem activitysection__itemname hover:underline">
                                 Hold virtual conversations with Google Meet
                               </h3>
-                              <ul class="activitymeta activitymeta--inline">
-                                <li class="activitymeta__item text-[12px]">
+                              <ul className="activitymeta activitymeta--inline">
+                                <li className="activitymeta__item text-[12px]">
                                   6 m
                                 </li>
                               </ul>
@@ -245,47 +245,47 @@ const CourseContent = () => {
                     </p>
                     {/* links ===========> */}
                     <div className="">
-                      <ul class="activitysection__list courselist">
-                        <li class="activitysection__item courselist__item">
-                          <NavLink class="double_click_protection">
-                            <div class="courselist__marker"></div>
-                            <div class="courselist__itemcontent">
-                              <h3 class="u-headingitem activitysection__itemname hover:underline">
+                      <ul className="activitysection__list courselist">
+                        <li className="activitysection__item courselist__item">
+                          <NavLink className="double_click_protection">
+                            <div className="courselist__marker"></div>
+                            <div className="courselist__itemcontent">
+                              <h3 className="u-headingitem activitysection__itemname hover:underline">
                                 Create your roster in Google Classroom
                               </h3>
-                              <ul class="activitymeta activitymeta--inline">
-                                <li class="activitymeta__item text-[12px]">
+                              <ul className="activitymeta activitymeta--inline">
+                                <li className="activitymeta__item text-[12px]">
                                   5 m
                                 </li>
                               </ul>
                             </div>
                           </NavLink>{" "}
                         </li>
-                        <li class="activitysection__item courselist__item">
-                          <NavLink class="double_click_protection">
-                            <div class="courselist__marker"></div>
-                            <div class="courselist__itemcontent">
-                              <h3 class="u-headingitem activitysection__itemname hover:underline">
+                        <li className="activitysection__item courselist__item">
+                          <NavLink className="double_click_protection">
+                            <div className="courselist__marker"></div>
+                            <div className="courselist__itemcontent">
+                              <h3 className="u-headingitem activitysection__itemname hover:underline">
                                 Assign work and collect assignments with Google
                                 Classroom
                               </h3>
-                              <ul class="activitymeta activitymeta--inline">
-                                <li class="activitymeta__item text-[12px]">
+                              <ul className="activitymeta activitymeta--inline">
+                                <li className="activitymeta__item text-[12px]">
                                   8 m
                                 </li>
                               </ul>
                             </div>
                           </NavLink>{" "}
                         </li>
-                        <li class="activitysection__item courselist__item">
-                          <NavLink class="double_click_protection">
-                            <div class="courselist__marker"></div>
-                            <div class="courselist__itemcontent">
-                              <h3 class="u-headingitem activitysection__itemname hover:underline">
+                        <li className="activitysection__item courselist__item">
+                          <NavLink className="double_click_protection">
+                            <div className="courselist__marker"></div>
+                            <div className="courselist__itemcontent">
+                              <h3 className="u-headingitem activitysection__itemname hover:underline">
                                 Give and receive digital feedback
                               </h3>
-                              <ul class="activitymeta activitymeta--inline">
-                                <li class="activitymeta__item text-[12px]">
+                              <ul className="activitymeta activitymeta--inline">
+                                <li className="activitymeta__item text-[12px]">
                                   8 m
                                 </li>
                               </ul>
@@ -320,47 +320,47 @@ const CourseContent = () => {
                     </p>
                     {/* links ===========> */}
                     <div className="">
-                      <ul class="activitysection__list courselist">
-                        <li class="activitysection__item courselist__item">
-                          <NavLink class="double_click_protection">
-                            <div class="courselist__marker"></div>
-                            <div class="courselist__itemcontent">
-                              <h3 class="u-headingitem activitysection__itemname hover:underline">
+                      <ul className="activitysection__list courselist">
+                        <li className="activitysection__item courselist__item">
+                          <NavLink className="double_click_protection">
+                            <div className="courselist__marker"></div>
+                            <div className="courselist__itemcontent">
+                              <h3 className="u-headingitem activitysection__itemname hover:underline">
                                 Create surveys and quizzes in Google Forms
                               </h3>
-                              <ul class="activitymeta activitymeta--inline">
-                                <li class="activitymeta__item text-[12px]">
+                              <ul className="activitymeta activitymeta--inline">
+                                <li className="activitymeta__item text-[12px]">
                                   7 m
                                 </li>
                               </ul>
                             </div>
                           </NavLink>{" "}
                         </li>
-                        <li class="activitysection__item courselist__item">
-                          <NavLink class="double_click_protection">
-                            <div class="courselist__marker"></div>
-                            <div class="courselist__itemcontent">
-                              <h3 class="u-headingitem activitysection__itemname hover:underline">
+                        <li className="activitysection__item courselist__item">
+                          <NavLink className="double_click_protection">
+                            <div className="courselist__marker"></div>
+                            <div className="courselist__itemcontent">
+                              <h3 className="u-headingitem activitysection__itemname hover:underline">
                                 Use Google Forms to gather data and track your
                                 students progression
                               </h3>
-                              <ul class="activitymeta activitymeta--inline">
-                                <li class="activitymeta__item text-[12px]">
+                              <ul className="activitymeta activitymeta--inline">
+                                <li className="activitymeta__item text-[12px]">
                                   7 m
                                 </li>
                               </ul>
                             </div>
                           </NavLink>{" "}
                         </li>
-                        <li class="activitysection__item courselist__item">
-                          <NavLink class="double_click_protection">
-                            <div class="courselist__marker"></div>
-                            <div class="courselist__itemcontent">
-                              <h3 class="u-headingitem activitysection__itemname hover:underline">
+                        <li className="activitysection__item courselist__item">
+                          <NavLink className="double_click_protection">
+                            <div className="courselist__marker"></div>
+                            <div className="courselist__itemcontent">
+                              <h3 className="u-headingitem activitysection__itemname hover:underline">
                                 Analyze student growth
                               </h3>
-                              <ul class="activitymeta activitymeta--inline">
-                                <li class="activitymeta__item text-[12px]">
+                              <ul className="activitymeta activitymeta--inline">
+                                <li className="activitymeta__item text-[12px]">
                                   8 m
                                 </li>
                               </ul>
