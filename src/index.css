@@ -95,3 +95,34 @@ body {
 }
 
 /* footer */
+/* sections =======> */
+.courselist__marker1 {
+  position: relative;
+  display: block;
+  flex-basis: 21px;
+  min-width: 21px;
+  height: 21px;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin-right: 10px;
+  color: #767676;
+  background-color: #fff;
+}
+.courselist__item:before,
+.courselist__togglebutton1:before {
+  display: block;
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 10px;
+  width: 1px;
+  height: 100%;
+  background: black;
+}
+
+.shadow-inner-large {
+  box-shadow: inset 0 -10px 15px -3px rgba(0, 0, 0, 0.2);
+}
+
+/* video section */

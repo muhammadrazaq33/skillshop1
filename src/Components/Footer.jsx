@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="max-w-[1300px] w-[95vw] m-auto">
-      <div className="flex items-center gap-10">
+      <div className="sm:flex items-center gap-10">
         <div className="flex items-center gap-3 py-5">
           <div className="text-[13px]">
             <a

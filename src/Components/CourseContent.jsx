@@ -22,10 +22,12 @@ const CourseContent = () => {
                     <div className="flex items-center gap-3">
                       <div className="w-[21px] h-[21px] rounded-[50%] border-[1px] border-solid border-[#767676] "></div>
                       <h1>
-                        <span className="text-[17px] hover:underline u-headingitem">
-                          Introduction to using Google Workspace for Education
-                          in the classroom
-                        </span>
+                        <NavLink to={"./GoogleWorkspace"}>
+                          <span className="text-[17px] hover:underline u-headingitem cursor-pointer">
+                            Introduction to using Google Workspace for Education
+                            in the classroom
+                          </span>
+                        </NavLink>
                         <span className="text-[12px] ml-3 font-normal hover:no-underline">
                           {" "}
                           8 m
