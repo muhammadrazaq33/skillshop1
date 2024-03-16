@@ -15,7 +15,7 @@ function App() {
           {/* <Route path="/choufferservices" element={<ChoufferServices />} /> */}
           {/* <Route path="/limousineservices" element={<LimousineServices />} /> */}
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </>
   );
