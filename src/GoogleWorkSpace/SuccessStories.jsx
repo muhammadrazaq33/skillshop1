@@ -223,7 +223,11 @@ const SuccessStories = () => {
         </div>
         {/* Model */}
         {showModel && (
-          <Model setShowModel={setShowModel} showModel={showModel} />
+          <Model
+            setShowModel={setShowModel}
+            showModel={showModel}
+            closeModel={() => setShowModel(false)}
+          />
         )}
       </div>
 

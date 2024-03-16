@@ -1,9 +1,16 @@
 import React from "react";
 import { GiBookmarklet } from "react-icons/gi";
 
-const Model = ({ setShowModel, showModel }) => {
+const Model = ({ setShowModel, showModel, closeModel }) => {
+  const handleClose = (e) => {
+    if (e.target.id === "close") closeModel();
+  };
   return (
-    <div className="fixed inset-0 z-10 p-5 bg-[#272727B8] flex justify-center items-center">
+    <div
+      className="fixed inset-0 z-10 p-5 bg-[#272727B8] flex justify-center items-center"
+      id="close"
+      onClick={handleClose}
+    >
       {/* first model */}
       <div
         className={`flex flex-col gap-5 items-center bg-[white] w-[850px] p-10 rounded-sm ${
