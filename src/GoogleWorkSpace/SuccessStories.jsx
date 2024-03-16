@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import Model from "../Components/Model";
 
 const cards = [
   {
@@ -54,6 +55,8 @@ const citizens1 = [
   },
 ];
 const SuccessStories = () => {
+  const [showModel, setShowModel] = useState(false);
+
   return (
     <div className="bg-[#F9F9FA]">
       {/* first section */}
@@ -206,7 +209,10 @@ const SuccessStories = () => {
                     className="flex flex-col items-center gap-4"
                   >
                     <img src={img} alt="" />
-                    <button className="bg-[#1A73E8] py-2 text-white w-full font-bold">
+                    <button
+                      onClick={() => setShowModel(id)}
+                      className="bg-[#1A73E8] py-2 text-white w-full font-bold"
+                    >
                       {text}
                     </button>
                   </article>
@@ -215,6 +221,10 @@ const SuccessStories = () => {
             </div>
           </div>
         </div>
+        {/* Model */}
+        {showModel && (
+          <Model setShowModel={setShowModel} showModel={showModel} />
+        )}
       </div>
 
       {/* fourth section  */}
