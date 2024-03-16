@@ -2,7 +2,7 @@ import React from "react";
 
 const VideoSection = () => {
   return (
-    <div className="mt-[4.5rem]">
+    <div className="mt-[1rem] py-20 shadow-xl">
       <div className="max-w-[960px] w-[92vw] m-auto">
         {/* text =====> */}
         <div className="flex flex-col gap-3 text-[16px]">
@@ -42,11 +42,11 @@ const VideoSection = () => {
         </div>
 
         {/* video ==========> */}
-        <div>
-          <p>hello g</p>
+        <div className="mt-6 flex flex-col gap-7">
+          <p>Click play to watch the video below.</p>
           {/* video    ===========> */}
           <div class="html5-video-container" data-layer="0">
-            <video
+            {/* <video
               tabindex="-1"
               className="video-stream html5-main-video"
               webkit-playsinline=""
@@ -58,8 +58,21 @@ const VideoSection = () => {
                 left: "0px",
                 top: "0px",
               }}
+              type="video/mp4"
               src="blob:https://www.youtube.com/c206e3db-b266-4ac4-879c-02cf4c1cd5fb"
-            ></video>
+            ></video> */}
+
+            {/*  */}
+            <iframe
+              //   width="800"
+              //   height="600"
+              src="https://www.youtube.com/embed/7EHnQ0VM4KY?si=LtrXq2i2uzzHChqw"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              className="max-w-[960px] w-[92vw] mx-auto h-screen"
+            ></iframe>
           </div>
         </div>
       </div>

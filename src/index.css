@@ -126,3 +126,8 @@ body {
 }
 
 /* video section */
+/* technology section */
+.active1 {
+  background-color: #1a73e8;
+  color: white;
+}
