@@ -2,6 +2,7 @@ import React from "react";
 import ManageFileHeader from "./ManageFileHeader";
 import ManageSections from "./ManageSections";
 import UseGoogleDrive from "./UseGoogleDrive";
+import ManageVideoSectIon from "./ManageVideoSectIon";
 
 const ManageFile = () => {
   return (
@@ -9,6 +10,7 @@ const ManageFile = () => {
       <ManageFileHeader />
       <ManageSections />
       <UseGoogleDrive />
+      <ManageVideoSectIon />
     </div>
   );
 };

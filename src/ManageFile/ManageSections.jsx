@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 const ManageSections = () => {
   return (
-    <div className="bg-[#F9F9FA] shadow-inner-large ">
-      <div className="pt-6 pb-36 max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
+    <div className="bg-[#F9F9FA] shadow-inner-large sm:mt-[5rem] mt-[3rem] ">
+      <div className="pt-6 sm:pb-32 pb-20 max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
         {/* sections ===> */}
         <div className="md:flex items-start justify-between gap-8">
           {/* left side */}
