@@ -3,6 +3,7 @@ import Home from "./Home";
 import Footer from "./Components/Footer";
 import GoogleWorkSpace from "./GoogleWorkSpace/GoogleWorkSpace";
 import ConsolidateFiles from "./ConsolidateFiles/ConsolidateFiles";
+import ManageFile from "./ManageFile/ManageFile";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
             path="/ConsolidateFiles"
             element={<ConsolidateFiles />}
           ></Route>
-          {/* <Route path="/hourlyHire" element={<HourlyHire />} /> */}
+          <Route path="/ManageFile" element={<ManageFile />} />
           {/* <Route path="/choufferservices" element={<ChoufferServices />} /> */}
           {/* <Route path="/limousineservices" element={<LimousineServices />} /> */}
         </Routes>
