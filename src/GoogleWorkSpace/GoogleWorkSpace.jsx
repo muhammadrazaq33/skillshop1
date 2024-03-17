@@ -6,7 +6,7 @@ import StartWithTechnology from "./StartWithTechnology";
 import SuccessStories from "./SuccessStories";
 import CollaborationTools from "./CollaborationTools";
 import Skills from "./Skills";
-import WorkSpaceFooter from "./WorkSpaceFooter";
+import WorkSpaceFooter from "../Components/WorkSpaceFooter";
 
 const GoogleWorkSpace = () => {
   return (

@@ -4,6 +4,8 @@ import ConsolidateSections from "./ConsolidateSections";
 import StartGoogleDrive from "./StartGoogleDrive";
 import UploadMaterial from "./UploadMaterial";
 import TryItOut from "./TryItOut";
+import ConsolidateFooter from "./ConsolidateFooter";
+import WorkSpaceFooter from "../Components/WorkSpaceFooter";
 
 const ConsolidateFiles = () => {
   return (
@@ -13,6 +15,8 @@ const ConsolidateFiles = () => {
       <StartGoogleDrive />
       <UploadMaterial />
       <TryItOut />
+      <ConsolidateFooter />
+      <WorkSpaceFooter />
     </div>
   );
 };
