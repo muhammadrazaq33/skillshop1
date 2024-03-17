@@ -29,11 +29,6 @@ const ConsolidateHero = () => {
               <div className="flex items-center gap-6">
                 <p className="text-[12px]">Published: May 17, 2023</p>
                 <p className="text-[12px]">7 m</p>
-                <img
-                  src="./assets/award.svg"
-                  className="w-[15px] h-[15px]"
-                  alt=""
-                />
               </div>
               {/* review icon */}
               <div className="flex items-center gap-2 sm:mt-0 mt-1">

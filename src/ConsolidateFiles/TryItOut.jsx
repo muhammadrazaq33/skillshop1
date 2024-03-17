@@ -127,6 +127,79 @@ const TryItOut = () => {
       </div>
 
       {/* third section  =====> */}
+      <div className="max-w-[960px] w-[92vw] m-auto mt-[5rem]">
+        <h1 className="text-[30px]">Reflect on what you have learned</h1>
+        <div className="grid md:grid-cols-3 grid-cols-1 gap-y-5 gap-4 mt-[1.6rem]">
+          {/* TEXT =======> */}
+          <div className="flex flex-col gap-5 col-span-2">
+            <p className="text-[16px]">
+              Now that you’ve learned how to add and organize content in Google
+              Drive, reflect on the ways you can use Drive in your classroom.{" "}
+            </p>
+            <p className="text-[16px] font-bold">
+              Consider the following and make a note of your answers.
+            </p>
+
+            <ol className="list-decimal pl-12">
+              <li>
+                What are one or two ways you might be able to organize existing
+                content for your classroom?{" "}
+              </li>
+              <li>
+                What folders might you add to Drive to keep yourself organized?
+              </li>
+            </ol>
+          </div>
+
+          {/* IMAGE =======> */}
+          <div>
+            <img src="./assets/reflect_learning.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      {/* FOUR SECTION FOOTER IMAGE ====> */}
+      <div className="mt-[2rem]">
+        <img src="./assets/clip.png" alt="" />
+      </div>
+      {/* fourth section footer section =======> */}
+      <div className="bg-[#F9F9FA] pt-[2.2rem] pb-[4rem]">
+        <div className="max-w-[960px] w-[92vw] m-auto">
+          <h1 className="text-[30px] text-[#ea8600]">Knowledge check</h1>
+
+          {/* TABLE  ========> */}
+          <div className="table-container px-6 pt-10 pb-6 flex flex-col gap-5">
+            <h1 className="text-[20px]">
+              Select the TWO ways you can organize your files in Google Drive.
+            </h1>
+
+            {/* CHECKS  ========>*/}
+            <div className="grid sm:grid-cols-2 grid-cols-1 gap-1">
+              <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5 rounded-md hover:bg-[#e37400] hover:text-white">
+                <input
+                  type="checkbox"
+                  className="form-checkbox border-2 border-red-400  h-5 w-5"
+                  name=""
+                  id=""
+                />
+                <p className="text-[16px]">Selecting a color coding system</p>
+              </article>
+              <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5  rounded-md hover:bg-[#e37400] hover:text-white">
+                <input type="checkbox" name="" className=" h-5 w-5" id="" />
+                <p className="text-[16px]">Selecting a color coding system</p>
+              </article>
+              <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5  rounded-md hover:bg-[#e37400] hover:text-white">
+                <input type="checkbox" name="" className=" h-5 w-5" id="" />
+                <p className="text-[16px]">Selecting a color coding system</p>
+              </article>
+              <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5  rounded-md hover:bg-[#e37400] hover:text-white">
+                <input type="checkbox" name="" className=" h-5 w-5" id="" />
+                <p className="text-[16px]">Selecting a color coding system</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
