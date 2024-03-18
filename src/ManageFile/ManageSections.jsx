@@ -82,7 +82,7 @@ const ManageSections = () => {
 
         {/* cards ======> */}
         <div className="">
-          <div className="grid grid-cols-2 gap-3">
+          <div className="flex justify-center items-center">
             <article className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 col-span-1">
               <img src="./assets/Star.png" alt="" />
               <p className="text-center">
@@ -95,13 +95,8 @@ const ManageSections = () => {
                 Use Google Drive to create documents
               </p>
             </article>
-            <article className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 md:col-span-1">
-              <img src="./assets/threestar.png" alt="" />
-              <p className="text-center">
-                Identify ways to share files in Google Drive
-              </p>
-            </article>
           </div>
+          {/*  */}
         </div>
       </div>
     </div>

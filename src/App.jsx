@@ -4,6 +4,7 @@ import Footer from "./Components/Footer";
 import GoogleWorkSpace from "./GoogleWorkSpace/GoogleWorkSpace";
 import ConsolidateFiles from "./ConsolidateFiles/ConsolidateFiles";
 import ManageFile from "./ManageFile/ManageFile";
+import Collaboration from "./CollaborationWithDocs/Collaboration";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
             element={<ConsolidateFiles />}
           ></Route>
           <Route path="/ManageFile" element={<ManageFile />} />
-          {/* <Route path="/choufferservices" element={<ChoufferServices />} /> */}
+          <Route path="/Collaboration" element={<Collaboration />} />
           {/* <Route path="/limousineservices" element={<LimousineServices />} /> */}
         </Routes>
         {/* <Footer /> */}
