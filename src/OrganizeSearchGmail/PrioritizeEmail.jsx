@@ -61,17 +61,15 @@ const PrioritizeEmail = () => {
           </div>
         </div>
       </div>
-
       {/* iMagE sECTIOn */}
       <div>
         <img src="./assets/gmail2.png" alt="" />
       </div>
-
       {/* TRY IT ouT */}
       {/* SEcONd SECTiON */}
       <div className="pb-8">
         <div className="max-w-[960px] w-[92vw] m-auto mt-[2.3rem] sm:mt-[4rem] flex flex-col gap-5">
-          <h1 className="text-[30px]">Try it out</h1>
+          <h1 className="text-[25px]">Try it out</h1>
           <p>Here's an overview of the Priority Inbox.</p>
 
           <div className="mt-6">
@@ -110,7 +108,6 @@ const PrioritizeEmail = () => {
         </div>
       </div>
       {/* end OF SECOND Section  */}
-
       {/* MODEL */}
       {show && (
         <div className="fixed inset-0 z-10 p-5 bg-[#272727B8] flex justify-center items-center">

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 const HighLightEmail = () => {
   const [show, setShow] = useState(false);
+  const [open, setOpen] = useState(0);
 
   const toggle = () => {
     if (show) {
@@ -11,9 +12,10 @@ const HighLightEmail = () => {
     }
   };
   return (
-    <div>
+    <div className="">
       {/* Highlight important emails */}
-      <div className="bg-[#F9F9FA] md:pt-[5rem] pt-[4rem]">
+      {/* firSt SEction */}
+      <div className="bg-[#F9F9FA] top-shadow sm:pb-16 pb-12 md:pt-[6rem] pt-[4rem]">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-4 mb-4">
             <h1 className="text-[30px] mb-3">Highlight important emails</h1>
@@ -71,10 +73,268 @@ const HighLightEmail = () => {
           </div>
 
           {/* transcript  ==> */}
-          <div className={`flex flex-col gap-3 ${show ? "block" : "hidden"}`}>
-            <div>
+          <div className={`flex flex-col gap-6 ${show ? "block" : "hidden"}`}>
+            <div className="flex flex-col gap-5">
               <p>Adding labels in Gmail can help you organise your messaged.</p>
+              <ol className="list-decimal pl-12">
+                <li>
+                  Click on the plus button next to{" "}
+                  <span className="font-bold">Label</span>.{" "}
+                </li>
+                <li>A pop up with launch.</li>
+                <li>
+                  Give the label a name and click{" "}
+                  <span className="font-bold">Create</span>.{" "}
+                </li>
+                <li>
+                  Once that label has been created, you can use the three dot
+                  menu to assign a color.
+                </li>
+                <li>
+                  Click <span className="font-sans">Label color</span> and
+                  select one from the palette.{" "}
+                </li>
+              </ol>
             </div>
+
+            <p>
+              Now, you can assign this label to existing or incoming emails.
+            </p>
+          </div>
+          {/* eND oF TRansCrIpt */}
+
+          {/* BELOW transcRiPt paRAGraph */}
+          <div className="flex flex-col gap-10">
+            <div className="flex flex-col gap-5">
+              <p>You can use labels to:</p>
+              <ol className="list-decimal pl-12">
+                <li>
+                  Track the status of student projects. For example, create the
+                  labels "Student: In Progress" and "Student: Done" to indicate
+                  projects students are working on or have completed.
+                </li>
+                <li>
+                  Organize email by nesting labels like subfolders. For example,
+                  create the label "Tasks" and under this label, create nested
+                  labels by student name.
+                </li>
+                <li>Identify email that needs a response.</li>
+                <li>Identify email that can be read later.</li>
+              </ol>
+            </div>
+
+            <p>
+              When you get an email from someone, its importance is indicated
+              with a label (yellow marker) next to the sender’s name. You can
+              manually add yellow markers, but Gmail also tries to predict what
+              is important and add them automatically for you. You can also
+              apply several labels to an email, then later find the email by
+              clicking any of its labels from the left panel. You can also
+              search by label.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* IMaGE SeCtIon */}
+      <div>
+        <img src="./assets/gmail4.png" alt="" />
+      </div>
+      {/* END oF imAge SecTION */}
+
+      {/* SeCONd SeCtioN  */}
+      {/* try It out */}
+      <div className="pt-16 pb-12">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
+          <h1 className="text-[25px]">Try it out</h1>
+          <p>
+            Highlight important emails in your inbox by following these steps.
+          </p>
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-12">
+            <article>
+              <img src="./assets/gmail6.png" alt="" />
+            </article>
+            <article className="flex flex-col gap-4">
+              <p>
+                Practice creating a label in Gmail to automatically categorize
+                incoming messages.
+              </p>
+              <ol className="list-decimal pl-12">
+                <li>
+                  From an email, click <span className="font-bold">Labels</span>{" "}
+                  and <span className="font-bold">Create new</span>.
+                </li>
+                <li>Enter the label name.</li>
+                <li>
+                  Click <span className="font-bold">Create</span>.
+                </li>
+              </ol>
+            </article>
+          </div>
+        </div>
+      </div>
+      {/* end OF secONd sEction */}
+
+      {/* thIRD sceTION */}
+      {/* Star important messages */}
+      <div className="sm:pt-20 pt-12 pb-16 bg-[#F9F9FA] top-shadow">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
+          <h1 className="text-[30px]">Star important messages</h1>
+          <p>
+            Another way you can organize your inbox is by marking emails as
+            Starred so you can return to them and respond later. For example,
+            you might receive an important message during the school day that
+            you can’t respond to until later, once the students leave for the
+            day. Mark important emails as Starred to make them easier to find
+            later.
+          </p>
+        </div>
+      </div>
+      {/* eND of ThirD sEcTIOn */}
+
+      {/* /IMAGE sEctIOn */}
+      <div>
+        <img src="./assets/gmail7.png" alt="" />
+      </div>
+      {/* /EnD OF IMAGE sEctIOn */}
+
+      {/* FourtH secTIOn  */}
+      {/* Try it out */}
+      <div className="sm:pt-20 pt-16 pb-12">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
+          <h1 className="text-[25px]">Try it out</h1>
+          <p>Star important emails in your inbox.</p>
+
+          {/* iMAge & butTonS */}
+          <div className="mt-6">
+            <p className="font-bold mb-3">Click each button to learn more.</p>
+
+            <div className="relative">
+              {/* BuTTonS */}
+              <button
+                onClick={() => setOpen(1)}
+                className="bg-[#dadce099] absolute top-[25.6%] left-[22%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center hover:text-[white] hover:bg-[#1A73E8] sm:p-8 text-[20px]"
+              >
+                1
+              </button>
+              <button
+                onClick={() => setOpen(2)}
+                className="bg-[#dadce099] text-[20px] sm:p-8 hover:bg-[#1A73E8] hover:text-[white] absolute top-[22.5%] left-[12%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center"
+              >
+                2
+              </button>
+
+              {/* iMage  */}
+              <img src="./assets/gmail8.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* MOdels */}
+      {open && (
+        <div className="fixed inset-0 z-10 p-5 bg-[#272727B8] flex justify-center items-center">
+          {/* FIrSt MOdeL */}
+          <div
+            className={`flex flex-col gap-4 max-w-[800px] pt-10 px-8 bg-white ${
+              open == 1 ? "block" : "hidden"
+            }`}
+          >
+            <h1 className="text-[25px] text-center">Star Messages</h1>
+            <p className="text-left">
+              1. Click the <span className="font-bold">Starred</span> icon on
+              the left of each message in your inbox.
+            </p>
+            <div className="py-5 border-t text-center border-gray-400">
+              <button
+                onClick={() => setOpen(0)}
+                className="bg-[#1A73E8] px-3 py-2 text-white"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+
+          {/* SECond MODeL */}
+          <div
+            className={`flex flex-col gap-4 max-w-[800px] pt-10 px-8 bg-white ${
+              open == 2 ? "block" : "hidden"
+            }`}
+          >
+            <h1 className="text-[25px] text-center">See Starred Messages</h1>
+            <div className="flex flex-col gap-3">
+              <p>
+                2. To see all your starred emails, in the left sidebar, click
+                <span className="font-bold"> Starred</span>.
+              </p>
+            </div>
+            <div className="py-5 border-t text-center border-gray-400">
+              <button
+                onClick={() => setOpen(0)}
+                className="bg-[#1A73E8] px-3 py-2 text-white"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+          {/* EnD oF seCOnD MoDEl */}
+        </div>
+      )}
+      {/*eND oF MOdels */}
+
+      {/*FiFTH sceTION */}
+      {/* Search your inbox */}
+      <div className="sm:pt-20 pt-12 pb-16 bg-[#F9F9FA] top-shadow">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
+          <h1 className="text-[30px]">Search your inbox</h1>
+          <p>
+            If you need to search for a specific email in your inbox, Gmail has
+            a search function to help you. Whether emails have a label, filter,
+            or star, the search feature in Gmail allows you to find any message
+            you’ve ever received. You can search Gmail for conversations based
+            on sender, content, time, and attachment using the search bar at the
+            top of your inbox.
+          </p>
+          <p>
+            This is helpful if you forget to add a label or mark an email as
+            starred or if you need to find an email you didn’t think you would
+            need later. For example, if a student says they emailed you a
+            document, but you don’t remember seeing it, you could simply search
+            their email address to find it.{" "}
+          </p>
+        </div>
+      </div>
+      {/* eND of fiftH sEcTIOn */}
+
+      {/* /IMAGE sEctIOn */}
+      <div>
+        <img src="./assets/gmail7.png" alt="" />
+      </div>
+      {/* /EnD OF IMAGE sEctIOn */}
+
+      {/* SiXth SeCtioN  */}
+      {/* try It out */}
+      <div className="sm:pt-20 pt-16 pb-12">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
+          <h1 className="text-[25px]">Try it out</h1>
+          <p>Search your inbox using search criteria in the search box.</p>
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-12">
+            <article>
+              <img src="./assets/gmail9.jpeg" alt="" />
+            </article>
+            <article className="flex flex-col gap-4">
+              <p>Open Gmail.</p>
+              <ol className="list-decimal pl-12">
+                <li>
+                  From an email, click <span className="font-bold">Labels</span>{" "}
+                  and <span className="font-bold">Create new</span>.
+                </li>
+                <li>Enter the label name.</li>
+                <li>
+                  Click <span className="font-bold">Create</span>.
+                </li>
+              </ol>
+            </article>
           </div>
         </div>
       </div>
