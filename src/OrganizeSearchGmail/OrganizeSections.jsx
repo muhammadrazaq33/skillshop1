@@ -95,8 +95,8 @@ const OrganizeSections = () => {
       </div>
 
       {/* SEcOnD SecTion  */}
-      <div>
-        <div className="max-w-[960px] w-[92vw] m-auto">
+      <div className="py-16">
+        <div className="max-w-[960px] w-[92vw] m-auto grid md:grid-cols-2 grid-cols-1 gap-8 gap-y-4">
           {/* TeXT */}
           <div className="flex flex-col gap-4">
             <p>
@@ -119,7 +119,7 @@ const OrganizeSections = () => {
 
           {/* IMAge Div */}
           <div>
-            <img src="./assets/" alt="" />
+            <img src="./assets/gmail1.png" alt="" />
           </div>
         </div>
       </div>
