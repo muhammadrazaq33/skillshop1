@@ -6,7 +6,7 @@ const OrganizeSections = () => {
     <div>
       {/* FIRst SECTion  */}
       <div className="bg-[#F9F9FA] shadow-inner-large mt-[3rem] sm:mt-[4rem] ">
-        <div className="pt-6 pb-36 max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
+        <div className="pt-6 sm:pb-36 pb-20 max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           {/* sections ===> */}
           <div className="md:flex items-start justify-between gap-8">
             {/* left side */}

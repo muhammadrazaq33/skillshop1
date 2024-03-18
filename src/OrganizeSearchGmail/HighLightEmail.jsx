@@ -314,7 +314,7 @@ const HighLightEmail = () => {
 
       {/* SiXth SeCtioN  */}
       {/* try It out */}
-      <div className="sm:pt-20 pt-16 pb-12">
+      <div className="sm:pt-20 pt-16 sm:pb-20 pb-16">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text-[25px]">Try it out</h1>
           <p>Search your inbox using search criteria in the search box.</p>
@@ -324,20 +324,73 @@ const HighLightEmail = () => {
             </article>
             <article className="flex flex-col gap-4">
               <p>Open Gmail.</p>
-              <ol className="list-decimal pl-12">
-                <li>
-                  From an email, click <span className="font-bold">Labels</span>{" "}
-                  and <span className="font-bold">Create new</span>.
-                </li>
-                <li>Enter the label name.</li>
-                <li>
-                  Click <span className="font-bold">Create</span>.
-                </li>
-              </ol>
+              <div>
+                <ol className="list-decimal pl-12">
+                  <li>
+                    At the top, in the search box, enter your search criteria.
+                  </li>
+                </ol>
+
+                <ul className="list-disc pl-20">
+                  <li>
+                    Type in a person’s email address, a subject line or any
+                    keyword you can think of that would help identify the email
+                    you are looking for.{" "}
+                  </li>
+                  <li>
+                    When you search in the From field using a specific email
+                    address, the results also return Drive files shared by that
+                    email address.
+                  </li>
+                </ul>
+              </div>
+              <p>Click Search.</p>
             </article>
           </div>
         </div>
       </div>
+      {/* eND oF sIxth SECtiOn */}
+
+      {/* IMAGE SeCTIOn */}
+      <div>
+        <img src="./assets/gmail10.png" alt="" />
+      </div>
+
+      {/* SeveNTH seCTIon */}
+      <div className="sm:pt-20 pt-16 pb-12">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
+          <h1 className="text-[30px]">Reflect on what you have learned</h1>
+          <div className="md:flex justify-between items-center gap-10">
+            {/* TEXt */}
+            <article className="flex flex-col gap-4">
+              <p>
+                Now that you’ve learned how to organize your Gmail, reflect on
+                the ways you can use the labels, stars, and priority inbox
+                features in your classroom.
+              </p>
+              <div className="flex flex-col gap-4">
+                <p className="font-bold">
+                  Consider the following and make a note of your answers.
+                </p>
+                <ol className="list-decimal pl-12">
+                  <li>
+                    What are one or two ways you might be able to organize
+                    existing content for your classroom?{" "}
+                  </li>
+                  <li>
+                    What folders might you add to Drive to keep yourself
+                    organized?
+                  </li>
+                </ol>
+              </div>
+            </article>
+            <article className="md:mt-0 mt-3">
+              <img src="./assets/g12.png" alt="" />
+            </article>
+          </div>
+        </div>
+      </div>
+      {/*eND Of  SeveNTH seCTIon */}
     </div>
   );
 };

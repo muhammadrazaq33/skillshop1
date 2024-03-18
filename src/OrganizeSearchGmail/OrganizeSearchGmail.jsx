@@ -3,6 +3,8 @@ import OrganizeHero from "./OrganizeHero";
 import OrganizeSections from "./OrganizeSections";
 import PrioritizeEmail from "./PrioritizeEmail";
 import HighLightEmail from "./HighLightEmail";
+import OrganizeFooter from "./OrganizeFooter";
+import WorkSpaceFooter from "../Components/WorkSpaceFooter";
 
 const OrganizeSearchGmail = () => {
   return (
@@ -11,6 +13,8 @@ const OrganizeSearchGmail = () => {
       <OrganizeSections />
       <PrioritizeEmail />
       <HighLightEmail />
+      <OrganizeFooter />
+      <WorkSpaceFooter />
     </div>
   );
 };
