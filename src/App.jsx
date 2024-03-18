@@ -5,6 +5,7 @@ import GoogleWorkSpace from "./GoogleWorkSpace/GoogleWorkSpace";
 import ConsolidateFiles from "./ConsolidateFiles/ConsolidateFiles";
 import ManageFile from "./ManageFile/ManageFile";
 import Collaboration from "./CollaborationWithDocs/Collaboration";
+import OrganizeSearchGmail from "./OrganizeSearchGmail/OrganizeSearchGmail";
 
 function App() {
   return (
@@ -19,7 +20,10 @@ function App() {
           ></Route>
           <Route path="/ManageFile" element={<ManageFile />} />
           <Route path="/Collaboration" element={<Collaboration />} />
-          {/* <Route path="/limousineservices" element={<LimousineServices />} /> */}
+          <Route
+            path="/OrganizeSearchGmail"
+            element={<OrganizeSearchGmail />}
+          />
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>
