@@ -25,7 +25,7 @@ const GoogleChatSection = () => {
                     <NavLink className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="text-[22px] activitysection__itemname hover:underline ">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline ">
                           Communicate with Google Chat
                         </h3>
                       </div>
@@ -35,7 +35,7 @@ const GoogleChatSection = () => {
                     <NavLink className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="text-[22px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
                           Create and name group Chats
                         </h3>
                       </div>
@@ -45,7 +45,7 @@ const GoogleChatSection = () => {
                     <NavLink className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="text-[22px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
                           Chat notifications
                         </h3>
                       </div>
@@ -55,7 +55,7 @@ const GoogleChatSection = () => {
                     <NavLink className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="text-[22px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
                           Manage/delete your chat history
                         </h3>
                       </div>
@@ -75,7 +75,7 @@ const GoogleChatSection = () => {
                   className="w-[3.2rem] h-[3.2rem]"
                   alt=""
                 />
-                <h1 className="text-[20px] max-w-[12rem] leading-[1.6rem]">
+                <h1 className="text-[23px] max-w-[12rem] leading-[1.6rem]">
                   Google Chat
                 </h1>
               </div>
@@ -135,7 +135,9 @@ const GoogleChatSection = () => {
       {/* Communicate with Google Groups */}
       <div className="sm:pt-20 pt-16 pb-16 bg-[#F9F9FA] top-shadow">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
-          <h1 className="text1">Communicate with Google Groups</h1>
+          <h1 className="text1 leading-[2.4rem]">
+            Communicate with Google Groups
+          </h1>
           <p>
             Google Groups is an easy-to-use application that acts as a
             discussion board and mailing list to reach large groups of people,
@@ -156,7 +158,7 @@ const GoogleChatSection = () => {
 
       {/* try iT out ===> */}
       {/* fOURtH SEcTIOn */}
-      <div className="bg-[#F9F9FA] sm:pt-20 pt-16 sm:pb-16 pb-12 shadow-inner-large">
+      <div className="bg-[#F9F9FA] sm:pt-20 pt-12 sm:pb-16 pb-12 shadow-inner-large">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
           <h1 className="text">Try it out</h1>
           <div className="flex flex-col gap-5">
@@ -195,9 +197,11 @@ const GoogleChatSection = () => {
       {/* End of fourtH sEcTiON */}
 
       {/* fiFTH SEctION */}
-      <div className="sm:pt-20 pt-16 pb-16 bg-[#FFFFFF]">
+      <div className="sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#FFFFFF]">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
-          <h1 className="text1">Create and name group chats</h1>
+          <h1 className="text1 leading-[2.4rem]">
+            Create and name group chats
+          </h1>
           <p>
             At times, you may want to include more than one person in your
             conversation and hold a group chat. You can hold one chat for
@@ -225,7 +229,7 @@ const GoogleChatSection = () => {
             </p>
           </div>
           {/* bUTTONs and pArAGrAPhs ===>*/}
-          <div className=" pb-16">
+          <div className=" sm:pb-16 pb-12">
             <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-10">
               {/* useSTATE */}
               {/* second div */}

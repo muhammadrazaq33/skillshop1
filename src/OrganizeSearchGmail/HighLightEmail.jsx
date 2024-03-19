@@ -358,7 +358,7 @@ const HighLightEmail = () => {
 
       {/* SeveNTH seCTIon */}
       <div className="sm:pt-20 pt-16 pb-12">
-        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-2">
           <h1 className="text-[30px]">Reflect on what you have learned</h1>
           <div className="md:flex justify-between items-center gap-10">
             {/* TEXt */}

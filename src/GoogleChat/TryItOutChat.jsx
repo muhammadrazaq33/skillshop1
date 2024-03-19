@@ -10,8 +10,8 @@ const TryItOutChat = () => {
     <div>
       {/* TRY IT ouT */}
       {/* FiRSt SECTiON */}
-      <div className="sm:pb-16 pb-12 shadow-inner-large bg-[#F9F9FA] sm:pt-20 pt-16">
-        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
+      <div className="sm:pb-16 pb-12 shadow-inner-large bg-[#F9F9FA] sm:pt-20 pt-12">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col sm:gap-5 gap-2">
           <h1 className="text">Try it out</h1>
           <p>Customize your Chat notifications. </p>
 
@@ -96,9 +96,11 @@ const TryItOutChat = () => {
 
       {/* SEcoNd sectIoN */}
       {/* Manage/delete your chat history */}
-      <div className="sm:pt-20 pt-16 pb-16 bg-[#FFFFFF] top-shadow">
+      <div className="sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#FFFFFF] top-shadow">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
-          <h1 className="text1">Manage/delete your chat history</h1>
+          <h1 className="text1 leading-[2.4rem]">
+            Manage/delete your chat history
+          </h1>
           <p>
             You can save all of your conversations in Google Chat as long as
             the&nbsp;
@@ -145,7 +147,7 @@ const TryItOutChat = () => {
 
       {/* try It out */}
       {/* tHIRd SEction */}
-      <div className="sm:pt-20 pt-16 pb-16">
+      <div className="sm:pt-20 pt-12 sm:pb-16 pb-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
           <h1 className="text">Try it out</h1>
           <p>Manage or delete your chat history.</p>
@@ -171,6 +173,88 @@ const TryItOutChat = () => {
         </div>
       </div>
       {/*eNd Of  tHIRd SEction */}
+
+      {/* IMaGE SECTION */}
+      <div>
+        <img src="./assets/chat13.png" alt="" />
+      </div>
+
+      {/* foUrth seCTioN */}
+      {/* Success stories */}
+      <div className="sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#F9F9FA]">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col sm:gap-8 gap-6">
+          <h1 className="text">Success stories</h1>
+          <div className="grid sm:grid-cols-2 grid-cols-1 gap-4">
+            <article className="bg-white flex flex-col items-center gap-8 sm:px-5 px-4 sm:py-5 py-4 rounded-md">
+              <img src="./assets/chat15.png" alt="" />
+              <p>
+                I hold a Google Chat opportunity once a week at the same
+                designated time with any of my colleagues to check in on
+                priorities and stay up to date on progress. They know I am
+                available during that time, and they can join the group chat on
+                their mobile device from wherever they are to type questions to
+                me. It’s like flexible office hours and I am able to stay
+                connected to my team more this way.
+              </p>
+            </article>
+            <article className="bg-white flex flex-col items-center gap-8 sm:px-5 px-4 sm:py-5 py-4 rounded-md">
+              <img src="./assets/chat16.png" alt="" />
+              <p>
+                In virtual training sessions, I create discussion questions,
+                break colleagues up into chat groups, and assign each group a
+                different discussion question. Then, I can comment and observe
+                the dialogues being had by my colleagues all at once rather than
+                only being able to hear what one group is doing at a time.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+      {/*end of foUrth seCTioN */}
+
+      {/* IMaGE SECTION */}
+      <div>
+        <img src="./assets/chat17.png" alt="" />
+      </div>
+
+      {/* fifTh seCTiOn */}
+      <div className="sm:pt-20 pt-12 sm:pb-16 pb-12">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
+          <h1 className="text1 leading-[2.4rem]">
+            Reflect on what you have learned
+          </h1>
+          <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
+            {/* TEXt */}
+            <article className="flex flex-col gap-4 col-span-2">
+              <p>
+                In this lesson, you learned about some ways to use Google Chat
+                to reinvent communication at your school. Now it’s your turn to
+                reflect on what you have learned.
+              </p>
+              <div className="flex flex-col gap-4">
+                <p className="font-bold">
+                  Consider the following and make a note of your answers.
+                </p>
+                <ol className="list-decimal pl-12">
+                  <li>
+                    What are some situations where you could use Google Chat as
+                    a valuable tool to communicate with your colleagues?
+                  </li>
+                  <li>How might you use Chat during school?</li>
+                  <li>
+                    How might you use Chat for after school communication, like
+                    reaching guardians?
+                  </li>
+                </ol>
+              </div>
+            </article>
+            <article className="md:mt-0 sm:mt-3 mt-1 col-span-1">
+              <img src="./assets/chat18.png" alt="" />
+            </article>
+          </div>
+        </div>
+      </div>
+      {/*eNd Of fifTh seCTiOn */}
     </div>
   );
 };
