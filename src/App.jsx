@@ -6,6 +6,7 @@ import ConsolidateFiles from "./ConsolidateFiles/ConsolidateFiles";
 import ManageFile from "./ManageFile/ManageFile";
 import Collaboration from "./CollaborationWithDocs/Collaboration";
 import OrganizeSearchGmail from "./OrganizeSearchGmail/OrganizeSearchGmail";
+import GoogleChat from "./GoogleChat/GoogleChat";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             path="/OrganizeSearchGmail"
             element={<OrganizeSearchGmail />}
           />
+          <Route path="/GoogleChat" element={<GoogleChat />} />
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>
