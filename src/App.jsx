@@ -7,6 +7,7 @@ import ManageFile from "./ManageFile/ManageFile";
 import Collaboration from "./CollaborationWithDocs/Collaboration";
 import OrganizeSearchGmail from "./OrganizeSearchGmail/OrganizeSearchGmail";
 import GoogleChat from "./GoogleChat/GoogleChat";
+import ShareStudentWork from "./ShareStudentWork/ShareStudentWork";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             element={<OrganizeSearchGmail />}
           />
           <Route path="/GoogleChat" element={<GoogleChat />} />
+          <Route path="/ShareStudentWork" element={<ShareStudentWork />} />
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>
