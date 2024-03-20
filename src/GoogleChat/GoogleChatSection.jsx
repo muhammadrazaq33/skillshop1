@@ -102,7 +102,6 @@ const GoogleChatSection = () => {
       </div>
       {/* End oF FiRsT sEctION */}
 
-      {/* SECOnd scetion */}
       {/* SEcOnD SecTion  */}
       <div className="py-16">
         <div className="max-w-[960px] w-[92vw] m-auto md:flex justify-between gap-10">
