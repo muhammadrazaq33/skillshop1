@@ -557,8 +557,8 @@ const ShareWorkSection = () => {
           <h1 className="text">Try it out</h1>
           <p>Add text, images and resources to your site.</p>
 
-          <div className="grid md:grid-cols-3 md:grid-cols-1 place-content-center gap-10">
-            <article className="col-span-1">
+          <div className="grid md:grid-cols-3 grid-cols-1 place-content-center gap-10">
+            <article className="md:col-span-1">
               <img src="./assets/work11.png" alt="" />
             </article>
             <article className="md:col-span-2">
