@@ -135,7 +135,7 @@ const GoogleMeetSection = () => {
 
       {/* SECOND seCTION */}
       <div className="sm:pt-20 pt-12 pb-10">
-        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col sm:gap-6 gap-8">
           <p>
             Organizing a meeting in Google Meet is a great way to connect with
             students or colleagues. With Meet, it is possible to see and hear
@@ -144,7 +144,7 @@ const GoogleMeetSection = () => {
             who is unable to make it to an in-person meeting or support a
             student who can’t come to school due to illness.{" "}
           </p>
-          <div className="flex items-center gap-12 border-[3px] border-[#4285f4] rounded-2xl px-8 py-6">
+          <div className="flex items-center sm:gap-12 gap-9 border-[3px] border-[#4285f4] rounded-2xl sm:px-8 px-4 sm:py-6 py-5">
             <div>
               <SlBadge className="text-[2.4rem] text-[#4285f4]" />
             </div>
@@ -165,7 +165,7 @@ const GoogleMeetSection = () => {
 
       {/* third SeCtiON */}
       {/* Start a meeting from Gmail */}
-      <div className="bg-[#F9F9FA] top-shadow sm:pb-16 pb-12 md:pt-20 pt-12">
+      <div className="bg-[#F9F9FA] top-shadow sm:pb-16 pb-12 md:pt-20 pt-16">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem]">
@@ -411,7 +411,7 @@ const GoogleMeetSection = () => {
                 </li>
               </ol>
             </article>
-            <article className="md:col-span-2 flex flex-col justify-center gap-5 ml-6">
+            <article className="md:col-span-2 flex flex-col  gap-5 md:ml-6 ml-0 justify-center">
               <p className="font-bold">Click image to enlarge.</p>
               <img src="./assets/meet9.png" alt="" />
             </article>
@@ -444,7 +444,7 @@ const GoogleMeetSection = () => {
         <img src="./assets/meet6.png" alt="" />
       </div>
 
-      {/* sEVeNTh SecTION */}
+      {/* niNTH SecTION */}
       <div className="sm:pt-20 pt-12 sm:pb-16 pb-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text">Try it out</h1>
@@ -466,7 +466,7 @@ const GoogleMeetSection = () => {
                 </li>
               </ol>
             </article>
-            <article className="md:col-span-2 flex flex-col justify-end gap-5 ml-6 mt-2">
+            <article className="md:col-span-2 flex flex-col justify-end gap-5 md:ml-6 ml-0 mt-2">
               <p className="font-bold">Click image to enlarge.</p>
               <img src="./assets/meet10.png" alt="" />
             </article>
@@ -474,6 +474,93 @@ const GoogleMeetSection = () => {
         </div>
       </div>
       {/*enD OF NiNTh SecTION */}
+
+      {/* TENTH sEctiON */}
+      {/* Track attendance in Google Meet */}
+      <div className=" sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#F9F9FA] top-shadow">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
+          <h1 className="text1 leading-[2.4rem]">
+            Track attendance in Google Meet
+          </h1>
+          <div className="flex flex-col gap-4">
+            <p>
+              You can focus on greeting your students as they enter a meeting
+              while Google Meet takes the attendance for you. This feature is
+              only available in the{" "}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://edu.google.com/intl/ALL_us/workspace-for-education/editions/compare-editions/"
+                className="text-[blue] underline"
+              >
+                <strong>Teaching and Learning, </strong>and{" "}
+                <strong>Education Plus&nbsp;</strong>editions
+              </a>
+              . Attendance tracking reports will be enabled by default for your
+              organization and can be turned on or off by administrators. If
+              your school’s administration has activated attendance reports, you
+              will automatically receive an attendance report for any meeting
+              with two or more participants.
+            </p>
+            <p>
+              After the meeting, the meeting organizer will receive an email
+              with an attached attendance report in Google Sheets, whether the
+              meeting was started from Google Classroom or Google Meet. The
+              report will include each participant’s name, email, and length of
+              time on a call, including timestamps of when they first joined and
+              when they left the call.
+            </p>
+          </div>
+        </div>
+      </div>
+      {/*end Of tenTH sEctiON */}
+
+      {/* iMAgE secTIon */}
+      <div>
+        <img src="./assets/meet6.png" alt="" />
+      </div>
+
+      {/* EleveNth sEctIOn */}
+      <div className="sm:pt-20 pt-16 pb-12">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col md:gap-12 gap-8">
+          <h1 className="text1 leading-[2.4rem]">
+            Reflect on what you have learned
+          </h1>
+          <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
+            {/* TEXt */}
+            <article className="flex flex-col gap-4 md:col-span-2">
+              <p>
+                Now that you’ve learned how Google Meet can be a powerful tool
+                for connecting your classroom, it’s your turn to reflect on what
+                you have learned.
+              </p>
+              <div className="flex flex-col gap-4 md:col-span-1">
+                <p className="font-bold">
+                  Consider the following and make a note of your answers.
+                </p>
+                <ol className="list-decimal pl-12">
+                  <li>
+                    What are some situations where you could use Google Meet
+                    with your students?
+                  </li>
+                  <li>How can you use Meet to connect with guardians?</li>
+                  <li>
+                    What skills can students learn by becoming familiar with
+                    Meet?{" "}
+                  </li>
+                  <li>
+                    How might you use Meet to collaborate with other educators?
+                  </li>
+                </ol>
+              </div>
+            </article>
+            <article className="md:mt-0 mt-3">
+              <img src="./assets/meet12.png" alt="" />
+            </article>
+          </div>
+        </div>
+      </div>
+      {/*END oF EleveNth sEctIOn */}
     </div>
   );
 };
