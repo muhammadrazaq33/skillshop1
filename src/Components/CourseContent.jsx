@@ -220,7 +220,10 @@ const CourseContent = () => {
                     <div className="">
                       <ul class="activitysection__list courselist">
                         <li class="activitysection__item courselist__item">
-                          <NavLink class="double_click_protection">
+                          <NavLink
+                            to={"./GoogleCalender"}
+                            class="double_click_protection"
+                          >
                             <div class="courselist__marker"></div>
                             <div class="courselist__itemcontent">
                               <h3 class="u-headingitem activitysection__itemname hover:underline">

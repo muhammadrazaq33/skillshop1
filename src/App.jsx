@@ -9,6 +9,7 @@ import OrganizeSearchGmail from "./OrganizeSearchGmail/OrganizeSearchGmail";
 import GoogleChat from "./GoogleChat/GoogleChat";
 import ShareStudentWork from "./ShareStudentWork/ShareStudentWork";
 import GoogleMeet from "./GoogleMeet/GoogleMeet";
+import GoogleCalender from "./GoogleCalender/GoogleCalender";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/GoogleChat" element={<GoogleChat />} />
           <Route path="/ShareStudentWork" element={<ShareStudentWork />} />
           <Route path="/GoogleMeet" element={<GoogleMeet />} />
+          <Route path="/GoogleCalender" element={<GoogleCalender />} />
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>
