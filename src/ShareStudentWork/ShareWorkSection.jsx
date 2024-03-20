@@ -118,7 +118,7 @@ const ShareWorkSection = () => {
           </h1>
 
           {/* cards ======> */}
-          <div className="md:flex flex-wrap justify-center gap-6">
+          <div className="flex md:flex-row flex-col flex-wrap md:justify-center items-center gap-6">
             <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
               <img src="./assets/work3.png" alt="" />
               <p className="text-center">
@@ -300,7 +300,7 @@ const ShareWorkSection = () => {
 
       {/* FoURTh SECtIOn */}
       {/*  */}
-      <div className="sm:pb-16 pb-12 shadow-inner-large bg-[#F9F9FA] sm:pt-20 pt-12">
+      <div className="sm:pb-16 pb-12 shadow-top-bottom-inner  bg-[#F9F9FA] sm:pt-20 pt-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col sm:gap-5 gap-2">
           <h1 className="text1 leading-[2.4rem]">Name your site</h1>
           <p>Next, update the site document name, site name, and page title.</p>
@@ -313,19 +313,19 @@ const ShareWorkSection = () => {
             <div className="relative flex justify-center">
               <button
                 onClick={() => toggleModel("model1")}
-                className="bg-[#dadce099] absolute top-[10.6%] left-[41%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center hover:text-[white] hover:bg-[#1A73E8] sm:p-8 text-[20px]"
+                className="bg-[#dadce099] font-bold absolute -top-[1%] -left-[1%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center hover:text-[white] hover:bg-[#1A73E8] sm:p-8 text-[20px]"
               >
                 1
               </button>
               <button
                 onClick={() => toggleModel("model2")}
-                className="bg-[#dadce099] text-[20px] sm:p-8 hover:bg-[#1A73E8] hover:text-[white] absolute top-[40.5%] left-[68%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center"
+                className="bg-[#dadce099] text-[20px] sm:p-8 hover:bg-[#1A73E8] hover:text-[white] absolute top-[12%] -left-[1%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center"
               >
                 2
               </button>
               <button
                 onClick={() => toggleModel("model3")}
-                className="bg-[#dadce099] text-[20px] sm:p-8 hover:bg-[#1A73E8] hover:text-[white] absolute top-[40.5%] left-[68%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center"
+                className="bg-[#dadce099] text-[20px] sm:p-8 hover:bg-[#1A73E8] hover:text-[white] absolute top-[33.5%] left-[72%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center"
               >
                 3
               </button>
@@ -340,11 +340,9 @@ const ShareWorkSection = () => {
                 <div
                   className={`flex flex-col gap-4 max-w-[800px] pt-10 px-8 bg-white`}
                 >
-                  <h1 className="text-[25px] text-center">
-                    Customize notifications
-                  </h1>
                   <p className="text-left">
-                    1. Click the three dots in the top right of your chat.
+                    1. The document name is the name of the file you will see in
+                    Google Drive. Only editors of the site will see this name.
                   </p>
                   <div className="py-5 border-t text-center border-gray-400">
                     <button
@@ -356,7 +354,7 @@ const ShareWorkSection = () => {
                   </div>
                 </div>
               </div>
-              {/* End Of fiRST mODEl */}
+              {/*  end of fIRsT MOdEl  */}
               {/* SecoND MOdeL */}
               <div
                 className={` ${
@@ -366,11 +364,8 @@ const ShareWorkSection = () => {
                 <div
                   className={`flex flex-col gap-4 max-w-[800px] pt-10 px-8 bg-white`}
                 >
-                  <h1 className="text-[25px] text-center">
-                    Mute conversations
-                  </h1>
                   <p className="text-left">
-                    2. To turn notifications off, click the muted bell.
+                    2. Site name is the name of the site itself.
                   </p>
                   <div className="py-5 border-t text-center border-gray-400">
                     <button
@@ -383,12 +378,474 @@ const ShareWorkSection = () => {
                 </div>
               </div>
               {/* End Of SECOND mODEl */}
-              {/*eND OF mOdelS */}
+              {/* THIrd mODEL */}
+              <div
+                className={` ${
+                  activeModel === "model3" ? "block" : "hidden"
+                } fixed inset-0 z-10 p-5 bg-[#272727B8] flex justify-center items-center`}
+              >
+                <div
+                  className={`flex flex-col gap-4 max-w-[800px] pt-10 px-8 bg-white`}
+                >
+                  <p className="text-left">
+                    3. And the page title is the eye catching text that will
+                    appear at the top of the page. It will also appear in the
+                    navigation menu.
+                  </p>
+                  <div className="py-5 border-t text-center border-gray-400">
+                    <button
+                      onClick={() => setActiveModel(null)}
+                      className="bg-[#1A73E8] px-3 py-2 text-white"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+              {/*ENd OF THIrd mODEL */}
             </div>
           </div>
         </div>
       </div>
       {/*ENd of FoURTh SECtIOn */}
+
+      {/* FiFtH SECtIOn */}
+      {/*  */}
+      <div className="sm:pb-16 pb-12 sm:pt-20 pt-12">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col sm:gap-5 gap-2">
+          <h1 className="text1 leading-[2.4rem]">
+            Change your site’s background image, header type, and theme
+          </h1>
+          <p>
+            Customize parts of your Google Site to make your creation unique.
+            Change the background image, header type, and theme. Theme changes
+            affect the entire site. If a theme is changed on one page, then the
+            entire site will reflect the changes. Themes provide a unified style
+            with consistent colors and fonts.
+          </p>
+          <p>Change your site's background image, header type, and theme:</p>
+
+          <div className="mt-6 flex flex-col gap-3">
+            <p className="text-[16px] font-bold mb-3">
+              Click each button to learn more.
+            </p>
+
+            <div className="relative flex justify-center">
+              <button
+                onClick={() => toggleModel("model4")}
+                className="bg-[#dadce099] font-bold absolute top-[9%] left-[91%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center hover:text-[white] hover:bg-[#1A73E8] sm:p-8 text-[20px]"
+              >
+                1
+              </button>
+              <button
+                onClick={() => toggleModel("model5")}
+                className="bg-[#dadce099] text-[20px] sm:p-8 hover:bg-[#1A73E8] hover:text-[white] absolute top-[19%] left-[75%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center font-bold"
+              >
+                2
+              </button>
+              <img src="./assets/work10.png" alt="" />
+              {/* mOdelS */}
+              {/* FIrSt MOdeL */}
+              <div
+                className={` ${
+                  activeModel === "model4" ? "block" : "hidden"
+                } fixed inset-0 z-10 p-5 bg-[#272727B8] flex justify-center items-center`}
+              >
+                <div
+                  className={`flex flex-col gap-4 max-w-[800px] pt-10 px-8 bg-white items-center`}
+                >
+                  <h1 className="text">Themes</h1>
+                  <p className="text-left">
+                    1. Select <strong> Themes</strong> to view theme options.
+                  </p>
+                  <div className="py-5 border-t text-center border-gray-400">
+                    <button
+                      onClick={() => setActiveModel(null)}
+                      className="bg-[#1A73E8] px-3 py-2 text-white"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+              {/*  end of fIRsT MOdEl  */}
+              {/* SecoND MOdeL */}
+              <div
+                className={` ${
+                  activeModel === "model5" ? "block" : "hidden"
+                } fixed inset-0 z-10 p-5 bg-[#272727B8] flex justify-center items-center`}
+              >
+                <div
+                  className={`flex flex-col gap-4 max-w-[800px] pt-10 px-8 bg-white`}
+                >
+                  <p className="text-left">
+                    2. Under <strong>Created by Google</strong>, select a
+                    pre-made theme.
+                  </p>
+                  <p>
+                    Note: You can also create a custom theme or import a custom
+                    theme from another site.
+                  </p>
+                  <div className="py-5 border-t text-center border-gray-400">
+                    <button
+                      onClick={() => setActiveModel(null)}
+                      className="bg-[#1A73E8] px-3 py-2 text-white"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+              {/* End Of SECOND mODEl */}
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*ENd of FoURTh SECtIOn */}
+
+      {/* sIXTH sEctiON */}
+      <div className="sm:pt-20 pt-16 pb-16 bg-[#F9F9FA] top-shadow">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
+          <h1 className="text1 leading-[2.4rem]">Create pages within a site</h1>
+          <p>
+            If your site only has one page, that will be your homepage. Most
+            sites will have more than one page so you can decide which one is
+            the homepage. For example, you or your students may want different
+            pages for different projects. The homepage might be the title of
+            your class with general information like the time and location of
+            the class. Then you can create additional pages for certain projects
+            you will assign.
+          </p>
+        </div>
+      </div>
+      {/*end Of sIXTH sEctiON */}
+
+      {/* ImAgE sEcTIOn */}
+      <div>
+        <img src="./assets/work8.png" alt="" />
+      </div>
+
+      {/* SeVEnTh sEctiON */}
+      {/* Add text, images, and resources */}
+      <div className=" sm:pt-20 pt-16 pb-16 bg-[#F9F9FA] top-shadow">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
+          <h1 className="text1 leading-[2.4rem]">
+            Add text, images, and resources
+          </h1>
+          <p>
+            Next, add text, images, and resources to add information to your
+            site. When you add an image or text box to part of a page, grid
+            lines appear to help you align text, images, and other content so
+            the final product looks great on phones, tablets, and computers. You
+            might want to create a site at the beginning of the year for the
+            students to reference your class syllabus. You can upload the
+            syllabus and add subpages with any info they need for upcoming exams
+            and final projects.
+          </p>
+        </div>
+      </div>
+      {/*end Of SEveNtH sEctiON */}
+
+      {/* ImAgE sEcTIOn */}
+      <div>
+        <img src="./assets/work8.png" alt="" />
+      </div>
+
+      {/* eIGTh seCTIOn */}
+      <div className="sm:pt-20 pt-16 sm:pb-16 pb-12 ">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
+          <h1 className="text">Try it out</h1>
+          <p>Add text, images and resources to your site.</p>
+
+          <div className="grid md:grid-cols-3 md:grid-cols-1 place-content-center gap-10">
+            <article className="col-span-1">
+              <img src="./assets/work11.png" alt="" />
+            </article>
+            <article className="md:col-span-2">
+              <ol className="list-decimal pl-12">
+                <li>
+                  To add text and images to your site, double-click the white
+                  space or select <strong>Text box</strong> from the{" "}
+                  <strong>Insert</strong>
+                  menu.{" "}
+                </li>
+                <li>You can then add text by typing directly into the box.</li>
+                <li>
+                  Use the font formatting tools to get the look you want.{" "}
+                </li>
+                <li>
+                  From the <strong>Insert</strong> tab, you can also choose the
+                  options to add <strong>Images</strong> and Embed{" "}
+                  <strong>Embed</strong> resources.
+                </li>
+                <li>
+                  To insert a document from Google Docs, a spreadsheet from
+                  Google Sheets (including live charts within a spreadsheet), a
+                  presentation from Google Slides, or a form from Google Forms,
+                  click the <strong>Insert</strong> tab, then select the
+                  intended application.
+                </li>
+                <li>
+                  You can also choose the items you’d like to insert from Google
+                  Drive.
+                </li>
+              </ol>
+              <p className="font-bold">Click image to enlarge.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+      {/*EnD oF eIGTh seCTIOn */}
+
+      {/* ninth sEctiON */}
+      {/* Preview and publish */}
+      <div className=" sm:pt-20 pt-16 pb-16 bg-[#F9F9FA] top-shadow">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
+          <h1 className="text1 leading-[2.4rem]">Preview and publish</h1>
+          <p>
+            Finally, preview your site so you can see how the website will look
+            once it’s published online. You can preview it for multiple screen
+            sizes, like a computer or mobile phone. Your website will
+            automatically adjust to fit the type of device it’s being accessed
+            from, but depending on the site, you may need to make some
+            adjustments. Preview allows you to see and fix mistakes before
+            publishing.
+          </p>
+        </div>
+      </div>
+      {/*end Of ninth sEctiON */}
+
+      {/* ImAgE sEcTIOn */}
+      <div>
+        <img src="./assets/work8.png" alt="" />
+      </div>
+
+      {/* TENTh secTION */}
+      {/* Try iT OUT  */}
+      <div className="bg-[#FFFFFF] sm:pb-16 pb-12 md:pt-20 pt-12">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
+          <div className="flex flex-col gap-5">
+            <h1 className="text">Try it out</h1>
+            <p>Preview and publish your site.</p>
+          </div>
+
+          <div className="flex flex-col gap-2 mt-2">
+            <p className="text-[15px] font-bold mb-4">
+              Click play to watch the video below.
+            </p>
+            {/* video */}
+            {/* <video
+            tabindex="-1"
+            class="video-stream html5-main-video"
+            webkit-playsinline=""
+            playsinline=""
+            controlslist="nodownload"
+            style="width: 905px; height: 509px; left: 0px; top: 0px;"
+            src="blob:https://www.youtube.com/45b3ff66-03c9-47fd-92d3-3aabe7bbb16d"
+          ></video> */}
+
+            <iframe
+              //   width="800"
+              //   height="600"
+              src="https://www.youtube.com/embed/7EHnQ0VM4KY?si=LtrXq2i2uzzHChqw"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              className="max-w-[905px] w-[92vw] m-auto md:h-[509px] min-h-[400px] "
+            ></iframe>
+
+            {/* button  */}
+            <button
+              onClick={toggle}
+              className="w-full bg-[#1A73E8] py-2.5 text-white"
+            >
+              Transcript
+            </button>
+          </div>
+
+          {/* transcript  ==> */}
+          <div className={`flex flex-col gap-5 ${show ? "block" : "hidden"}`}>
+            <p>In this video, we'll preview and publish a Google site.</p>
+            <div className="flex flex-col gap-5">
+              <p>
+                Before you publish your site, you can preview what it will look
+                like on different types of devices.{" "}
+              </p>
+              <ol className="list-decimal pl-12">
+                <li>
+                  Select the <strong>Preview icon</strong> in the upper toolbar
+                  to generate the preview.
+                </li>
+                <li>
+                  You can also use the Selections toolbox to preview what your
+                  site will look like on different mobile devices.
+                </li>
+                <li>On a phone, on a tablet and on a laptop.</li>
+                <li>
+                  When you're done previewing, click the <strong>X</strong> on
+                  the toolbar to exit the preview.
+                </li>
+                <li>
+                  When you are ready for your site to be published to the web
+                  click the <strong>Publish</strong> button in the upper
+                  toolbar.{" "}
+                </li>
+                <li>
+                  This will then allow you to make some final checks and changes
+                  before publishing.
+                </li>
+                <li>
+                  After you check the web address is correct you can then click
+                  <strong>Manage</strong> to choose who can view your site.
+                </li>
+                <li>
+                  You can publish your site to School only which means only
+                  people within your school logged in will be able to view your
+                  site.
+                </li>
+                <li>Or you can click the dropdown and publish to Public.</li>
+                <li>
+                  You can also just publish to specific people by typing their
+                  names in the Add people and groups search bar.
+                </li>
+                <li>
+                  Once you're ready, click <strong>Done</strong> and{" "}
+                  <strong>Publish</strong>.{" "}
+                </li>
+              </ol>
+            </div>
+
+            <div className="flex flex-col gap-4">
+              <p>Your site is now live.</p>
+              <p>
+                You can unpublish your site at any time by clicking the dropdown
+                arrow next to the <strong>Publish</strong> option on the toolbar
+                and choosing
+                <strong> Unpublish</strong>.{" "}
+              </p>
+              <p>
+                It will also give you the option to review and alter all of your
+                publish settings if you wish.
+              </p>
+            </div>
+          </div>
+          {/* eND oF TRansCrIpt */}
+        </div>
+      </div>
+      {/*END OF TENTh secTION */}
+
+      {/* ELEVenTh sEctiON */}
+      {/* Invite others to edit your site */}
+      <div className=" sm:pt-20 pt-16 sm:pb-16 pb-12 bg-[#F9F9FA] top-shadow">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
+          <h1 className="text1 leading-[2.4rem]">
+            Invite others to edit your site
+          </h1>
+          <p>
+            You might want to include others as collaborators to your site. If
+            you are co-teaching, you and another teacher can build a site
+            together.
+          </p>
+        </div>
+      </div>
+      {/*end Of ELEVenTh sEctiON */}
+
+      {/* ImAgE sEcTIOn */}
+      <div>
+        <img src="./assets/work8.png" alt="" />
+      </div>
+
+      {/* TWeLTh SECtION */}
+      <div className="sm:pt-20 pt-16 sm:pb-16 pb-12">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
+          <h1 className="text">Try it out</h1>
+
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-8">
+            <article className="flex flex-col gap-4">
+              <p>Invite others to collaborate on your site.</p>
+              <div className="flex flex-col gap-4">
+                <p>
+                  To share your site with a collaborator, follow these steps.
+                </p>
+                <ol className="list-decimal pl-12">
+                  <li>
+                    To the left of the <strong>Publish</strong> button, click
+                    the <strong>Share with others</strong> button.
+                  </li>
+                  <li>
+                    Add the email or username of the collaborator and click
+                    <strong>Done</strong>.
+                  </li>
+                </ol>
+              </div>
+              <p dir="ltr">
+                Explore the{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://sites.google.com/applieddigitalskills.google/3rd-period-history/home?authuser=1"
+                  className="text-[blue] underline"
+                >
+                  example project website
+                </a>{" "}
+                for ideas on how to build your own.
+              </p>
+            </article>
+            <article className="flex flex-col gap-4 mt-4">
+              <p className="font-bold">Click image to enlarge.</p>
+              <img src="./assets/work13.png" alt="" />
+            </article>
+          </div>
+        </div>
+      </div>
+      {/*END OF TWeLTh SECtION */}
+
+      {/* IMaGe SceTIoN */}
+      <div>
+        <img src="./assets/work15.png" alt="" />
+      </div>
+
+      {/* 13 ScEtiOn */}
+      {/* Reflect on what you have learned */}
+      <div className="sm:pt-20 pt-12 sm:pb-16 pb-12">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
+          <h1 className="text1 leading-[2.4rem]">
+            Reflect on what you have learned
+          </h1>
+          <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
+            {/* TEXt */}
+            <article className="flex flex-col gap-4 md:col-span-2">
+              <p>
+                Take some time to reflect on the ways you can customize sites to
+                create a well-designed workspace for students.
+              </p>
+              <div className="flex flex-col gap-4">
+                <p className="font-bold">
+                  Consider the following and make a note of your answers.
+                </p>
+                <ol className="list-decimal pl-12">
+                  <li>
+                    What are some situations where you could use Google Sites
+                    within your school community?
+                  </li>
+                  <li>
+                    What skills can students learn by creating their own site?{" "}
+                  </li>
+                  <li>
+                    How might you use Google Sites to collaborate with other
+                    educators?
+                  </li>
+                </ol>
+              </div>
+            </article>
+            <article className="md:mt-0 sm:mt-3 mt-1 md:col-span-1">
+              <img src="./assets/W17.png" alt="" />
+            </article>
+          </div>
+        </div>
+      </div>
+      {/*End Of 13 ScEtiOn */}
     </div>
   );
 };

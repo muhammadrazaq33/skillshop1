@@ -225,7 +225,7 @@ const TryItOutChat = () => {
           </h1>
           <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
             {/* TEXt */}
-            <article className="flex flex-col gap-4 col-span-2">
+            <article className="flex flex-col gap-4 md:col-span-2">
               <p>
                 In this lesson, you learned about some ways to use Google Chat
                 to reinvent communication at your school. Now it’s your turn to
@@ -248,7 +248,7 @@ const TryItOutChat = () => {
                 </ol>
               </div>
             </article>
-            <article className="md:mt-0 sm:mt-3 mt-1 col-span-1">
+            <article className="md:mt-0 sm:mt-3 mt-1 md:col-span-1">
               <img src="./assets/chat18.png" alt="" />
             </article>
           </div>
