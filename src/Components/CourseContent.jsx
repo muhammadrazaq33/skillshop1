@@ -239,7 +239,10 @@ const CourseContent = () => {
                           </NavLink>{" "}
                         </li>
                         <li class="activitysection__item courselist__item">
-                          <NavLink class="double_click_protection">
+                          <NavLink
+                            to={"./GoogleTasks"}
+                            class="double_click_protection"
+                          >
                             <div class="courselist__marker"></div>
                             <div class="courselist__itemcontent">
                               <h3 class="u-headingitem activitysection__itemname hover:underline">

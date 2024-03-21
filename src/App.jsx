@@ -10,6 +10,7 @@ import GoogleChat from "./GoogleChat/GoogleChat";
 import ShareStudentWork from "./ShareStudentWork/ShareStudentWork";
 import GoogleMeet from "./GoogleMeet/GoogleMeet";
 import GoogleCalender from "./GoogleCalender/GoogleCalender";
+import GoogleTasks from "./GoogleTasks/GoogleTasks";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/ShareStudentWork" element={<ShareStudentWork />} />
           <Route path="/GoogleMeet" element={<GoogleMeet />} />
           <Route path="/GoogleCalender" element={<GoogleCalender />} />
+          <Route path="/GoogleTasks" element={<GoogleTasks />} />
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>
