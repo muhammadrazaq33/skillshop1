@@ -20,7 +20,7 @@ const GoogleClassRoomSection = () => {
                     <NavLink className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline ">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname ">
                           Create a class in Google Classroom
                         </h3>
                       </div>
@@ -30,7 +30,7 @@ const GoogleClassRoomSection = () => {
                     <NavLink className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Add students to your class
                         </h3>
                       </div>
@@ -40,7 +40,7 @@ const GoogleClassRoomSection = () => {
                     <NavLink className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           viewing your class
                         </h3>
                       </div>
@@ -50,7 +50,7 @@ const GoogleClassRoomSection = () => {
                     <NavLink className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Familiarize students with important resources
                         </h3>
                       </div>
