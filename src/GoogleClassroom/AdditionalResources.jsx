@@ -18,10 +18,10 @@ const AdditionalResources = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 grid-cols-1 gap-12">
+          <div className="grid md:grid-cols-3 grid-cols-1 gap-2 md:gap-12">
             <article className="flex flex-col gap-6 md:col-span-2">
               <p>To learn more about this topic, click the links below.</p>
-              <div className="flex flex-col gap-4 items-start">
+              <div className="flex flex-col gap-4 md:items-start items-center">
                 <button className="bg-[#1a73e8] text-white py-2 px-4 font-medium">
                   <a
                     href="https://edu.google.com/intl/ALL_uk/workspace-for-education/classroom/apps/"
@@ -68,7 +68,7 @@ const AdditionalResources = () => {
                 </button>
               </div>
             </article>
-            <article className="md:col-span-1">
+            <article className="md:col-span-1 flex flex-col gap-4 md:items-end items-center">
               <img src="./assets/c9.png" className="cursor-zoom-in" alt="" />
             </article>
           </div>
