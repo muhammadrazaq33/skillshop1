@@ -8,15 +8,15 @@ const UseGoogleDrive = () => {
     setActiveIndex(index);
   };
 
-  const [show, setShow] = useState(0);
+  const [show, setShow] = useState(null);
   return (
     <div>
       <div className="max-w-[960px] w-[92vw] m-auto mt-[3rem] sm:mt-[5rem]">
-        <h1 className="text-[30px]">Use Google Drive to create a document</h1>
+        <h1 className="text1">Use Google Drive to create a document</h1>
         <div className="grid md:grid-cols-2 grid-cols-1 gap-y-5 gap-10 mt-[1.6rem]">
           {/* TEXT =======> */}
           <div className="flex flex-col gap-5">
-            <p className="text-[16px]">
+            <p>
               Now that you’ve learned how to consolidate and organize your files
               and folders using Google Drive, learn how to use Drive to create,
               update, and share documents.{" "}
@@ -76,7 +76,7 @@ const UseGoogleDrive = () => {
             </p>
             <div className="py-5 border-t text-center border-gray-400">
               <button
-                onClick={() => setShow(0)}
+                onClick={() => setShow(null)}
                 className="bg-[#1A73E8] px-3 py-2 text-white"
               >
                 Close
@@ -98,7 +98,7 @@ const UseGoogleDrive = () => {
             </p>
             <div className="py-5 border-t text-center border-gray-400">
               <button
-                onClick={() => setShow(0)}
+                onClick={() => setShow(null)}
                 className="bg-[#1A73E8] px-3 py-2 text-white"
               >
                 Close
@@ -110,24 +110,26 @@ const UseGoogleDrive = () => {
       {/* END of modeL */}
 
       {/* ThirD SecTioN ======> */}
-      <div className="sm:mt-[2rem] top-shadow mt-[1.7rem] sm:py-16 py-12 bg-[#F9F9FA]">
+      <div className="top-shadow sm:mt-[4rem] mt-[3rem] pt-12 sm:pt-20 sm:pb-16 pb-12 bg-[#F9F9FA]">
         <div className="max-w-[960px] w-[92vw] m-auto ">
           {/* text */}
           <div className="flex flex-col gap-3">
-            <h1 className="text-[30px] mb-2">Share files and folders</h1>
-            <p className="text-[16px]">
+            <h1 className="text1 leading-[2.4rem] mb-2">
+              Share files and folders
+            </h1>
+            <p>
               With Google Drive, sharing files and folders with colleagues and
               students is easy. Maybe you’ve created a new lesson plan you’d
               like to share with another teacher, or a study guide to help your
               students prepare for an exam.
             </p>
-            <p className="text-[16px]">
+            <p>
               You can share any document in Drive with an individual or group of
               people by clicking the Share button in the upper right-hand part
               of the screen. You can also share a document directly from Drive
               by right-clicking on the file, then clicking Share.
             </p>
-            <p className="text-[16px]">
+            <p>
               If you’ve created a folder with multiple lessons you’d like to
               share, right-click on the folder, then click Share to share it
               with an individual or group.{" "}
@@ -138,9 +140,7 @@ const UseGoogleDrive = () => {
           <div className="grid md:grid-cols-3 gap-[2.5rem] grid-cols-1 mt-[2.7rem]">
             {/* left side ===> */}
             <div className="col-span-2 flex flex-col gap-5">
-              <p className="text-[16px] font-bold">
-                Click the expand icon to enlarge.
-              </p>
+              <p className="font-bold">Click the expand icon to enlarge.</p>
               <img src="./assets/drIve_img2.png" alt="" />
             </div>
 
@@ -160,15 +160,15 @@ const UseGoogleDrive = () => {
 
       {/* fouRTh SECTION */}
       {/* cOnVEr Your fIleS  */}
-      <div className=" bg-[#F9F9FA] pt-8 sm:pt-16 top-shadow pb-16">
+      <div className=" bg-[#F9F9FA] pt-12 sm:pt-20 top-shadow sm:pb-16 pb-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4">
-          <h1 className="text-[30px] mb-3">Convert your files</h1>
-          <p className="text-[16px]">
+          <h1 className="text1 leading-[2.4rem] mb-3">Convert your files</h1>
+          <p>
             Many of your existing files, like assessments or worksheets, might
             have been created using the applications on your classroom computer,
             like Microsoft Word or Pages for Mac.
           </p>
-          <p className="text-[16px]">
+          <p>
             In Google Drive, you can upload a variety of file types, including
             Microsoft Word documents, Excel spreadsheets, and PowerPoint
             presentations.
@@ -198,10 +198,10 @@ const UseGoogleDrive = () => {
 
       {/* fifth section */}
       {/* try it out ====> */}
-      <div className="bg-[#F9F9FA] sm:pt-16 pt-10 sm:pb-10 pb-7">
+      <div className="bg-[#F9F9FA] pt-12 sm:pt-20 sm:pb-16 pb-12">
         <div className="max-w-[960px] w-[92vw] m-auto">
           <div className="flex flex-col gap-6">
-            <h1 className="text-[30px]">Try it out</h1>
+            <h1 className="text1 leading-[2.4rem]">Try it out</h1>
             <p>
               Change your Google Drive settings to automatically convert your
               files.
@@ -242,10 +242,10 @@ const UseGoogleDrive = () => {
 
       {/* sixtH sECTION  */}
       {/* coLLaBorAtING ON GOogle Drive ====> */}
-      <div className="bg-[#F9F9FA] pb-16 pt-20 top-shadow">
+      <div className="bg-[#F9F9FA] pt-12 sm:pt-20 sm:pb-16 pb-12 top-shadow">
         <div className="max-w-[960px] w-[92vw] m-auto">
           <div className="flex flex-col gap-5">
-            <h1 className="text-[30px]">Collaborating on Drive</h1>
+            <h1 className="text1 leading-[2.4rem]">Collaborating on Drive</h1>
             <p className="mt-2">
               There are different levels of access you can assign in Google
               Drive:
@@ -301,9 +301,9 @@ const UseGoogleDrive = () => {
 
       {/* lEt's looK AT a scenARIO */}
       {/* sEventh SectIon */}
-      <div className="pt-16 pb-16">
+      <div className="pt-12 sm:pt-20 sm:pb-16 pb-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-10">
-          <h1 className="text-[30px]">Let's look at a scenario</h1>
+          <h1 className="text1 leading-[2.4rem]">Let's look at a scenario</h1>
           {/* useSTATE */}
           {/* second div */}
           <div className="flex flex-col gap-3">

@@ -11,10 +11,10 @@ const ManageVideoSectIon = () => {
   };
 
   return (
-    <div className="sm:pt-[5rem] pt-[3.5rem] pb-16">
+    <div className="pt-12 sm:pt-20 sm:pb-16 pb-12">
       <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
-        <h2 className="text-[30px]">Try it out</h2>
-        <p className="">
+        <h2 className="text1 leading-[2.4rem]">Try it out</h2>
+        <p>
           Create a new copy of a document and share it by following the steps in
           the video.{" "}
         </p>

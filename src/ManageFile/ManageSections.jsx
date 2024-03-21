@@ -9,7 +9,7 @@ const ManageSections = () => {
         <div className="md:flex items-start justify-between gap-8">
           {/* left side */}
           <div className="flex flex-col gap-4 mb-4">
-            <h1 className="text-[25px]">Sections</h1>
+            <h1 className="text">Sections</h1>
             {/* links ===========> */}
             <div className="pl-4">
               <ul className="activitysection__list courselist">
@@ -17,7 +17,7 @@ const ManageSections = () => {
                   <NavLink className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="text-[22px] activitysection__itemname hover:underline ">
+                      <h3 className="sm:text-[22px] text-[11.8px]activitysection__itemname">
                         Use Google Drive to create a document
                       </h3>
                     </div>
@@ -27,7 +27,7 @@ const ManageSections = () => {
                   <NavLink className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="text-[22px] activitysection__itemname hover:underline">
+                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                         Shares files and folders
                       </h3>
                     </div>
@@ -37,7 +37,7 @@ const ManageSections = () => {
                   <NavLink className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="text-[22px] activitysection__itemname hover:underline">
+                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                         Convert your files
                       </h3>
                     </div>
@@ -47,7 +47,7 @@ const ManageSections = () => {
                   <NavLink className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="text-[22px] activitysection__itemname hover:underline">
+                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                         Collaborating on Drive
                       </h3>
                     </div>
@@ -60,8 +60,8 @@ const ManageSections = () => {
 
           {/* right side */}
           <div className="flex flex-col gap-4">
-            <h1 className="text-[25px] font-normal">Tools you'll use</h1>
-            <div className="flex items-center justify-start gap-3 bg-white rounded-[60px] py-3 px-8 border-[2.5px] m-auto ">
+            <h1 className="text">Tools you'll use</h1>
+            <div className="flex items-center justify-start gap-3 bg-white rounded-[60px] w-full py-3 px-8 border-[2.5px] m-auto ">
               <img
                 src="./assets/google_drive.png"
                 className="w-[3.2rem] h-[3.2rem]"
@@ -76,9 +76,7 @@ const ManageSections = () => {
         </div>
 
         {/* cards ========> */}
-        <h1 className="text-[25px]">
-          By the end of the lesson, you’ll be able to:
-        </h1>
+        <h1 className="text">By the end of the lesson, you’ll be able to:</h1>
 
         {/* cards ======> */}
         <div className="">
