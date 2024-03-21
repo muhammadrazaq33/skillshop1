@@ -11,12 +11,14 @@ const ShareDocuments = () => {
     <div>
       {/* shArer YOUR LIve DOcuMENtS */}
       {/* FIRST seCTIOn */}
-      <div className="bg-[#F9F9FA] pt-16 pb-10">
+      <div className="bg-[#F9F9FA] sm:pt-20 pt-12 sm:pb-16 pb-12">
         <div className=" max-w-[960px] w-[92vw] m-auto">
           <div className="grid md:grid-cols-2 grid-cols-1 place-items-center gap-6">
             {/* TeXt */}
             <div className="flex flex-col gap-5">
-              <h1 className="text-[30px]">Share your live document</h1>
+              <h1 className="text1 leading-[2.4rem]">
+                Share your live document
+              </h1>
               <p>
                 The biggest difference between other productivity software and
                 Google Workspace for Education is the concept of a live
@@ -51,11 +53,11 @@ const ShareDocuments = () => {
 
       {/* Let's look at a scenario */}
       {/* secOnd SEctrIOn */}
-      <div className="sm:pt-16 pt-12">
+      <div className="sm:pt-20 pt-12 sm:pb-16 pb-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col sm:gap-12 gap-10">
           {/* firsT DIv */}
           <div className="flex flex-col gap-6">
-            <h1 className="text-[30px]">Let's look at a scenario</h1>
+            <h1 className="text1 leading-[2.4rem]">Let's look at a scenario</h1>
             <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-3">
               <article className="bg-[#F9F9FA] py-4 px-4 rounded-sm">
                 <p className="font-bold">Step one</p>

@@ -20,7 +20,7 @@ const CourseContent = () => {
                       tools available within Google Workspace for Education
                     </p>
                     <div className="flex items-center gap-3">
-                      <div className="w-[21px] h-[21px] rounded-[50%] border-[1px] border-solid border-[#767676] "></div>
+                      <div className="w-[21px] h-[21px] rounded-[50%] border-[1px] border-solid border-[#767676] flex-shrink-0 "></div>
                       <h1>
                         <NavLink to={"./GoogleWorkspace"}>
                           <span className="text-[17px] hover:underline u-headingitem cursor-pointer">

@@ -4,7 +4,7 @@ import { FaRegCheckCircle } from "react-icons/fa";
 const CollaborationFooter = () => {
   return (
     <div>
-      <div className="mt-[2rem]">
+      <div className="mt-[0rem]">
         <img src="./assets/clip.png" alt="" />
       </div>
       {/* fourth section seCoND laST footer section =======> */}
@@ -33,7 +33,12 @@ const CollaborationFooter = () => {
                 </p>
               </article>
               <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5  rounded-md hover:bg-[#e37400] hover:text-white">
-                <input type="checkbox" name="" className=" h-5 w-5" id="" />
+                <input
+                  type="checkbox"
+                  name=""
+                  className="flex-shrink-0 h-5 w-5"
+                  id=""
+                />
                 <p className="text-[16px]">
                   You can use it for gathering feedback.
                 </p>
@@ -50,7 +55,12 @@ const CollaborationFooter = () => {
                 </p>
               </article>
               <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5  rounded-md hover:bg-[#e37400] hover:text-white">
-                <input type="checkbox" name="" className=" h-5 w-5" id="" />
+                <input
+                  type="checkbox"
+                  name=""
+                  className="flex-shrink-0 h-5 w-5"
+                  id=""
+                />
                 <p className="text-[16px]">
                   You can use it to save multiple versions.
                 </p>
