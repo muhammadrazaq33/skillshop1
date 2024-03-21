@@ -14,11 +14,11 @@ const UploadMaterial = () => {
   return (
     <div>
       {/* first section */}
-      <div className="pt-[6rem] bg-[#F9F9FA] pb-[5rem] shadow-top-bottom-inner">
+      <div className="sm:pt-20 pt-12 bg-[#F9F9FA] sm:pb-16 pb-12 shadow-top-bottom-inner">
         {/* first section */}
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-2">
-            <p className="text-[30px] mb-4">Upload your materials</p>
+            <p className="text1 leading-[2.4rem] mb-4">Upload your materials</p>
             {/* video */}
             {/* <video
             tabindex="-1"
@@ -107,9 +107,11 @@ const UploadMaterial = () => {
       </div>
 
       {/* second section =====> */}
-      <div className="pt-[4.5rem] pb-[4.4rem] bg-[#FFFFFF]">
+      <div className="sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#FFFFFF]">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4">
-          <h1 className="text-[30px]">Organize your items in Google Drive</h1>
+          <h1 className="text1 leading-[2.4rem]">
+            Organize your items in Google Drive
+          </h1>
           <p>
             In Google Drive, you can upload, view, share, and edit documents,
             slideshows, spreadsheets, photos, and videos. Once you’ve uploaded

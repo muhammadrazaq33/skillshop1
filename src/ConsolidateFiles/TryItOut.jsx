@@ -15,7 +15,7 @@ const TryItOut = () => {
     <div className="pt-[5rem] pb-[4rem] ">
       {/* first section =======> */}
       <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
-        <h2 className="text-[30px]">Try it out</h2>
+        <h2 className="text1 leading-[2.4rem]">Try it out</h2>
         <p className="text-[16px]">
           Now it's your chance to try organizing your items by customizing the
           color of the folders in Drive.
@@ -128,7 +128,9 @@ const TryItOut = () => {
 
       {/* third section  =====> */}
       <div className="max-w-[960px] w-[92vw] m-auto mt-[5rem]">
-        <h1 className="text-[30px]">Reflect on what you have learned</h1>
+        <h1 className="text1 leading-[2.4rem]">
+          Reflect on what you have learned
+        </h1>
         <div className="grid md:grid-cols-3 grid-cols-1 gap-y-5 gap-4 mt-[1.6rem]">
           {/* TEXT =======> */}
           <div className="flex flex-col gap-5 col-span-2">

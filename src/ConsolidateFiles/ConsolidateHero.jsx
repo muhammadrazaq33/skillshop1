@@ -22,7 +22,7 @@ const ConsolidateHero = () => {
         <div className="sm:mt-[2.5rem] mt-[1.5rem] max-w-[680px] w-[92vw] m-auto ">
           {/* header title */}
           <div className=" flex flex-col gap-2.5 py-6 border-b border-gray-400">
-            <h1 className="text-[42px] font-semibold leading-[2.9rem]">
+            <h1 className="Heading leading-[2.9rem]">
               Consolidate your files in Google Drive
             </h1>
             <div className="sm:flex items-center gap-7">

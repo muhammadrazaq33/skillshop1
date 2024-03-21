@@ -17,7 +17,7 @@ const Sections = () => {
                   <NavLink className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline ">
+                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                         Get start with technology
                       </h3>
                     </div>
@@ -27,7 +27,7 @@ const Sections = () => {
                   <NavLink className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                         Think beyond the textbook
                       </h3>
                     </div>
@@ -37,7 +37,7 @@ const Sections = () => {
                   <NavLink className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                         Create safe, responsible digital citizens
                       </h3>
                     </div>
@@ -47,7 +47,7 @@ const Sections = () => {
                   <NavLink className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                         Build your learning network
                       </h3>
                     </div>
@@ -57,7 +57,7 @@ const Sections = () => {
                   <NavLink className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                         Tools for the classroom
                       </h3>
                     </div>

@@ -12,10 +12,12 @@ const StartGoogleDrive = () => {
   };
 
   return (
-    <div className="md:pt-[5rem] pt-[4rem] pb-[3rem]">
+    <div className="sm:pt-20 pt-12 sm:pb-16 pb-12">
       {/* first section =======> */}
       <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
-        <h2 className="text-[30px]">Get started with Google Drive</h2>
+        <h2 className="text1 leading-[2.4rem]">
+          Get started with Google Drive
+        </h2>
 
         <div className="flex flex-col gap-2">
           <p className="text-[15px] font-bold mb-4">
