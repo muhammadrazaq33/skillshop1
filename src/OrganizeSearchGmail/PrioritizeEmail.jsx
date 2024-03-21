@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 
 const PrioritizeEmail = () => {
-  const [show, setShow] = useState(0);
+  const [show, setShow] = useState(null);
 
   return (
     <div>
       {/* FIRst secTioN  */}
       {/* priritiZE eMAiLs */}
-      <div className="bg-[#F9F9FA] pb-16 sm:pt-20 pt-12 top-shadow">
+      <div className="bg-[#F9F9FA] sm:pb-16 pb-12 sm:pt-20 pt-12 top-shadow">
         <div className="max-w-[960px] w-[92vw] m-auto">
           <div className="flex flex-col gap-4">
-            <h1 className="text-[30px]">Prioritize your emails</h1>
+            <h1 className="text1 leading-[2.4rem]">Prioritize your emails</h1>
             <p className="mt-2">
               If your inbox fills up quickly throughout the day, you can enable
               a setting called <span className="font-bold">Priority Inbox</span>{" "}
@@ -67,9 +67,9 @@ const PrioritizeEmail = () => {
       </div>
       {/* TRY IT ouT */}
       {/* SEcONd SECTiON */}
-      <div className="pb-8">
-        <div className="max-w-[960px] w-[92vw] m-auto mt-[2.3rem] sm:mt-[4rem] flex flex-col gap-5">
-          <h1 className="text-[25px]">Try it out</h1>
+      <div className="sm:pb-16 pb-12 sm:pt-20 pt-12">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
+          <h1 className="text">Try it out</h1>
           <p>Here's an overview of the Priority Inbox.</p>
 
           <div className="mt-6">
@@ -123,7 +123,7 @@ const PrioritizeEmail = () => {
             </p>
             <div className="py-5 border-t text-center border-gray-400">
               <button
-                onClick={() => setShow(0)}
+                onClick={() => setShow(null)}
                 className="bg-[#1A73E8] px-3 py-2 text-white"
               >
                 Close
@@ -153,7 +153,7 @@ const PrioritizeEmail = () => {
             </div>
             <div className="py-5 border-t text-center border-gray-400">
               <button
-                onClick={() => setShow(0)}
+                onClick={() => setShow(null)}
                 className="bg-[#1A73E8] px-3 py-2 text-white"
               >
                 Close
@@ -178,7 +178,7 @@ const PrioritizeEmail = () => {
             </div>
             <div className="py-5 border-t text-center border-gray-400">
               <button
-                onClick={() => setShow(0)}
+                onClick={() => setShow(null)}
                 className="bg-[#1A73E8] px-3 py-2 text-white"
               >
                 Close
@@ -202,7 +202,7 @@ const PrioritizeEmail = () => {
             </div>
             <div className="py-5 border-t text-center border-gray-400">
               <button
-                onClick={() => setShow(0)}
+                onClick={() => setShow(null)}
                 className="bg-[#1A73E8] px-3 py-2 text-white"
               >
                 Close

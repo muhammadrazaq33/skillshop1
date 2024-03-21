@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const HighLightEmail = () => {
   const [show, setShow] = useState(false);
-  const [open, setOpen] = useState(0);
+  const [open, setOpen] = useState(null);
 
   const toggle = () => {
     if (show) {
@@ -15,10 +15,12 @@ const HighLightEmail = () => {
     <div className="">
       {/* Highlight important emails */}
       {/* firSt SEction */}
-      <div className="bg-[#F9F9FA] top-shadow sm:pb-16 pb-12 md:pt-[6rem] pt-[4rem]">
+      <div className="bg-[#F9F9FA] top-shadow sm:pb-16 pb-12 sm:pt-20 pt-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-4 mb-4">
-            <h1 className="text-[30px] mb-3">Highlight important emails</h1>
+            <h1 className="text1 leading-[2.4rem] mb-3">
+              Highlight important emails
+            </h1>
             <p>
               When sending an urgent or time-sensitive email message to your
               team, you can let recipients know a message needs their attention.
@@ -146,7 +148,7 @@ const HighLightEmail = () => {
       {/* try It out */}
       <div className="pt-16 pb-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
-          <h1 className="text-[25px]">Try it out</h1>
+          <h1 className="text">Try it out</h1>
           <p>
             Highlight important emails in your inbox by following these steps.
           </p>
@@ -177,9 +179,9 @@ const HighLightEmail = () => {
 
       {/* thIRD sceTION */}
       {/* Star important messages */}
-      <div className="sm:pt-20 pt-12 pb-16 bg-[#F9F9FA] top-shadow">
+      <div className="sm:pb-16 pb-12 sm:pt-20 pt-12 bg-[#F9F9FA] top-shadow">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
-          <h1 className="text-[30px]">Star important messages</h1>
+          <h1 className="text1 leading-[2.4rem]">Star important messages</h1>
           <p>
             Another way you can organize your inbox is by marking emails as
             Starred so you can return to them and respond later. For example,
@@ -200,9 +202,9 @@ const HighLightEmail = () => {
 
       {/* FourtH secTIOn  */}
       {/* Try it out */}
-      <div className="sm:pt-20 pt-16 pb-12">
+      <div className="sm:pb-16 pb-12 sm:pt-20 pt-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
-          <h1 className="text-[25px]">Try it out</h1>
+          <h1 className="text">Try it out</h1>
           <p>Star important emails in your inbox.</p>
 
           {/* iMAge & butTonS */}
@@ -247,7 +249,7 @@ const HighLightEmail = () => {
             </p>
             <div className="py-5 border-t text-center border-gray-400">
               <button
-                onClick={() => setOpen(0)}
+                onClick={() => setOpen(null)}
                 className="bg-[#1A73E8] px-3 py-2 text-white"
               >
                 Close
@@ -270,7 +272,7 @@ const HighLightEmail = () => {
             </div>
             <div className="py-5 border-t text-center border-gray-400">
               <button
-                onClick={() => setOpen(0)}
+                onClick={() => setOpen(null)}
                 className="bg-[#1A73E8] px-3 py-2 text-white"
               >
                 Close
@@ -284,9 +286,9 @@ const HighLightEmail = () => {
 
       {/*FiFTH sceTION */}
       {/* Search your inbox */}
-      <div className="sm:pt-20 pt-12 pb-16 bg-[#F9F9FA] top-shadow">
+      <div className="sm:pb-16 pb-12 sm:pt-20 pt-12 bg-[#F9F9FA] top-shadow">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
-          <h1 className="text-[30px]">Search your inbox</h1>
+          <h1 className="text1 leading-[2.4rem]">Search your inbox</h1>
           <p>
             If you need to search for a specific email in your inbox, Gmail has
             a search function to help you. Whether emails have a label, filter,
@@ -314,9 +316,9 @@ const HighLightEmail = () => {
 
       {/* SiXth SeCtioN  */}
       {/* try It out */}
-      <div className="sm:pt-20 pt-16 sm:pb-20 pb-16">
+      <div className="sm:pb-16 pb-12 sm:pt-20 pt-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
-          <h1 className="text-[25px]">Try it out</h1>
+          <h1 className="text">Try it out</h1>
           <p>Search your inbox using search criteria in the search box.</p>
           <div className="grid md:grid-cols-2 grid-cols-1 gap-12">
             <article>
@@ -359,7 +361,9 @@ const HighLightEmail = () => {
       {/* SeveNTH seCTIon */}
       <div className="sm:pt-20 pt-16 pb-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-2">
-          <h1 className="text-[30px]">Reflect on what you have learned</h1>
+          <h1 className="text1 leading-[2.4rem]">
+            Reflect on what you have learned
+          </h1>
           <div className="md:flex justify-between items-center gap-10">
             {/* TEXt */}
             <article className="flex flex-col gap-4">
