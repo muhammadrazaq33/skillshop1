@@ -17,7 +17,7 @@ const WorkspaceHeader = () => {
         <div className="sm:mt-[2.5rem] mt-[1rem] max-w-[680px] w-[92vw] m-auto ">
           {/* header title */}
           <div className=" flex flex-col gap-2.5 py-6 border-b border-gray-400">
-            <h1 className="text-[42px] font-semibold leading-[2.9rem]">
+            <h1 className="Heading leading-[2.9rem]">
               Introduction to using Google Workspace for Education in the
               classroom
             </h1>
@@ -59,7 +59,6 @@ const WorkspaceHeader = () => {
               used in the classroom.
             </p>
           </div>
-          ;
         </div>
       </div>
     </div>

@@ -33,7 +33,7 @@ export function AccordianItem({ children, value, trigger, ...props }) {
       <header
         role="button"
         onClick={() => setSelected(open ? null : value)}
-        className={`flex justify-between items-center gap-2 p-4 font-semibold text-[27px] rs4:pl-9 pl-2 hover:bg-[#f0f0f0] `}
+        className={`flex justify-between items-center gap-2 p-4 text3 rs4:pl-9 pl-2 hover:bg-[#f0f0f0] `}
       >
         {/* {trigger} */}
         <p className="">{trigger}</p>

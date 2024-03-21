@@ -10,12 +10,12 @@ const StartWithTechnology = () => {
 
   return (
     <>
-      <div className="mt-[1rem] py-20 shadow-xl">
+      <div className="mt-[1rem] sm:pt-24 pt-12 sm:pb-16 pb-12 shadow-xl">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           {/* first duv */}
           <div className="flex flex-col gap-3">
-            <h4 className="text-[30px]">Get started with technology</h4>
-            <p className="text-[16px]">
+            <h4 className="text1">Get started with technology</h4>
+            <p>
               As a teacher, you understand the importance of teaching academic
               subjects, like reading, writing, and math. But for students to be
               prepared for future careers and thrive in an ever-changing
@@ -182,10 +182,8 @@ const StartWithTechnology = () => {
           {/* third div  */}
           <div className="flex flex-col gap-4">
             <div>
-              <h4 className="text-[25px] text-[#3C4043]">
-                Benefits for teaching and learning
-              </h4>
-              <p className="text-[16px]">
+              <h4 className="text">Benefits for teaching and learning</h4>
+              <p>
                 Throughout this course, you will identify several ways that
                 technology (and having digital skills) benefits teaching and
                 learning. To get started, this section explores three benefits
@@ -194,7 +192,7 @@ const StartWithTechnology = () => {
             </div>
             <div className="px-7">
               <div className="flex">
-                <li className=""></li>
+                <li></li>
                 <p>Extending the textbook content with digital access.</p>
               </div>
               <div className="flex">
