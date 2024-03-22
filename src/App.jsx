@@ -13,6 +13,7 @@ import GoogleCalender from "./GoogleCalender/GoogleCalender";
 import GoogleTasks from "./GoogleTasks/GoogleTasks";
 import GoogleClassRoom from "./GoogleClassroom/GoogleClassRoom";
 import GoogleClassroom2 from "./GoogleClassroom2/GoogleClassroom2";
+import DigitalFeedback from "./DigitalFeedback/DigitalFeedback";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
           <Route path="/GoogleTasks" element={<GoogleTasks />} />
           <Route path="/GoogleClassRoom" element={<GoogleClassRoom />} />
           <Route path="/GoogleClassroom2" element={<GoogleClassroom2 />} />
+          <Route path="/DigitalFeedback" element={<DigitalFeedback />} />
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>

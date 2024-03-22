@@ -313,7 +313,10 @@ const CourseContent = () => {
                           </NavLink>{" "}
                         </li>
                         <li className="activitysection__item courselist__item">
-                          <NavLink className="double_click_protection">
+                          <NavLink
+                            to={"./DigitalFeedback"}
+                            className="double_click_protection"
+                          >
                             <div className="courselist__marker"></div>
                             <div className="courselist__itemcontent">
                               <h3 className="u-headingitem activitysection__itemname hover:underline">
