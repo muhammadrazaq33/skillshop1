@@ -183,3 +183,32 @@ body {
   font-size: 27px;
   font-weight: 500;
 }
+.example {
+  font-size: 17px;
+  color: #137333;
+  font-weight: 300;
+}
+.Instead {
+  font-size: 25px;
+  color: #c5221f;
+  font-weight: 300;
+}
+.circular-checkbox {
+  width: 25px;
+  height: 25px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 2px solid #dadce099;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  /* background-color: #fff; */
+}
+
+.circular-checkbox:hover {
+  border: 1px solid #4285f4;
+}
+.circular-checkbox:checked {
+  background-color: blue;
+}

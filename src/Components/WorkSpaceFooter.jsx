@@ -15,7 +15,7 @@ const WorkSpaceFooter = () => {
         {/* <CiWarning className="w-[5rem] h-[5rem] text-[#c5221f]" /> */}
         <AiOutlineWarning className="w-[3.7rem] h-[3.7rem] text-[#c5221f]" />
 
-        <p className="text-[#c5221f]">
+        <p className="text-[#c5221f] text-center">
           It looks like you've still got some items to complete.
         </p>
         <a
