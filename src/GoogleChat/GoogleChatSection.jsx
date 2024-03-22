@@ -25,7 +25,7 @@ const GoogleChatSection = () => {
                     <NavLink className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline ">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Communicate with Google Chat
                         </h3>
                       </div>
@@ -35,7 +35,7 @@ const GoogleChatSection = () => {
                     <NavLink className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Create and name group Chats
                         </h3>
                       </div>
@@ -45,7 +45,7 @@ const GoogleChatSection = () => {
                     <NavLink className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Chat notifications
                         </h3>
                       </div>
@@ -55,7 +55,7 @@ const GoogleChatSection = () => {
                     <NavLink className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Manage/delete your chat history
                         </h3>
                       </div>

@@ -24,7 +24,7 @@ const GoogleChatFooter = () => {
               <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5 rounded-md hover:bg-[#e37400] hover:text-white">
                 <input
                   type="checkbox"
-                  className="form-checkbox border-2 border-red-400  h-5 w-5"
+                  className="form-checkbox border-2 border-red-400 flex-shrink-0  h-5 w-5"
                   name=""
                   id=""
                 />
@@ -33,19 +33,34 @@ const GoogleChatFooter = () => {
                 </p>
               </article>
               <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5  rounded-md hover:bg-[#e37400] hover:text-white">
-                <input type="checkbox" name="" className=" h-5 w-5" id="" />
+                <input
+                  type="checkbox"
+                  name=""
+                  className="flex-shrink-0 h-5 w-5"
+                  id=""
+                />
                 <p className="text-[16px]">
                   Communicate with up to 100 people in a text chat
                 </p>
               </article>
               <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5  rounded-md hover:bg-[#e37400] hover:text-white">
-                <input type="checkbox" name="" className=" h-5 w-5" id="" />
+                <input
+                  type="checkbox"
+                  name=""
+                  className="flex-shrink-0 h-5 w-5"
+                  id=""
+                />
                 <p className="text-[16px]">
                   You can mute chat notifications out of office hours
                 </p>
               </article>
               <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5  rounded-md hover:bg-[#e37400] hover:text-white">
-                <input type="checkbox" name="" className=" h-5 w-5" id="" />
+                <input
+                  type="checkbox"
+                  name=""
+                  className="flex-shrink-0 h-5 w-5"
+                  id=""
+                />
                 <p className="text-[16px]">
                   Communicate with up to 400 people in a text chat
                 </p>
