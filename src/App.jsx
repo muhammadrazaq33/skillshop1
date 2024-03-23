@@ -16,6 +16,7 @@ import GoogleClassroom2 from "./GoogleClassroom2/GoogleClassroom2";
 import DigitalFeedback from "./DigitalFeedback/DigitalFeedback";
 import GoogleForms from "./GoogleForms/GoogleForms";
 import StudentProgress from "./StudentProgress/StudentProgress";
+import StudentGrowth from "./StudentGrowth/StudentGrowth";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           <Route path="/DigitalFeedback" element={<DigitalFeedback />} />
           <Route path="/GoogleForms" element={<GoogleForms />} />
           <Route path="/StudentProgress" element={<StudentProgress />} />
+          <Route path="/StudentGrowth" element={<StudentGrowth />} />
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>
