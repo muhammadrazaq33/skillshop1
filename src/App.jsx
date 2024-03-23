@@ -14,6 +14,7 @@ import GoogleTasks from "./GoogleTasks/GoogleTasks";
 import GoogleClassRoom from "./GoogleClassroom/GoogleClassRoom";
 import GoogleClassroom2 from "./GoogleClassroom2/GoogleClassroom2";
 import DigitalFeedback from "./DigitalFeedback/DigitalFeedback";
+import GoogleForms from "./GoogleForms/GoogleForms";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           <Route path="/GoogleClassRoom" element={<GoogleClassRoom />} />
           <Route path="/GoogleClassroom2" element={<GoogleClassroom2 />} />
           <Route path="/DigitalFeedback" element={<DigitalFeedback />} />
+          <Route path="/GoogleForms" element={<GoogleForms />} />
         </Routes>
         {/* <Footer /> */}
       </BrowserRouter>
