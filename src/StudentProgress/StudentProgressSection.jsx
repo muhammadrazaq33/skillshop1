@@ -166,7 +166,7 @@ const StudentProgressSection = () => {
           </div>
 
           {/* FiRsT DIv */}
-          <div className="grid md:grid-cols-3 grid-cols-2 gap-12">
+          <div className="grid md:grid-cols-3 grid-cols-1 gap-12">
             <article className="flex flex-col gap-4 md:col-span-2">
               <p>
                 After you send your form to students, you can easily check their
@@ -459,6 +459,82 @@ const StudentProgressSection = () => {
         </div>
       </div>
       {/*End oF fifth SeCtiON */}
+
+      {/* 6 SeCtiON */}
+      {/* Keep your Google Forms anonymous */}
+      <div className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] top-shadow">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
+          <div className="flex flex-col gap-4">
+            <h1 className="text1 leading-[2.4rem] mb-1">
+              Keep your Google Forms anonymous
+            </h1>
+            <p>
+              To keep forms anonymous, do not add a name section and do not
+              collect email addresses. You may want to do this for a feedback
+              form so students feel comfortable being honest about their
+              responses
+            </p>
+            <p>
+              When you’re done grading and writing feedback, turn all that
+              feedback into a spreadsheet. The data is automatically collected
+              in a spreadsheet in Google Sheets. Share that spreadsheet with
+              students and guardians to clearly communicate student progress and
+              results.
+            </p>
+          </div>
+          <div>
+            <img src="./assets/s9.png" className="" alt="" />
+          </div>
+        </div>
+      </div>
+      {/*End oF 6 SeCtiON */}
+
+      {/* ImAge SEctION */}
+      <div>
+        <img src="./assets/s10.png" className="" alt="" />
+      </div>
+
+      {/* 7 ScEtiOn */}
+      {/* Reflect on what you have learned */}
+      <div className="sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#F9F9FA]">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
+          <h1 className="text1 leading-[2.4rem]">
+            Reflect on what you have learned
+          </h1>
+          <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
+            {/* TEXt */}
+            <article className="flex flex-col gap-4 md:col-span-2">
+              <p>
+                Now that you’ve learned how to use Google Forms to collect and
+                assess student knowledge, it’s your turn to reflect on what you
+                have learned.
+              </p>
+              <div className="flex flex-col gap-4">
+                <p className="font-bold">
+                  Consider the following and make a note of your answers.
+                </p>
+                <ol className="list-decimal pl-12">
+                  <li>
+                    How can you use Google Forms to assess student knowledge?
+                  </li>
+                  <li>
+                    How can you collect anonymous peer feedback on students’
+                    projects?
+                  </li>
+                  <li>
+                    How can Google Forms help you grade student work more
+                    efficiently?
+                  </li>
+                </ol>
+              </div>
+            </article>
+            <article className="md:mt-0 sm:mt-3 mt-1 md:col-span-1">
+              <img src="./assets/W17.png" alt="" />
+            </article>
+          </div>
+        </div>
+      </div>
+      {/*End Of 7 ScEtiOn */}
     </div>
   );
 };
