@@ -250,9 +250,7 @@ const GoogleCalenderSection = () => {
       {/*End oF SECOND SeCtiON */}
 
       {/* IMAGE SECTION */}
-      <div>
-        <img src="./assets/cal6.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/cal6.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* THIRD sEctiON */}
       {/* Share a calendar */}
@@ -318,9 +316,7 @@ const GoogleCalenderSection = () => {
       {/*end Of FOURTH sEctiON */}
 
       {/* IMAGE SECTION */}
-      <div>
-        <img src="./assets/cal7.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/cal7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* fifth SeCtiON */}
       {/* Try it out */}
@@ -434,9 +430,7 @@ const GoogleCalenderSection = () => {
       {/*end Of SIXTH sEctiON */}
 
       {/* IMAGE SECTION */}
-      <div>
-        <img src="./assets/cal7.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/cal7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* SEVENTH SeCtiON */}
       {/* Try it out */}
@@ -591,9 +585,7 @@ const GoogleCalenderSection = () => {
       {/*End oF SEVENTH SeCtiON */}
 
       {/* IMAGE SECTION */}
-      <div>
-        <img src="./assets/cal8.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/cal8.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 8 ScEtiOn */}
       {/* Reflect on what you have learned */}

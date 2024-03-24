@@ -148,9 +148,7 @@ const GoogleClassRoomSection = () => {
       {/*eND oF SECond SeCtioN */}
 
       {/* imAGe sECtioN */}
-      <div>
-        <img src="./assets/c4.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/c4.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 3 SeCtiON */}
       {/* Try it out */}

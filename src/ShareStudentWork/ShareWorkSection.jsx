@@ -182,9 +182,7 @@ const ShareWorkSection = () => {
       {/* ENd of secoND  scEtIOn */}
 
       {/* ImAgE sEcTIOn */}
-      <div>
-        <img src="./assets/work6.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/work6.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* Try iT OUT  */}
       {/* ThirD seCTIoN */}
@@ -521,9 +519,7 @@ const ShareWorkSection = () => {
       {/*end Of sIXTH sEctiON */}
 
       {/* ImAgE sEcTIOn */}
-      <div>
-        <img src="./assets/work8.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/work8.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* SeVEnTh sEctiON */}
       {/* Add text, images, and resources */}
@@ -547,9 +543,7 @@ const ShareWorkSection = () => {
       {/*end Of SEveNtH sEctiON */}
 
       {/* ImAgE sEcTIOn */}
-      <div>
-        <img src="./assets/work8.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/work8.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* eIGTh seCTIOn */}
       <div className="sm:pt-20 pt-16 sm:pb-16 pb-12 ">
@@ -616,9 +610,7 @@ const ShareWorkSection = () => {
       {/*end Of ninth sEctiON */}
 
       {/* ImAgE sEcTIOn */}
-      <div>
-        <img src="./assets/work8.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/work8.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* TENTh secTION */}
       {/* Try iT OUT  */}
@@ -752,9 +744,7 @@ const ShareWorkSection = () => {
       {/*end Of ELEVenTh sEctiON */}
 
       {/* ImAgE sEcTIOn */}
-      <div>
-        <img src="./assets/work8.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/work8.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* TWeLTh SECtION */}
       <div className="sm:pt-20 pt-16 sm:pb-16 pb-12">
@@ -802,9 +792,7 @@ const ShareWorkSection = () => {
       {/*END OF TWeLTh SECtION */}
 
       {/* IMaGe SceTIoN */}
-      <div>
-        <img src="./assets/work15.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/work15.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 13 ScEtiOn */}
       {/* Reflect on what you have learned */}

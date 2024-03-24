@@ -28,7 +28,7 @@ const ClassFooter = () => {
                   name=""
                   id=""
                 />
-                <p className="text-[16px]">People</p>
+                <p className="text-[16px] font-medium">People</p>
               </article>
               <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5  rounded-md hover:bg-[#e37400] hover:text-white">
                 <input
@@ -37,7 +37,7 @@ const ClassFooter = () => {
                   className="flex-shrink-0 h-5 w-5"
                   id=""
                 />
-                <p className="text-[16px]">Grades</p>
+                <p className="text-[16px] font-medium">Grades</p>
               </article>
               <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5  rounded-md hover:bg-[#e37400] hover:text-white">
                 <input
@@ -46,7 +46,7 @@ const ClassFooter = () => {
                   className="flex-shrink-0 h-5 w-5"
                   id=""
                 />
-                <p className="text-[16px]">Stream</p>
+                <p className="text-[16px] font-medium">Stream</p>
               </article>
               <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5  rounded-md hover:bg-[#e37400] hover:text-white">
                 <input
@@ -55,16 +55,16 @@ const ClassFooter = () => {
                   className="flex-shrink-0 h-5 w-5"
                   id=""
                 />
-                <p className="text-[16px]">Classwork</p>
+                <p className="text-[16px] font-medium">Classwork</p>
               </article>
             </div>
 
             {/* bUTtONS */}
             <div className="grid grid-cols-2 gap-2">
-              <button className="bg-white py-2 table-container1 border border-black">
+              <button className="bg-white py-2 table-container1 border border-black font-medium">
                 Submit
               </button>
-              <button className="bg-white py-2 table-container1 border border-black">
+              <button className="bg-white py-2 table-container1 border border-black font-medium">
                 Show Feedback
               </button>
             </div>

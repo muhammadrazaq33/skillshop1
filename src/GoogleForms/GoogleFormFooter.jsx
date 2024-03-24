@@ -27,7 +27,7 @@ const GoogleFormFooter = () => {
                   name=""
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   Students must answer the survey or quiz in one setting. This
                   minimises cheating if it is a marked assessment
                 </p>
@@ -39,7 +39,7 @@ const GoogleFormFooter = () => {
                   className="flex-shrink-0 h-5 w-5"
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   Survey or quiz responses are saved as a draft for 5 days. So
                   students can go at their own pace when responding
                 </p>
@@ -51,7 +51,7 @@ const GoogleFormFooter = () => {
                   className="flex-shrink-0 h-5 w-5"
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   If your class time is cut short, students can start again when
                   they log in to their account next
                 </p>
@@ -63,7 +63,7 @@ const GoogleFormFooter = () => {
                   className="flex-shrink-0 h-5 w-5"
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   Survey or quiz responses are saved as a draft for 30 days. So
                   students can go at their own pace when responding
                 </p>
@@ -72,10 +72,10 @@ const GoogleFormFooter = () => {
 
             {/* bUTtONS */}
             <div className="grid grid-cols-2 gap-2">
-              <button className="bg-white py-2 table-container1 border border-black">
+              <button className="bg-white py-2 table-container1 border border-black font-medium">
                 Submit
               </button>
-              <button className="bg-white py-2 table-container1 border border-black">
+              <button className="bg-white py-2 table-container1 border border-black font-medium">
                 Show Feedback
               </button>
             </div>

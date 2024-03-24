@@ -182,9 +182,7 @@ const GoogleTaskSection = () => {
       {/*end Of SECOnD sEctiON */}
 
       {/* IMAGE SECTION */}
-      <div>
-        <img src="./assets/task7.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/task7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* THIRD sEctiON */}
       {/* Integrate lists in Google Tasks with Google Calendar */}
@@ -211,9 +209,7 @@ const GoogleTaskSection = () => {
       {/*end Of THIRD sEctiON */}
 
       {/* IMAGE SECTION */}
-      <div>
-        <img src="./assets/task8.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/task8.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* foURTh SeCTion */}
       {/* tRy IT OUt */}
@@ -246,9 +242,7 @@ const GoogleTaskSection = () => {
       {/*enD OF foURTh SeCTion */}
 
       {/* IMAGE SECTION */}
-      <div>
-        <img src="./assets/task7.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/task7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* FiFTH sEctiON */}
       {/* Create multi-functional notes in Google Keep */}
@@ -279,9 +273,7 @@ const GoogleTaskSection = () => {
       {/*end Of fIFth sEctiON */}
 
       {/* IMAGE SECTION */}
-      <div>
-        <img src="./assets/task7.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/task7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* sIxTh sEctiON */}
       {/* Add a reminder to a note */}
@@ -301,9 +293,7 @@ const GoogleTaskSection = () => {
       {/*end Of SIXtH sEctiON */}
 
       {/* IMAGE SECTION */}
-      <div>
-        <img src="./assets/task11.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/task11.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* SeVENth sEcTIOn */}
       {/* tRY It oUt */}
@@ -363,9 +353,7 @@ const GoogleTaskSection = () => {
       {/*end Of 8 sEctiON */}
 
       {/* IMAGE SECTION */}
-      <div>
-        <img src="./assets/task11.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/task11.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 9 sEcTIOn */}
       {/* tRY It oUt */}
@@ -489,9 +477,7 @@ const GoogleTaskSection = () => {
       {/*End oF 10 SeCtiON */}
 
       {/* IMAGE SECTION */}
-      <div>
-        <img src="./assets/t12.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/t12.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 11 ScEtiOn */}
       {/* Reflect on what you have learned */}

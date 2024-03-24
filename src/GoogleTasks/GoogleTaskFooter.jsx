@@ -28,7 +28,7 @@ const GoogleTaskFooter = () => {
                   name=""
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   You can record multiple notes to brainstorm ideas
                 </p>
               </article>
@@ -39,7 +39,9 @@ const GoogleTaskFooter = () => {
                   className="flex-shrink-0 h-5 w-5"
                   id=""
                 />
-                <p className="text-[16px]">Keep is a note-taking app</p>
+                <p className="text-[16px] font-medium">
+                  Keep is a note-taking app
+                </p>
               </article>
               <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5  rounded-md hover:bg-[#e37400] hover:text-white">
                 <input
@@ -48,7 +50,7 @@ const GoogleTaskFooter = () => {
                   className="flex-shrink-0 h-5 w-5"
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   You can share and collaborate on notes
                 </p>
               </article>
@@ -59,7 +61,7 @@ const GoogleTaskFooter = () => {
                   className="flex-shrink-0 h-5 w-5"
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   Keep uses smart chips to add calendar events and other Google
                   documents to a note
                 </p>
@@ -68,10 +70,10 @@ const GoogleTaskFooter = () => {
 
             {/* bUTtONS */}
             <div className="grid grid-cols-2 gap-2">
-              <button className="bg-white py-2 table-container1 border border-black">
+              <button className="bg-white py-2 table-container1 border border-black font-medium">
                 Submit
               </button>
-              <button className="bg-white py-2 table-container1 border border-black">
+              <button className="bg-white py-2 table-container1 border border-black font-medium">
                 Show Feedback
               </button>
             </div>

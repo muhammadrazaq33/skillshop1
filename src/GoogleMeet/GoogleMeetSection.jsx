@@ -242,9 +242,7 @@ const GoogleMeetSection = () => {
       {/*End oF third SeCtiON */}
 
       {/* iMAgE secTIon */}
-      <div>
-        <img src="./assets/meet6.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/meet6.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* fOuRtH sEctiON */}
       {/* Schedule a video meeting from Google Calendar */}
@@ -265,9 +263,7 @@ const GoogleMeetSection = () => {
       {/*end Of FOURTh sEctiON */}
 
       {/* iMAgE secTIon */}
-      <div>
-        <img src="./assets/meet6.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/meet6.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* fIFTh SeCtion */}
       <div className="bg-white sm:pb-16 pb-12 md:pt-20 pt-12">
@@ -369,9 +365,7 @@ const GoogleMeetSection = () => {
       {/*end Of siXTh sEctiON */}
 
       {/* iMAgE secTIon */}
-      <div>
-        <img src="./assets/meet6.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/meet6.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* sEVeNTh SecTION */}
       <div className="sm:pt-20 pt-12 sm:pb-16 pb-12">
@@ -440,9 +434,7 @@ const GoogleMeetSection = () => {
       {/*end Of EIGTh sEctiON */}
 
       {/* iMAgE secTIon */}
-      <div>
-        <img src="./assets/meet6.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/meet6.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* niNTH SecTION */}
       <div className="sm:pt-20 pt-12 sm:pb-16 pb-12">
@@ -516,9 +508,7 @@ const GoogleMeetSection = () => {
       {/*end Of tenTH sEctiON */}
 
       {/* iMAgE secTIon */}
-      <div>
-        <img src="./assets/meet6.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/meet6.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* EleveNth sEctIOn */}
       <div className="sm:pt-20 pt-16 pb-12">

@@ -374,9 +374,8 @@ const ClassSection = () => {
       {/*end Of fOURth sEctiON */}
 
       {/* image section */}
-      <div>
-        <img src="./assets/gc7.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/gc7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+
       {/* IMAGE SECTION */}
       {/* <div className="bg-wrapper mx-auto max-w-[1100px]"> */}
       {/* <div className="bg-[url('./assets/gc7.png')] w-full h-[120px] object-cover  bg-center bg-no-repeat"></div> */}
@@ -573,9 +572,7 @@ const ClassSection = () => {
       {/*end Of 7 sEctiON */}
 
       {/* image section */}
-      <div>
-        <img src="./assets/gc10.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/gc10.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 8 sectIOn */}
       {/* Success stories
@@ -708,9 +705,7 @@ const ClassSection = () => {
       {/*eND OF 10 ScETioN */}
 
       {/* image section */}
-      <div>
-        <img src="./assets/gc13.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/gc13.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 11 ScEtiOn */}
       {/* Reflect on what you have learned */}

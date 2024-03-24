@@ -26,22 +26,37 @@ const StudentGrowthFooter = () => {
                 <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5 rounded-md hover:bg-[#e37400] hover:text-white">
                   <input
                     type="checkbox"
-                    className="form-checkbox border-2 border-red-400  h-5 w-5"
+                    className="form-checkbox border-2 flex-shrink-0 border-red-400  h-5 w-5"
                     name=""
                     id=""
                   />
                   <p className="text-[16px] font-medium">=AVERAGE( )</p>
                 </article>
                 <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5  rounded-md hover:bg-[#e37400] hover:text-white">
-                  <input type="checkbox" name="" className=" h-5 w-5" id="" />
+                  <input
+                    type="checkbox"
+                    name=""
+                    className="flex-shrink-0 h-5 w-5"
+                    id=""
+                  />
                   <p className="text-[16px] font-medium">=CountA</p>
                 </article>
                 <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5  rounded-md hover:bg-[#e37400] hover:text-white">
-                  <input type="checkbox" name="" className=" h-5 w-5" id="" />
+                  <input
+                    type="checkbox"
+                    name=""
+                    className="flex-shrink-0 h-5 w-5"
+                    id=""
+                  />
                   <p className="text-[16px] font-medium">=Unique(A:A)</p>
                 </article>
                 <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5  rounded-md hover:bg-[#e37400] hover:text-white">
-                  <input type="checkbox" name="" className=" h-5 w-5" id="" />
+                  <input
+                    type="checkbox"
+                    name=""
+                    className="flex-shrink-0 h-5 w-5"
+                    id=""
+                  />
                   <p className="text-[16px] font-medium">=Count</p>
                 </article>
               </div>

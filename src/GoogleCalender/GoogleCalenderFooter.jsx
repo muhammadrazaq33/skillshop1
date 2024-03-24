@@ -25,7 +25,7 @@ const GoogleCalenderFooter = () => {
                   name=""
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   Each calendar you create must have all the same permissions
                   but you can share settings
                 </p>
@@ -37,7 +37,7 @@ const GoogleCalenderFooter = () => {
                   className="flex-shrink-0 h-5 w-5"
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   Each calendar you create can have separate permissions and you
                   can share settings
                 </p>
@@ -49,7 +49,7 @@ const GoogleCalenderFooter = () => {
                   className="flex-shrink-0 h-5 w-5"
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   Each calendar you create can have separate permissions but you
                   can’t share the settings
                 </p>
@@ -61,7 +61,7 @@ const GoogleCalenderFooter = () => {
                   className="flex-shrink-0 h-5 w-5"
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   Each calendar you create must have all the same permissions
                   and you can't share settings
                 </p>
@@ -70,10 +70,10 @@ const GoogleCalenderFooter = () => {
 
             {/* bUTtONS */}
             <div className="grid grid-cols-2 gap-2">
-              <button className="bg-white py-2 table-container1 border border-black">
+              <button className="bg-white py-2 table-container1 border border-black font-medium">
                 Submit
               </button>
-              <button className="bg-white py-2 table-container1 border border-black">
+              <button className="bg-white py-2 table-container1 border border-black font-medium">
                 Show Feedback
               </button>
             </div>

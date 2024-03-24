@@ -238,9 +238,7 @@ const StudentProgressSection = () => {
       {/*End oF 3 SeCtiON */}
 
       {/* ImAge SEctION */}
-      <div>
-        <img src="./assets/form8.png" className="" alt="" />
-      </div>
+      <div className="bg-[url('./assets/form8.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 4 SeCtiON */}
       {/* Use Google Forms for grading */}
@@ -288,9 +286,7 @@ const StudentProgressSection = () => {
       {/*End oF 4 SeCtiON */}
 
       {/* ImAge SEctION */}
-      <div>
-        <img src="./assets/s8.png" className="" alt="" />
-      </div>
+      <div className="bg-[url('./assets/s8.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* FIfTh SeCtiON */}
       {/* Try it out */}
@@ -490,9 +486,7 @@ const StudentProgressSection = () => {
       {/*End oF 6 SeCtiON */}
 
       {/* ImAge SEctION */}
-      <div>
-        <img src="./assets/s10.png" className="" alt="" />
-      </div>
+      <div className="bg-[url('./assets/s10.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 7 ScEtiOn */}
       {/* Reflect on what you have learned */}

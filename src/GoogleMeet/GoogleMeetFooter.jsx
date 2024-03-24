@@ -24,29 +24,44 @@ const GoogleMeetFooter = () => {
               <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5 rounded-md hover:bg-[#e37400] hover:text-white">
                 <input
                   type="checkbox"
-                  className="form-checkbox border-2 border-red-400  h-5 w-5"
+                  className="form-checkbox flex-shrink-0 border-2 border-red-400  h-5 w-5"
                   name=""
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   Students can call teachers any time
                 </p>
               </article>
               <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5  rounded-md hover:bg-[#e37400] hover:text-white">
-                <input type="checkbox" name="" className=" h-5 w-5" id="" />
-                <p className="text-[16px]">
+                <input
+                  type="checkbox"
+                  name=""
+                  className="flex-shrink-0 h-5 w-5"
+                  id=""
+                />
+                <p className="text-[16px] font-medium">
                   Google Meet can connect with your calendar
                 </p>
               </article>
               <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5  rounded-md hover:bg-[#e37400] hover:text-white">
-                <input type="checkbox" name="" className=" h-5 w-5" id="" />
-                <p className="text-[16px]">
+                <input
+                  type="checkbox"
+                  name=""
+                  className=" flex-shrink-0 h-5 w-5"
+                  id=""
+                />
+                <p className="text-[16px] font-medium">
                   Teachers can connect with guardians remotely
                 </p>
               </article>
               <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5  rounded-md hover:bg-[#e37400] hover:text-white">
-                <input type="checkbox" name="" className=" h-5 w-5" id="" />
-                <p className="text-[16px]">
+                <input
+                  type="checkbox"
+                  name=""
+                  className="flex-shrink-0 h-5 w-5"
+                  id=""
+                />
+                <p className="text-[16px] font-medium">
                   Students can be taught in different locations
                 </p>
               </article>
@@ -54,10 +69,10 @@ const GoogleMeetFooter = () => {
 
             {/* bUTtONS */}
             <div className="grid grid-cols-2 gap-2">
-              <button className="bg-white py-2 table-container1 border border-black">
+              <button className="bg-white py-2 table-container1 border border-black font-medium">
                 Submit
               </button>
-              <button className="bg-white py-2 table-container1 border border-black">
+              <button className="bg-white py-2 table-container1 border border-black font-medium">
                 Show Feedback
               </button>
             </div>
