@@ -14,7 +14,10 @@ const UploadMaterial = () => {
   return (
     <div>
       {/* first section */}
-      <div className="sm:pt-20 pt-12 bg-[#F9F9FA] sm:pb-16 pb-12 shadow-top-bottom-inner">
+      <div
+        id="UploadMaterial"
+        className="sm:pt-20 pt-12 bg-[#F9F9FA] sm:pb-16 pb-12 shadow-top-bottom-inner"
+      >
         {/* first section */}
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-2">
@@ -107,7 +110,10 @@ const UploadMaterial = () => {
       </div>
 
       {/* second section =====> */}
-      <div className="sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#FFFFFF]">
+      <div
+        id="OrganizeItems"
+        className="sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#FFFFFF]"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4">
           <h1 className="text1 leading-[2.4rem]">
             Organize your items in Google Drive
@@ -146,10 +152,7 @@ const UploadMaterial = () => {
       </div>
 
       {/* THIrd section iMAGE ====> */}
-      {/* <div className="bg-[url('./assets/google_drive_items.png')] h-[120px] w-full bg-center bg-cover "></div> */}
-      <div>
-        <img src="./assets/google_drive_items.png" className="" alt="" />
-      </div>
+      <div className="bg-[url('./assets/google_drive_items.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
     </div>
   );
 };

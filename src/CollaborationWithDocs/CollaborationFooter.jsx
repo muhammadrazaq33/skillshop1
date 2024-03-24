@@ -27,7 +27,7 @@ const CollaborationFooter = () => {
                   name=""
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   You can use it as a tool in the classroom for your students to
                   collaborate together.
                 </p>
@@ -39,7 +39,7 @@ const CollaborationFooter = () => {
                   className="flex-shrink-0 h-5 w-5"
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   You can use it for gathering feedback.
                 </p>
               </article>
@@ -50,7 +50,7 @@ const CollaborationFooter = () => {
                   className=" flex-shrink-0 h-5 w-5"
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   You can use it to collaborate on a single document as a group.
                 </p>
               </article>
@@ -61,7 +61,7 @@ const CollaborationFooter = () => {
                   className="flex-shrink-0 h-5 w-5"
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   You can use it to save multiple versions.
                 </p>
               </article>
@@ -69,10 +69,10 @@ const CollaborationFooter = () => {
 
             {/* bUTtONS */}
             <div className="grid grid-cols-2 gap-2">
-              <button className="bg-white py-2 table-container1 border border-black">
+              <button className="bg-white py-2 table-container1 border border-black font-medium">
                 Submit
               </button>
-              <button className="bg-white py-2 table-container1 border border-black">
+              <button className="bg-white py-2 table-container1 border border-black font-medium">
                 Show Feedback
               </button>
             </div>

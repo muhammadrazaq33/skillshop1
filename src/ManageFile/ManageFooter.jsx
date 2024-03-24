@@ -26,7 +26,7 @@ const ManageFooter = () => {
                   name=""
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   You can change Google Drive settings as long as you are using
                   the device you created original file on.
                 </p>
@@ -38,7 +38,7 @@ const ManageFooter = () => {
                   className="flex-shrink-0 h-5 w-5"
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   You can change Google Drive settings across all devices.
                 </p>
               </article>
@@ -49,7 +49,7 @@ const ManageFooter = () => {
                   className=" flex-shrink-0 h-5 w-5"
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   You can only change Google Drive settings from your computer
                   and not with a mobile device.
                 </p>
@@ -61,7 +61,7 @@ const ManageFooter = () => {
                   className="flex-shrink-0 h-5 w-5"
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   Google settings are fixed based on which app you're using
                 </p>
               </article>
@@ -69,10 +69,10 @@ const ManageFooter = () => {
 
             {/* bUTtONS */}
             <div className="grid grid-cols-2 gap-2">
-              <button className="bg-white py-2 table-container1 border border-black">
+              <button className="bg-white py-2 table-container1 border border-black font-medium">
                 Submit
               </button>
-              <button className="bg-white py-2 table-container1 border border-black">
+              <button className="bg-white py-2 table-container1 border border-black font-medium">
                 Show Feedback
               </button>
             </div>

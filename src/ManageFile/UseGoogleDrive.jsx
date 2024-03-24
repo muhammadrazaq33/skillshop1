@@ -160,7 +160,10 @@ const UseGoogleDrive = () => {
 
       {/* fouRTh SECTION */}
       {/* cOnVEr Your fIleS  */}
-      <div className=" bg-[#F9F9FA] pt-12 sm:pt-20 top-shadow sm:pb-16 pb-12">
+      <div
+        id="google"
+        className=" bg-[#F9F9FA] pt-12 sm:pt-20 top-shadow sm:pb-16 pb-12"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4">
           <h1 className="text1 leading-[2.4rem] mb-3">Convert your files</h1>
           <p>
@@ -193,7 +196,7 @@ const UseGoogleDrive = () => {
 
       {/* IMage SeCtiON */}
       <div className="">
-        <img src="./assets/google_drive_items1.png" alt="" />
+        <div className="bg-[url('./assets/google_drive_items1.png')] bg-center bg-no-repeat bg-cover h-[70px] sm:h-[110px] md:h-[120px]"></div>
       </div>
 
       {/* fifth section */}
@@ -295,9 +298,7 @@ const UseGoogleDrive = () => {
       </div>
 
       {/* IMAGE SECTION */}
-      <div className="">
-        <img src="./assets/google_item2.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/google_item2.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* lEt's looK AT a scenARIO */}
       {/* sEventh SectIon */}
@@ -423,9 +424,7 @@ const UseGoogleDrive = () => {
       </div>
 
       {/* image SEctION */}
-      <div>
-        <img src="./assets/img1.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/img1.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
     </div>
   );
 };

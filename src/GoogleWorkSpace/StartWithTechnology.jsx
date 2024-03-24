@@ -10,7 +10,10 @@ const StartWithTechnology = () => {
 
   return (
     <>
-      <div className="mt-[1rem] sm:pt-24 pt-12 sm:pb-16 pb-12 shadow-xl">
+      <div
+        id="technology"
+        className="mt-[1rem] sm:pt-24 pt-12 sm:pb-16 pb-12 shadow-xl"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           {/* first duv */}
           <div className="flex flex-col gap-3">
@@ -207,8 +210,10 @@ const StartWithTechnology = () => {
           </div>
         </div>
       </div>
-      <div>
-        <img src="./assets/awards.png" className="w-full" alt="" />
+
+      {/* IMage SeCtiON */}
+      <div className="">
+        <div className="bg-[url('./assets/awards.png')] bg-center bg-no-repeat bg-cover h-[70px] sm:h-[110px] md:h-[120px]"></div>
       </div>
     </>
   );

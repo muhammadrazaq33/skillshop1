@@ -63,7 +63,7 @@ const OrganizeSections = () => {
             {/* right side */}
             <div className="flex flex-col gap-4">
               <h1 className="text">Tools you'll use</h1>
-              <div className="flex items-center justify-start gap-5 bg-white rounded-[60px] py-3 px-12 border-[2.5px] m-auto w-full">
+              <div className="flex items-center justify-start gap-5 bg-white rounded-[60px] py-3 px-12 border-[2.5px] w-full">
                 <img
                   src="./assets/gmail.png"
                   className="w-[3.2rem] h-[3.2rem]"

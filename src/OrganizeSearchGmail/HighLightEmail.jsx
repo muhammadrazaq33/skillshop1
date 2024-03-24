@@ -137,13 +137,9 @@ const HighLightEmail = () => {
           </div>
         </div>
       </div>
-
       {/* IMaGE SeCtIon */}
-      <div>
-        <img src="./assets/gmail4.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/gmail4.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
       {/* END oF imAge SecTION */}
-
       {/* SeCONd SeCtioN  */}
       {/* try It out */}
       <div className="pt-16 pb-12">
@@ -176,7 +172,6 @@ const HighLightEmail = () => {
         </div>
       </div>
       {/* end OF secONd sEction */}
-
       {/* thIRD sceTION */}
       {/* Star important messages */}
       <div className="sm:pb-16 pb-12 sm:pt-20 pt-12 bg-[#F9F9FA] top-shadow">
@@ -193,13 +188,9 @@ const HighLightEmail = () => {
         </div>
       </div>
       {/* eND of ThirD sEcTIOn */}
-
       {/* /IMAGE sEctIOn */}
-      <div>
-        <img src="./assets/gmail7.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/gmail7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
       {/* /EnD OF IMAGE sEctIOn */}
-
       {/* FourtH secTIOn  */}
       {/* Try it out */}
       <div className="sm:pb-16 pb-12 sm:pt-20 pt-12">
@@ -232,7 +223,6 @@ const HighLightEmail = () => {
           </div>
         </div>
       </div>
-
       {/* MOdels */}
       {open && (
         <div className="fixed inset-0 z-10 p-5 bg-[#272727B8] flex justify-center items-center">
@@ -283,7 +273,6 @@ const HighLightEmail = () => {
         </div>
       )}
       {/*eND oF MOdels */}
-
       {/*FiFTH sceTION */}
       {/* Search your inbox */}
       <div className="sm:pb-16 pb-12 sm:pt-20 pt-12 bg-[#F9F9FA] top-shadow">
@@ -307,13 +296,9 @@ const HighLightEmail = () => {
         </div>
       </div>
       {/* eND of fiftH sEcTIOn */}
-
       {/* /IMAGE sEctIOn */}
-      <div>
-        <img src="./assets/gmail7.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/gmail7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
       {/* /EnD OF IMAGE sEctIOn */}
-
       {/* SiXth SeCtioN  */}
       {/* try It out */}
       <div className="sm:pb-16 pb-12 sm:pt-20 pt-12">
@@ -352,12 +337,8 @@ const HighLightEmail = () => {
         </div>
       </div>
       {/* eND oF sIxth SECtiOn */}
-
       {/* IMAGE SeCTIOn */}
-      <div>
-        <img src="./assets/gmail10.png" alt="" />
-      </div>
-
+      <div className="bg-[url('./assets/gmail10.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
       {/* SeveNTH seCTIon */}
       <div className="sm:pt-20 pt-16 pb-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-2">

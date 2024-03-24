@@ -47,9 +47,7 @@ const ShareDocuments = () => {
       </div>
 
       {/* IMAge secTion */}
-      <div>
-        <img src="./assets/Col2.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/Col2.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* Let's look at a scenario */}
       {/* secOnd SEctrIOn */}

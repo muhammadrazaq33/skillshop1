@@ -22,32 +22,53 @@ const ConsolidateFooter = () => {
               <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5 rounded-md hover:bg-[#e37400] hover:text-white">
                 <input
                   type="checkbox"
-                  className="form-checkbox border-2 border-red-400  h-5 w-5"
+                  className="form-checkbox border-2 flex-shrink-0 border-red-400  h-5 w-5"
                   name=""
                   id=""
                 />
-                <p className="text-[16px]">Selecting a color coding system</p>
+                <p className="text-[16px] font-medium">
+                  Selecting a color coding system
+                </p>
               </article>
               <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5  rounded-md hover:bg-[#e37400] hover:text-white">
-                <input type="checkbox" name="" className=" h-5 w-5" id="" />
-                <p className="text-[16px]">Listing it in a Sheet</p>
+                <input
+                  type="checkbox"
+                  name=""
+                  className="flex-shrink-0 h-5 w-5"
+                  id=""
+                />
+                <p className="text-[16px] font-medium">Listing it in a Sheet</p>
               </article>
               <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5  rounded-md hover:bg-[#e37400] hover:text-white">
-                <input type="checkbox" name="" className=" h-5 w-5" id="" />
-                <p className="text-[16px]">Use the search function</p>
+                <input
+                  type="checkbox"
+                  name=""
+                  className="flex-shrink-0 h-5 w-5"
+                  id=""
+                />
+                <p className="text-[16px] font-medium">
+                  Use the search function
+                </p>
               </article>
               <article className="flex items-center gap-4 border-[#e37400] border-[2px] py-4 px-5  rounded-md hover:bg-[#e37400] hover:text-white">
-                <input type="checkbox" name="" className=" h-5 w-5" id="" />
-                <p className="text-[16px]">Renaming folders based on subject</p>
+                <input
+                  type="checkbox"
+                  name=""
+                  className="flex-shrink-0 h-5 w-5"
+                  id=""
+                />
+                <p className="text-[16px] font-medium">
+                  Renaming folders based on subject
+                </p>
               </article>
             </div>
 
             {/* bUTtONS */}
             <div className="grid grid-cols-2 gap-2">
-              <button className="bg-white py-2 table-container1 border border-black">
+              <button className="bg-white py-2 table-container1 border border-black font-medium">
                 Submit
               </button>
-              <button className="bg-white py-2 table-container1 border border-black">
+              <button className="bg-white py-2 table-container1 border border-black font-medium">
                 Show Feedback
               </button>
             </div>

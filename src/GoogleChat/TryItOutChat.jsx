@@ -141,9 +141,7 @@ const TryItOutChat = () => {
       {/* ENd Of SecOn sEction */}
 
       {/* ImagE SEcTIOn */}
-      <div>
-        <img src="./assets/chat11.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/chat11.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* try It out */}
       {/* tHIRd SEction */}
@@ -175,9 +173,7 @@ const TryItOutChat = () => {
       {/*eNd Of  tHIRd SEction */}
 
       {/* IMaGE SECTION */}
-      <div>
-        <img src="./assets/chat13.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/chat13.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* foUrth seCTioN */}
       {/* Success stories */}
@@ -213,9 +209,7 @@ const TryItOutChat = () => {
       {/*end of foUrth seCTioN */}
 
       {/* IMaGE SECTION */}
-      <div>
-        <img src="./assets/chat17.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/chat17.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* fifTh seCTiOn */}
       <div className="sm:pt-20 pt-12 sm:pb-16 pb-12">

@@ -151,9 +151,7 @@ const GoogleChatSection = () => {
       {/* eND of ThirD sEcTIOn */}
 
       {/* IMAgE sECTioN */}
-      <div>
-        <img src="./assets/chat5.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/chat5.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* try iT out ===> */}
       {/* fOURtH SEcTIOn */}
@@ -213,9 +211,7 @@ const GoogleChatSection = () => {
       {/* END of fiFTH SEctION */}
 
       {/* IMAgE secTioN */}
-      <div>
-        <img src="./assets/chat7.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/chat7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* sIxtH SectION */}
       <div className="sm:pt-16 pt-12">
@@ -355,9 +351,7 @@ const GoogleChatSection = () => {
       {/* ENd oF SEveNtH SEctIoN */}
 
       {/* iMage SeCtiOn */}
-      <div>
-        <img src="./assets/chat5.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/chat5.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
     </div>
   );
 };

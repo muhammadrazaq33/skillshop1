@@ -88,7 +88,10 @@ const SuccessStories = () => {
       </div>
 
       {/* section section */}
-      <div className="shadow-inner-large sm:pt-20 pt-12 sm:pb-16 pb-12">
+      <div
+        id="textbook"
+        className="shadow-inner-large sm:pt-20 pt-12 sm:pb-16 pb-12"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4 ">
           <div className="flex flex-col gap-3">
             <h3 className="text1">Think beyond the textbook</h3>
@@ -167,7 +170,10 @@ const SuccessStories = () => {
       </div>
 
       {/* third section */}
-      <div className=" border-[4px] shadow-xl sm:pt-20 pt-12 sm:pb-16 pb-12">
+      <div
+        id="safe"
+        className=" border-[4px] shadow-xl sm:pt-20 pt-12 sm:pb-16 pb-12"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto">
           <div className="flex flex-col gap-5">
             <h1 className="text1">Create safe, responsible digital citizens</h1>
@@ -228,7 +234,10 @@ const SuccessStories = () => {
       </div>
 
       {/* fourth section  */}
-      <div className="shadow-inner-large bg-[#F9F9FA] sm:pt-20 pt-12 sm:pb-16 pb-12">
+      <div
+        id="learningnetwork"
+        className="shadow-inner-large bg-[#F9F9FA] sm:pt-20 pt-12 sm:pb-16 pb-12"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto">
           <div className="flex flex-col gap-4">
             {/* text */}
@@ -268,7 +277,7 @@ const SuccessStories = () => {
       </div>
 
       {/* fifth section */}
-      <div className="shadow-xl sm:pt-20 pt-12 sm:pb-16 pb-12">
+      <div id="tools" className="shadow-xl sm:pt-20 pt-12 sm:pb-16 pb-12">
         <div className="flex flex-col gap-3 max-w-[960px] w-[92vw] m-auto">
           <h1 className="text1">Tools for the Classroom</h1>
           <p>

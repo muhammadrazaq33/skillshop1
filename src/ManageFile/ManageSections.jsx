@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const ManageSections = () => {
   return (
@@ -14,14 +14,14 @@ const ManageSections = () => {
             <div className="pl-4">
               <ul className="activitysection__list courselist">
                 <li className="activitysection__item courselist__item">
-                  <NavLink className="double_click_protection">
+                  <a href="#google" className="smo double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
                       <h3 className="sm:text-[22px] text-[11.8px]activitysection__itemname">
-                        Use Google Drive to create a document
+                        Use Google Drive to create a document{" "}
                       </h3>
                     </div>
-                  </NavLink>{" "}
+                  </a>{" "}
                 </li>
                 <li className="activitysection__item courselist__item">
                   <NavLink className="double_click_protection">
@@ -79,15 +79,21 @@ const ManageSections = () => {
         <h1 className="text">By the end of the lesson, you’ll be able to:</h1>
 
         {/* cards ======> */}
-        <div className="">
-          <div className="flex justify-center items-center">
-            <article className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 col-span-1">
+        <div className="flex justify-center items-center">
+          <div className="flex flex-wrap  item-center justify-center gap-3 sm:w-[80%] w-[100%]">
+            <article className="bg-[#E6E7E9] flex flex-col items-center py-4 rounded-lg gap-y-5 px-4 w-[18rem]  ">
               <img src="./assets/Star.png" alt="" />
               <p className="text-center">
                 Demonstrate how to update documents in Google Drive
               </p>
             </article>
-            <article className="bg-[#E6E7E9] flex flex-col items-center m-auto py-4 rounded-lg gap-y-5 px-4 col-span-1">
+            <article className="bg-[#E6E7E9] flex flex-col items-center  py-4 rounded-lg gap-y-5 px-4 w-[18rem] ">
+              <img src="./assets/doublestar.png" alt="" />
+              <p className="text-center">
+                Use Google Drive to create documents
+              </p>
+            </article>
+            <article className="bg-[#E6E7E9] flex flex-col items-center  py-4 rounded-lg gap-y-5 px-4 w-[18rem] ">
               <img src="./assets/doublestar.png" alt="" />
               <p className="text-center">
                 Use Google Drive to create documents

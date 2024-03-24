@@ -14,34 +14,34 @@ const ConsolidateSections = () => {
             <div className="pl-4">
               <ul className="activitysection__list courselist">
                 <li className="activitysection__item courselist__item">
-                  <NavLink className="double_click_protection">
+                  <a href="#startDrive" className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
                       <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname ">
                         Get started Google Drive
                       </h3>
                     </div>
-                  </NavLink>{" "}
+                  </a>{" "}
                 </li>
                 <li className="activitysection__item courselist__item">
-                  <NavLink className="double_click_protection">
+                  <a href="#UploadMaterial" className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
                       <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                         Upload your materials
                       </h3>
                     </div>
-                  </NavLink>
+                  </a>
                 </li>
                 <li className="activitysection__item courselist__item">
-                  <NavLink className="double_click_protection">
+                  <a href="#OrganizeItems" className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
                       <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                         Organize your items in Drive
                       </h3>
                     </div>
-                  </NavLink>{" "}
+                  </a>{" "}
                 </li>
               </ul>
             </div>

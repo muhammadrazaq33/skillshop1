@@ -28,7 +28,7 @@ const GoogleChatFooter = () => {
                   name=""
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   Collaboration in real time with instant messaging
                 </p>
               </article>
@@ -39,7 +39,7 @@ const GoogleChatFooter = () => {
                   className="flex-shrink-0 h-5 w-5"
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   Communicate with up to 100 people in a text chat
                 </p>
               </article>
@@ -50,7 +50,7 @@ const GoogleChatFooter = () => {
                   className="flex-shrink-0 h-5 w-5"
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   You can mute chat notifications out of office hours
                 </p>
               </article>
@@ -61,7 +61,7 @@ const GoogleChatFooter = () => {
                   className="flex-shrink-0 h-5 w-5"
                   id=""
                 />
-                <p className="text-[16px]">
+                <p className="text-[16px] font-medium">
                   Communicate with up to 400 people in a text chat
                 </p>
               </article>
@@ -69,10 +69,10 @@ const GoogleChatFooter = () => {
 
             {/* bUTtONS */}
             <div className="grid grid-cols-2 gap-2">
-              <button className="bg-white py-2 table-container1 border border-black">
+              <button className="bg-white py-2 table-container1 border border-black font-medium">
                 Submit
               </button>
-              <button className="bg-white py-2 table-container1 border border-black">
+              <button className="bg-white py-2 table-container1 border border-black font-medium">
                 Show Feedback
               </button>
             </div>
