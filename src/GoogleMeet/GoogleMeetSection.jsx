@@ -27,54 +27,60 @@ const GoogleMeetSection = () => {
               <div className="pl-4">
                 <ul className="activitysection__list courselist">
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#StartMeeting" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline ">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Start a meeting from Gmail
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#ScheduleMeeting"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Schedule a video meeting from Google Calender
                         </h3>
                       </div>
-                    </NavLink>
+                    </a>
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#ShareScreen" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Share your screen in a meeting
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#RaiseHand" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Raise your hand in a meeting
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#TrackAttendance"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Track Attendance in Google Meet
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                 </ul>
               </div>
@@ -165,7 +171,10 @@ const GoogleMeetSection = () => {
 
       {/* third SeCtiON */}
       {/* Start a meeting from Gmail */}
-      <div className="bg-[#F9F9FA] top-shadow sm:pb-16 pb-12 md:pt-20 pt-16">
+      <div
+        id="StartMeeting"
+        className="bg-[#F9F9FA] top-shadow sm:pb-16 pb-12 md:pt-20 pt-16"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem]">
@@ -246,7 +255,10 @@ const GoogleMeetSection = () => {
 
       {/* fOuRtH sEctiON */}
       {/* Schedule a video meeting from Google Calendar */}
-      <div className=" sm:pt-20 pt-16 pb-16 bg-[#F9F9FA] top-shadow">
+      <div
+        id="ScheduleMeeting"
+        className=" sm:pt-20 pt-16 pb-16 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text1 leading-[2.4rem]">
             Schedule a video meeting from Google Calendar
@@ -346,7 +358,10 @@ const GoogleMeetSection = () => {
 
       {/* sIXTH sEctiON */}
       {/* Share your screen in a meeting */}
-      <div className=" sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#F9F9FA] top-shadow">
+      <div
+        id="ShareScreen"
+        className=" sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text1 leading-[2.4rem]">
             Share your screen in a meeting
@@ -416,7 +431,10 @@ const GoogleMeetSection = () => {
 
       {/* eiGTH sEctiON */}
       {/* Raise your hand in a meeting */}
-      <div className=" sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#F9F9FA] top-shadow">
+      <div
+        id="RaiseHand"
+        className=" sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text1 leading-[2.4rem]">
             Raise your hand in a meeting
@@ -469,7 +487,10 @@ const GoogleMeetSection = () => {
 
       {/* TENTH sEctiON */}
       {/* Track attendance in Google Meet */}
-      <div className=" sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#F9F9FA] top-shadow">
+      <div
+        id="TrackAttendance"
+        className=" sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text1 leading-[2.4rem]">
             Track attendance in Google Meet

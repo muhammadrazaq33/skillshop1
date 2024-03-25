@@ -15,7 +15,10 @@ const HighLightEmail = () => {
     <div className="">
       {/* Highlight important emails */}
       {/* firSt SEction */}
-      <div className="bg-[#F9F9FA] top-shadow sm:pb-16 pb-12 sm:pt-20 pt-12">
+      <div
+        id="HighlightEmail"
+        className="bg-[#F9F9FA] top-shadow sm:pb-16 pb-12 sm:pt-20 pt-12"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-4 mb-4">
             <h1 className="text1 leading-[2.4rem] mb-3">
@@ -174,7 +177,10 @@ const HighLightEmail = () => {
       {/* end OF secONd sEction */}
       {/* thIRD sceTION */}
       {/* Star important messages */}
-      <div className="sm:pb-16 pb-12 sm:pt-20 pt-12 bg-[#F9F9FA] top-shadow">
+      <div
+        id="StarMessage"
+        className="sm:pb-16 pb-12 sm:pt-20 pt-12 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text1 leading-[2.4rem]">Star important messages</h1>
           <p>
@@ -275,7 +281,10 @@ const HighLightEmail = () => {
       {/*eND oF MOdels */}
       {/*FiFTH sceTION */}
       {/* Search your inbox */}
-      <div className="sm:pb-16 pb-12 sm:pt-20 pt-12 bg-[#F9F9FA] top-shadow">
+      <div
+        id="SearchInbox"
+        className="sm:pb-16 pb-12 sm:pt-20 pt-12 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text1 leading-[2.4rem]">Search your inbox</h1>
           <p>

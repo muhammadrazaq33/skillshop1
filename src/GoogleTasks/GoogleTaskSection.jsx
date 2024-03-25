@@ -28,7 +28,7 @@ const GoogleTaskSection = () => {
                     <NavLink className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline ">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname ">
                           Create to-do lists in Google Tasks
                         </h3>
                       </div>
@@ -38,7 +38,7 @@ const GoogleTaskSection = () => {
                     <NavLink className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Integrate lists in Google Tasks with Google Calender
                         </h3>
                       </div>
@@ -48,7 +48,7 @@ const GoogleTaskSection = () => {
                     <NavLink className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Create multi-functional notes in Google Keep
                         </h3>
                       </div>
@@ -58,7 +58,7 @@ const GoogleTaskSection = () => {
                     <NavLink className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Add a reminder to a note
                         </h3>
                       </div>
@@ -68,7 +68,7 @@ const GoogleTaskSection = () => {
                     <NavLink className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Add an image to a note
                         </h3>
                       </div>
@@ -78,7 +78,7 @@ const GoogleTaskSection = () => {
                     <NavLink className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Collaborate in Keep
                         </h3>
                       </div>

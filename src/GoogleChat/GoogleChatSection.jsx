@@ -22,44 +22,47 @@ const GoogleChatSection = () => {
               <div className="pl-4">
                 <ul className="activitysection__list courselist">
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#GoogleChat" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
                         <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Communicate with Google Chat
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#CreateChat" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
                         <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Create and name group Chats
                         </h3>
                       </div>
-                    </NavLink>
+                    </a>
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#Chatnotification"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
                         <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Chat notifications
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#ChatHistory" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
                         <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Manage/delete your chat history
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                 </ul>
               </div>
@@ -132,7 +135,10 @@ const GoogleChatSection = () => {
 
       {/* thIRD sceTION */}
       {/* Communicate with Google Groups */}
-      <div className="sm:pt-20 pt-16 pb-16 bg-[#F9F9FA] top-shadow">
+      <div
+        id="GoogleChat"
+        className="sm:pt-20 pt-16 pb-16 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text1 leading-[2.4rem]">
             Communicate with Google Groups
@@ -194,7 +200,11 @@ const GoogleChatSection = () => {
       {/* End of fourtH sEcTiON */}
 
       {/* fiFTH SEctION */}
-      <div className="sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#FFFFFF]">
+      {/* Create and name group chats */}
+      <div
+        id="CreateChat"
+        className="sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#FFFFFF]"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text1 leading-[2.4rem]">
             Create and name group chats
@@ -336,7 +346,10 @@ const GoogleChatSection = () => {
 
       {/* SEveNTH section  */}
       {/* Chat notifications */}
-      <div className="sm:pt-20 pt-16 pb-16 bg-[#F9F9FA] top-shadow">
+      <div
+        id="Chatnotification"
+        className="sm:pt-20 pt-16 pb-16 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text1">Chat notifications</h1>
           <p>

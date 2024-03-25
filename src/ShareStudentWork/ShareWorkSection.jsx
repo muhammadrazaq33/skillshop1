@@ -31,64 +31,64 @@ const ShareWorkSection = () => {
               <div className="pl-4">
                 <ul className="activitysection__list courselist">
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#CreateSite" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline ">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Creating a site in Google Sites
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#nameSite" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Name your site
                         </h3>
                       </div>
-                    </NavLink>
+                    </a>
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#CreatePage" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Create pages within a site
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#AddResources" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Add text, images and resources
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#Preview" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Preview and publish
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#InviteOthers" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Invite others to edit your site
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                 </ul>
               </div>
@@ -138,7 +138,7 @@ const ShareWorkSection = () => {
 
       {/* SEcOnD SecTion  */}
       {/* Creating a site in Google Sites */}
-      <div className="sm:pt-16 pt-12 sm:pb-16 pb-12">
+      <div id="CreateSite" className="sm:pt-16 pt-12 sm:pb-16 pb-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
           <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem]">
@@ -297,8 +297,11 @@ const ShareWorkSection = () => {
       {/* END of ThirD seCTIoN */}
 
       {/* FoURTh SECtIOn */}
-      {/*  */}
-      <div className="sm:pb-16 pb-12 shadow-top-bottom-inner  bg-[#F9F9FA] sm:pt-20 pt-12">
+      {/* Name your site */}
+      <div
+        id="nameSite"
+        className="sm:pb-16 pb-12 shadow-top-bottom-inner  bg-[#F9F9FA] sm:pt-20 pt-12"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col sm:gap-5 gap-2">
           <h1 className="text1 leading-[2.4rem]">Name your site</h1>
           <p>Next, update the site document name, site name, and page title.</p>
@@ -502,7 +505,11 @@ const ShareWorkSection = () => {
       {/*ENd of FoURTh SECtIOn */}
 
       {/* sIXTH sEctiON */}
-      <div className="sm:pt-20 pt-16 pb-16 bg-[#F9F9FA] top-shadow">
+      {/* CreatePage */}
+      <div
+        id="CreatePage"
+        className="sm:pt-20 pt-16 pb-16 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text1 leading-[2.4rem]">Create pages within a site</h1>
           <p>
@@ -523,7 +530,10 @@ const ShareWorkSection = () => {
 
       {/* SeVEnTh sEctiON */}
       {/* Add text, images, and resources */}
-      <div className=" sm:pt-20 pt-16 pb-16 bg-[#F9F9FA] top-shadow">
+      <div
+        id="AddResources"
+        className=" sm:pt-20 pt-16 pb-16 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text1 leading-[2.4rem]">
             Add text, images, and resources
@@ -593,7 +603,10 @@ const ShareWorkSection = () => {
 
       {/* ninth sEctiON */}
       {/* Preview and publish */}
-      <div className=" sm:pt-20 pt-16 pb-16 bg-[#F9F9FA] top-shadow">
+      <div
+        id="Preview"
+        className=" sm:pt-20 pt-16 pb-16 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text1 leading-[2.4rem]">Preview and publish</h1>
           <p>
@@ -729,7 +742,10 @@ const ShareWorkSection = () => {
 
       {/* ELEVenTh sEctiON */}
       {/* Invite others to edit your site */}
-      <div className=" sm:pt-20 pt-16 sm:pb-16 pb-12 bg-[#F9F9FA] top-shadow">
+      <div
+        id="InviteOthers"
+        className=" sm:pt-20 pt-16 sm:pb-16 pb-12 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text1 leading-[2.4rem]">
             Invite others to edit your site

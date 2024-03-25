@@ -24,34 +24,34 @@ const ManageSections = () => {
                   </a>{" "}
                 </li>
                 <li className="activitysection__item courselist__item">
-                  <NavLink className="double_click_protection">
+                  <a href="#shareFiles" className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
                       <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                         Shares files and folders
                       </h3>
                     </div>
-                  </NavLink>
+                  </a>
                 </li>
                 <li className="activitysection__item courselist__item">
-                  <NavLink className="double_click_protection">
+                  <a href="#ConvertFiles" className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
                       <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                         Convert your files
                       </h3>
                     </div>
-                  </NavLink>{" "}
+                  </a>{" "}
                 </li>
                 <li className="activitysection__item courselist__item">
-                  <NavLink className="double_click_protection">
+                  <a href="#Collaboration" className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
                       <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                         Collaborating on Drive
                       </h3>
                     </div>
-                  </NavLink>{" "}
+                  </a>{" "}
                 </li>
               </ul>
             </div>

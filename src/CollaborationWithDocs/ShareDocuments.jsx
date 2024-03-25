@@ -11,7 +11,10 @@ const ShareDocuments = () => {
     <div>
       {/* shArer YOUR LIve DOcuMENtS */}
       {/* FIRST seCTIOn */}
-      <div className="bg-[#F9F9FA] sm:pt-20 pt-12 sm:pb-16 pb-12">
+      <div
+        id="ShareDocuments"
+        className="bg-[#F9F9FA] sm:pt-20 pt-12 sm:pb-16 pb-12"
+      >
         <div className=" max-w-[960px] w-[92vw] m-auto">
           <div className="grid md:grid-cols-2 grid-cols-1 place-items-center gap-6">
             {/* TeXt */}

@@ -7,7 +7,10 @@ const PrioritizeEmail = () => {
     <div>
       {/* FIRst secTioN  */}
       {/* priritiZE eMAiLs */}
-      <div className="bg-[#F9F9FA] sm:pb-16 pb-12 sm:pt-20 pt-12 top-shadow">
+      <div
+        id="PrioritizeEmail"
+        className="bg-[#F9F9FA] sm:pb-16 pb-12 sm:pt-20 pt-12 top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto">
           <div className="flex flex-col gap-4">
             <h1 className="text1 leading-[2.4rem]">Prioritize your emails</h1>

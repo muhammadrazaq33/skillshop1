@@ -110,7 +110,10 @@ const UseGoogleDrive = () => {
       {/* END of modeL */}
 
       {/* ThirD SecTioN ======> */}
-      <div className="top-shadow sm:mt-[4rem] mt-[3rem] pt-12 sm:pt-20 sm:pb-16 pb-12 bg-[#F9F9FA]">
+      <div
+        id="shareFiles"
+        className="top-shadow sm:mt-[4rem] mt-[3rem] pt-12 sm:pt-20 sm:pb-16 pb-12 bg-[#F9F9FA]"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto ">
           {/* text */}
           <div className="flex flex-col gap-3">
@@ -161,7 +164,7 @@ const UseGoogleDrive = () => {
       {/* fouRTh SECTION */}
       {/* cOnVEr Your fIleS  */}
       <div
-        id="google"
+        id="ConvertFiles"
         className=" bg-[#F9F9FA] pt-12 sm:pt-20 top-shadow sm:pb-16 pb-12"
       >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4">
@@ -245,7 +248,10 @@ const UseGoogleDrive = () => {
 
       {/* sixtH sECTION  */}
       {/* coLLaBorAtING ON GOogle Drive ====> */}
-      <div className="bg-[#F9F9FA] pt-12 sm:pt-20 sm:pb-16 pb-12 top-shadow">
+      <div
+        id="Collaboration"
+        className="bg-[#F9F9FA] pt-12 sm:pt-20 sm:pb-16 pb-12 top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto">
           <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem]">Collaborating on Drive</h1>

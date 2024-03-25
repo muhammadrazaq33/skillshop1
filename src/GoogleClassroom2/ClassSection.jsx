@@ -141,21 +141,23 @@ const ClassSection = () => {
           </h1>
 
           {/* cards ======> */}
-          <div className="flex flex-wrap  justify-center gap-6">
-            <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
-              <img src="./assets/c3.png" alt="" />
-              <p className="text-center">Assign work to students</p>
-            </article>
-            <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
-              <img src="./assets/gc2.png" alt="" />
-              <p className="text-center">
-                Share folders and documents from Drive
-              </p>
-            </article>
-            <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
-              <img src="./assets/gc3.png" alt="" />
-              <p className="text-center">Collect student work</p>
-            </article>
+          <div className="flex justify-center">
+            <div className="flex flex-wrap  justify-center gap-6">
+              <article className="bg-[#E6E7E9] flex flex-col max-w-[18rem] w-full items-center py-4 rounded-lg gap-y-5 px-4  ">
+                <img src="./assets/c3.png" alt="" />
+                <p className="text-center">Assign work to students</p>
+              </article>
+              <article className="bg-[#E6E7E9] flex flex-col max-w-[18rem] w-full items-center py-4 rounded-lg gap-y-5 px-4">
+                <img src="./assets/gc2.png" alt="" />
+                <p className="text-center">
+                  Share folders and documents from Drive
+                </p>
+              </article>
+              <article className="bg-[#E6E7E9] flex flex-col max-w-[18rem] w-full items-center py-4 rounded-lg gap-y-5 px-4">
+                <img src="./assets/gc3.png" alt="" />
+                <p className="text-center">Collect student work</p>
+              </article>
+            </div>
           </div>
         </div>
       </div>
@@ -552,17 +554,17 @@ const ClassSection = () => {
           <div className="grid md:grid-cols-2 grid-cols-1 gap-10 mt-3">
             <article>
               <p className="example">For example, use:</p>
-              <p className="text-[18px] pl-4 mt-6 w-full">
+              <p className="sm:text-[18px] text-[15px] flex-wrap sm:pl-4 mt-6">
                 "https://docs.google.com/document/d/1xTOYv/
                 <strong>copy</strong>"
               </p>
             </article>
             <article>
               <p className="Instead">Instead of:</p>
-              <p className="text-[18px] pl-8 w-full">
-                <del>
+              <p className="sm:text-[18px] text-[15px] flex-wrap sm:pl-8">
+                <del className="">
                   "https://docs.google.com/document/d/1xTOYv/
-                  <strong>edit</strong> "
+                  <strong>edit</strong>"
                 </del>
               </p>
             </article>

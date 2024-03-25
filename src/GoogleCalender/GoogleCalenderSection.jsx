@@ -25,44 +25,53 @@ const GoogleCalenderSection = () => {
               <div className="pl-4">
                 <ul className="activitysection__list courselist">
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#CreateCalender"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline ">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname ">
                           Create customized calenders in Google Calender
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#ShareCalender"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Share a calender
                         </h3>
                       </div>
-                    </NavLink>
+                    </a>
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#AdditionalCalender"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Create additional calenders
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#SetReminder" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname hover:underline">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
                           Set reminders and notifications for calender events
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                 </ul>
               </div>
@@ -93,8 +102,8 @@ const GoogleCalenderSection = () => {
 
           {/* cards ======> */}
           <div className="">
-            <div className="md:flex items-center justify-center gap-5">
-              <article className="bg-[#E6E7E9] grid place-items-center max-w-[18rem] h-[7.5rem] py-4 rounded-lg px-4 ">
+            <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
+              <article className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 md:col-span-1 ">
                 <img
                   src="./assets/cal2.png"
                   className="w-[2.2rem] h-[2.2rem]"
@@ -102,19 +111,17 @@ const GoogleCalenderSection = () => {
                 />
                 <p className="">Create events in Google Calendar</p>
               </article>
-              <article className="bg-[#E6E7E9] grid place-items-center max-w-[18rem] h-[7.5rem] py-4 rounded-lg px-4 ">
+              <article className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 md:col-span-1">
                 <img
                   src="./assets/cal3.png"
                   className="w-[2.2rem] h-[2.2rem]"
                   alt=""
                 />
-                <p className="">
+                <p className="text-center">
                   Create customized calendars in Google Calendar
                 </p>
               </article>
-            </div>
-            <div className="md:flex items-center justify-center gap-5">
-              <article className="bg-[#E6E7E9] grid place-items-center max-w-[18rem] h-[7.5rem] py-4 rounded-lg px-4 ">
+              <article className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 md:col-span-1 ">
                 <img
                   src="./assets/cal4.png"
                   className="w-[2.2rem] h-[2.2rem]"
@@ -122,7 +129,9 @@ const GoogleCalenderSection = () => {
                 />
                 <p className="text-center">Manage multiple calendars</p>
               </article>
-              <article className="bg-[#E6E7E9] grid place-items-center max-w-[18rem] h-[7.5rem] py-4 rounded-lg px-4 w-auto ">
+              {/* fourth card */}
+              <div class="md:col-span-1 md:block hidden"></div>
+              <article className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 md:col-span-1 md:row-span-2 ">
                 <img
                   src="./assets/cal5.png"
                   className="w-[2.2rem] h-[2.2rem]"
@@ -140,7 +149,10 @@ const GoogleCalenderSection = () => {
 
       {/* SECOND SeCtiON */}
       {/* Create customized calendars in Google Calendar */}
-      <div className="bg-[#F9F9FA] top-shadow sm:pb-16 pb-12 md:pt-20 pt-16">
+      <div
+        id="CreateCalender"
+        className="bg-[#F9F9FA] top-shadow sm:pb-16 pb-12 md:pt-20 pt-16"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem]">
@@ -254,7 +266,10 @@ const GoogleCalenderSection = () => {
 
       {/* THIRD sEctiON */}
       {/* Share a calendar */}
-      <div className=" sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#F9F9FA] shadow-top-bottom-inner">
+      <div
+        id="ShareCalender"
+        className=" sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#F9F9FA] shadow-top-bottom-inner"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4">
           <h1 className="text1 leading-[2.4rem] mb-2">Share a calendar</h1>
           <p>
@@ -286,7 +301,10 @@ const GoogleCalenderSection = () => {
 
       {/* FOURTH sEctiON */}
       {/* Create additional calendars */}
-      <div className="bg-[#FFFFFF] sm:pt-20 pt-12 sm:pb-16 pb-12">
+      <div
+        id="AdditionalCalender"
+        className="bg-[#FFFFFF] sm:pt-20 pt-12 sm:pb-16 pb-12"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4">
           <h1 className="text1 leading-[2.4rem] mb-2">
             Create additional calendars
@@ -406,7 +424,10 @@ const GoogleCalenderSection = () => {
 
       {/* SIXTH sEctiON */}
       {/* Set reminders and notifications for calendar events */}
-      <div className="bg-[#FFFFFF] sm:pt-20 pt-12 sm:pb-16 pb-12">
+      <div
+        id="SetReminder"
+        className="bg-[#FFFFFF] sm:pt-20 pt-12 sm:pb-16 pb-12"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4">
           <h1 className="text1 leading-[2.4rem] mb-2">
             Set reminders and notifications for calendar events

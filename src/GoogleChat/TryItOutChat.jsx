@@ -96,7 +96,10 @@ const TryItOutChat = () => {
 
       {/* SEcoNd sectIoN */}
       {/* Manage/delete your chat history */}
-      <div className="sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#FFFFFF] top-shadow">
+      <div
+        id="ChatHistory"
+        className="sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#FFFFFF] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
           <h1 className="text1 leading-[2.4rem]">
             Manage/delete your chat history

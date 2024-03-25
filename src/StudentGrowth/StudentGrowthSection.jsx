@@ -110,12 +110,12 @@ const StudentGrowthSection = () => {
           </h1>
 
           {/* cards ======> */}
-          <div className="flex md:flex-row flex-col justify-center items-center  gap-6">
-            <article className="bg-[#E6E7E9] grid place-items-center max-w-[20rem] py-4 rounded-lg gap-y-5 px-4 ">
+          <div className="flex flex-wrap justify-center  gap-6">
+            <article className="bg-[#E6E7E9] grid place-items-center max-w-[18rem] py-4 rounded-lg gap-y-5 px-4  w-full">
               <img src="./assets/meet5.png" alt="" />
               <p className="text-center">Organize data in Google Sheets</p>
             </article>
-            <article className="bg-[#E6E7E9] grid place-items-center max-w-[20rem] py-4 rounded-lg gap-y-5 px-4">
+            <article className="bg-[#E6E7E9] grid place-items-center max-w-[18rem] py-4 rounded-lg gap-y-5 px-4 w-full">
               <img src="./assets/gc2.png" alt="" />
               <p className="text-center">
                 Identify methods for analyzing student data in Google Sheets
