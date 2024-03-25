@@ -66,7 +66,7 @@ const SuccessStories = () => {
           {/* cards */}
           <div className="flex flex-col gap-5">
             <h1 className="text">Success stories</h1>
-            <p>
+            <p className="paragraph">
               Let’s explore how the digital classroom helps teachers and
               students alike.
             </p>
@@ -78,7 +78,7 @@ const SuccessStories = () => {
                     {/* <div>{img}</div> */}
                     {/* {img} */}
                     <img src={img} alt="" />
-                    <p className="text-[16px] ">{text}</p>
+                    <p className="paragraph ">{text}</p>
                   </article>
                 );
               })}
@@ -95,7 +95,7 @@ const SuccessStories = () => {
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4 ">
           <div className="flex flex-col gap-3">
             <h3 className="text1">Think beyond the textbook</h3>
-            <p>
+            <p className="paragraph">
               A lot of classrooms have - and will continue to have - textbooks.
               They’re an important part of the classroom, and aren’t
               disappearing any time soon. But that doesn’t mean you can’t
@@ -104,36 +104,44 @@ const SuccessStories = () => {
             </p>
           </div>
 
-          <p>Explore the attributes of digital content and textbook content:</p>
+          <p className="paragraph">
+            Explore the attributes of digital content and textbook content:
+          </p>
 
           <div>
             <h5 className="text-[16px] font-bold">Digital Content:</h5>
             <div className="px-7">
               <div className="flex">
                 <li className=""></li>
-                <p>Information can be accessed by anyone, anywhere.</p>
+                <p className="paragraph">
+                  Information can be accessed by anyone, anywhere.
+                </p>
               </div>
               <div className="flex">
                 <li className=""></li>
-                <p>Information is continuously being updated.</p>
+                <p className="paragraph">
+                  Information is continuously being updated.
+                </p>
               </div>
               <div className="flex">
                 <li className=""></li>
-                <p>
+                <p className="paragraph">
                   Multiple sources are available to verify and challenge
                   information.
                 </p>
               </div>
               <div className="flex">
                 <li className=""></li>
-                <p>
+                <p className="paragraph">
                   Additional information can be found to support the primary
                   subject for a broader understanding.
                 </p>
               </div>
               <div className="flex">
                 <li className=""></li>
-                <p>Vast amount of information available on a given topic.</p>
+                <p className="paragraph">
+                  Vast amount of information available on a given topic.
+                </p>
               </div>
             </div>
           </div>
@@ -143,26 +151,34 @@ const SuccessStories = () => {
             <div className="px-7">
               <div className="flex">
                 <li className=""></li>
-                <p>A finite number of copies so students may need to share.</p>
+                <p className="paragraph">
+                  A finite number of copies so students may need to share.
+                </p>
               </div>
               <div className="flex">
                 <li className=""></li>
-                <p>Information can go out of date very quickly.</p>
+                <p className="paragraph">
+                  Information can go out of date very quickly.
+                </p>
               </div>
               <div className="flex">
                 <li className=""></li>
-                <p>
+                <p className="paragraph">
                   School policies can restrict the removal of school property
                   from the site.
                 </p>
               </div>
               <div className="flex">
                 <li className=""></li>
-                <p>Physical damage can make content unusable.</p>
+                <p className="paragraph">
+                  Physical damage can make content unusable.
+                </p>
               </div>
               <div className="flex">
                 <li className=""></li>
-                <p>Limited amount of information on a given topic.</p>
+                <p className="paragraph">
+                  Limited amount of information on a given topic.
+                </p>
               </div>
             </div>
           </div>
@@ -177,27 +193,27 @@ const SuccessStories = () => {
         <div className="max-w-[960px] w-[92vw] m-auto">
           <div className="flex flex-col gap-5">
             <h1 className="text1">Create safe, responsible digital citizens</h1>
-            <p>
+            <p className="paragraph">
               As teachers, we know the value of good citizenship in the
               classroom and school community. But today, students need to be
               good citizens in the digital world as well. Their digital behavior
               has a big impact on themselves and others, and what makes good or
               bad digital citizenship may not always be clear.
             </p>
-            <p>
+            <p className="paragraph">
               At the school level, policies and procedures and a defined digital
               citizenship curriculum can help guide you in the classroom. These
               help make students aware of what they should and shouldn’t be
               doing, with the goal of keeping themselves safe online.
             </p>
-            <p>
+            <p className="paragraph">
               Listen to the following teachers talk about how they address
               online safety, copyright and fair use, and online communications.
             </p>
           </div>
           {/* cards ========> */}
           <div className="mt-10 flex flex-col gap-6">
-            <p className="text-[16px] font-bold">
+            <p className="Bold">
               Click play to listen to each teacher. You can also open each
               transcript to read at your own pace.
             </p>
@@ -243,7 +259,7 @@ const SuccessStories = () => {
             {/* text */}
             <div className="flex flex-col gap-4">
               <h4 className="text1">Build your learning network</h4>
-              <p>
+              <p className="paragraph">
                 When you have a question about teaching, technology, or anything
                 related to education, you can ask your Personal Learning Network
                 (PLN). Someone, somewhere, will have ideas and resources for
@@ -255,7 +271,7 @@ const SuccessStories = () => {
 
             {/* cards ==========> */}
             <div className="flex flex-col gap-4">
-              <p>See what another educator said: </p>
+              <p className="paragraph">See what another educator said: </p>
 
               {/* cards */}
               <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-3 ">
@@ -266,7 +282,7 @@ const SuccessStories = () => {
                       {/* <div>{img}</div> */}
                       {/* {img} */}
                       <img src={img} alt="" />
-                      <p className="text-[16px] ">{text}</p>
+                      <p className="paragraph ">{text}</p>
                     </article>
                   );
                 })}
@@ -277,16 +293,19 @@ const SuccessStories = () => {
       </div>
 
       {/* fifth section */}
-      <div id="tools" className="shadow-xl sm:pt-20 pt-12 sm:pb-16 pb-12">
-        <div className="flex flex-col gap-3 max-w-[960px] w-[92vw] m-auto">
+      <div
+        id="tools"
+        className="bg-[white] shadow-xl sm:pt-20 pt-12 sm:pb-16 pb-12"
+      >
+        <div className="flex flex-col gap-5 max-w-[960px] w-[92vw] m-auto">
           <h1 className="text1">Tools for the Classroom</h1>
-          <p>
+          <p className="paragraph">
             Google Workspace for Education is a suite of applications that can
             help you increase opportunities for critical thinking,
             communication, collaboration, and creativity, all while supporting
             the learning objectives that you have for your students.{" "}
           </p>
-          <p>
+          <p className="paragraph">
             These tools are relevant, easy to use, and introduce students to new
             ways of learning. And they will help make your work more efficient
             by streamlining processes like how you organize and store your class
@@ -294,7 +313,7 @@ const SuccessStories = () => {
             important class updates, contact guardians, and schedule
             conferences.
           </p>
-          <p>
+          <p className="paragraph">
             Throughout this course, we'll introduce you to the basics of using
             Google Workspace for Education in your classroom through videos,
             examples, reflection points, and more. But before you get started,

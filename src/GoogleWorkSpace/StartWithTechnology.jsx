@@ -18,7 +18,7 @@ const StartWithTechnology = () => {
           {/* first duv */}
           <div className="flex flex-col gap-3">
             <h4 className="text1">Get started with technology</h4>
-            <p>
+            <p className="paragraph">
               As a teacher, you understand the importance of teaching academic
               subjects, like reading, writing, and math. But for students to be
               prepared for future careers and thrive in an ever-changing
@@ -133,7 +133,11 @@ const StartWithTechnology = () => {
 
             {/* paragraph  */}
             <div className="mt-4">
-              <p className={`${activeIndex === 0 ? "block" : "hidden"}  px-6`}>
+              <p
+                className={`${
+                  activeIndex === 0 ? "block" : "hidden"
+                }  px-6 #3c4043 paragraph`}
+              >
                 Integrating technology in your classroom better prepares
                 students to enter an increasingly connected and competitive
                 workforce. Studies show that students need digital skills to
@@ -161,7 +165,11 @@ const StartWithTechnology = () => {
                 ” and that 65% of today’s grade school students will be working
                 in a job that currently doesn’t exist.
               </p>
-              <p className={`${activeIndex === 1 ? "block" : "hidden"}  px-6`}>
+              <p
+                className={`${
+                  activeIndex === 1 ? "block" : "hidden"
+                }  px-6 paragraph`}
+              >
                 There are many digital tools that can help teachers streamline
                 daily processes and incorporate these critical skills into
                 students’ learning. For example, when working on group projects,
@@ -170,7 +178,11 @@ const StartWithTechnology = () => {
                 school hours. Technology can also lower printing and copier
                 costs with online resources and file storage like Google Drive.
               </p>
-              <p className={`${activeIndex === 2 ? "block" : "hidden"} px-6`}>
+              <p
+                className={`${
+                  activeIndex === 2 ? "block" : "hidden"
+                } px-6 paragraph`}
+              >
                 Students can gain access to different types of information from
                 a range of sources for enhanced problem-solving instead of
                 relying solely on prescriptive teaching methods that do not
@@ -186,7 +198,7 @@ const StartWithTechnology = () => {
           <div className="flex flex-col gap-4">
             <div>
               <h4 className="text">Benefits for teaching and learning</h4>
-              <p>
+              <p className="paragraph">
                 Throughout this course, you will identify several ways that
                 technology (and having digital skills) benefits teaching and
                 learning. To get started, this section explores three benefits
@@ -196,15 +208,19 @@ const StartWithTechnology = () => {
             <div className="px-7">
               <div className="flex">
                 <li></li>
-                <p>Extending the textbook content with digital access.</p>
+                <p className="paragraph">
+                  Extending the textbook content with digital access.
+                </p>
               </div>
               <div className="flex">
                 <li className=""></li>
-                <p>Creating good digital citizens.</p>
+                <p className="paragraph">Creating good digital citizens.</p>
               </div>
               <div className="flex">
                 <li className=""></li>
-                <p>Building a personal learning network.</p>
+                <p className="paragraph">
+                  Building a personal learning network.
+                </p>
               </div>
             </div>
           </div>

@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { FaMinus } from "react-icons/fa";
+import { FaPlus } from "react-icons/fa6";
+import { Collapse } from "react-collapse";
 
 const GoogleFormSection = () => {
+  const [display, setDisplay] = useState(false);
+
+  const toggle = () => {
+    if (display) {
+      setDisplay(false);
+    } else {
+      setDisplay(true);
+    }
+  };
   return (
     <div>
       {/* fiRSt sECtION */}
@@ -451,7 +463,7 @@ const GoogleFormSection = () => {
             <h1 className="text">Try it out</h1>
             <p>Create and share quizzes in Google Forms.</p>
           </div>
-
+          {/* first div */}
           <div className="grid md:grid-cols-2 grid-cols-1 gap-x-12 gap-y-4">
             <article className="flex flex-col gap-4">
               <p>
@@ -466,6 +478,39 @@ const GoogleFormSection = () => {
             <article className="flex flex-col gap-5">
               <img src="./assets/form18.png" alt="" />
             </article>
+          </div>
+          {/* second div faq */}
+          <div className="flex flex-col gap-5">
+            <p className="font-bold">Click below to expand each item.</p>
+            <div className="flex flex-col gap-6">
+              <article
+                onClick={toggle}
+                className={`flex items-center gap-6 px-6 py-5 rounded-md cursor-pointer bg-[#dadce0] ${
+                  display === true && "active2"
+                } hover:bg-[#1A73E8] duration-700 hover:text-white`}
+              >
+                {display ? (
+                  <FaMinus className="text-[2rem]" />
+                ) : (
+                  <FaPlus className="text-[2rem]" />
+                )}
+                <p className="text-[18px]">Try it out: solution</p>
+              </article>
+              <Collapse isOpened={display}>
+                <p className="text-[16px]">
+                  The teacher can use Google Forms to gather a variety of answer
+                  types from students. For the factual questions, the teacher
+                  can use multiple choice, checkboxes, or dropdown question
+                  types. To gather open-ended responses, the teacher can utilize
+                  paragraph style question types. The benefits of using a form
+                  in Google Forms is that all the responses are gathered in a
+                  single location, which makes reviewing students' answers much
+                  easier. For example, if most of the students knew the answer
+                  to question 1 but missed question 7, the teacher knows which
+                  topics to be reviewed in the first lecture on the topic.
+                </p>
+              </Collapse>
+            </div>
           </div>
         </div>
       </div>

@@ -5,8 +5,8 @@ const VideoSection = () => {
     <div className="sm:pt-20 pt-12 sm:pb-16 pb-12 shadow-xl">
       <div className="max-w-[960px] w-[92vw] m-auto">
         {/* text =====> */}
-        <div className="flex flex-col gap-3 text-[16px]">
-          <p>
+        <div className="flex flex-col gap-5 text-[16px] paragraph">
+          <p className="paragraph">
             As an educator, you are extremely skilled at balancing your teaching
             and learning workload.
           </p>

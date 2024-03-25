@@ -122,9 +122,7 @@ const TryItOut = () => {
       </div>
 
       {/*SECOND SECTION  image ===> */}
-      <div className="mt-[6rem]">
-        <img src="./assets/drive_items2.png" alt="" />
-      </div>
+      <div className="bg-[url('./assets/drive_items2.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* third section  =====> */}
       <div className="max-w-[960px] w-[92vw] m-auto mt-[5rem]">

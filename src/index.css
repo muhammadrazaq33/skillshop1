@@ -100,9 +100,9 @@ body {
   position: relative;
   display: block;
   flex-basis: 21px;
-  min-width: 21px;
-  height: 21px;
-  border: 2px solid black;
+  min-width: 22px;
+  height: 22px;
+  border: 3px solid #000000;
   border-radius: 50%;
   margin-right: 10px;
   color: #767676;
@@ -116,9 +116,9 @@ body {
   z-index: 1;
   top: 0;
   left: 10px;
-  width: 1px;
+  width: 3px;
   height: 100%;
-  background: black;
+  background: #000000;
 }
 
 .shadow-inner-large {
@@ -214,4 +214,28 @@ body {
 }
 html {
   scroll-behavior: smooth;
+}
+.active2 {
+  background-color: #1a73e8;
+  color: white;
+}
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+.section_links {
+  color: #000000;
+  /* color: #3c4043; */
+  font-weight: 400;
+}
+.paragraph {
+  color: #3c4043;
+  font-weight: 400;
+  line-height: 1.25;
+  font-size: 16px;
+}
+.Bold {
+  color: #5f6368;
+  font-size: 14px;
+  line-height: 1.25;
+  font-weight: 600;
 }

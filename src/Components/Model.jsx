@@ -18,7 +18,7 @@ const Model = ({ setShowModel, showModel, closeModel }) => {
         }`}
       >
         <GiBookmarklet className="text-[4rem] text-blue-500" />
-        <p className="text-[16px] ">
+        <p className="paragraph">
           “I’ve been looking at your digital footprint, and it looks like you
           stepped in something.” It’s something I heard that at a conference and
           it’s really stuck with me. My kids get a laugh out of it too, but you
@@ -45,7 +45,7 @@ const Model = ({ setShowModel, showModel, closeModel }) => {
         }`}
       >
         <GiBookmarklet className="text-[4rem] text-blue-500" />
-        <p className="text-[16px] ">
+        <p className="paragraph">
           Teaching my students about copyright and fair use is a challenge.
           Everything is so easily accessible on the Internet nowadays. I think
           sometimes the new process for doing a research project is
@@ -71,7 +71,7 @@ const Model = ({ setShowModel, showModel, closeModel }) => {
         }`}
       >
         <GiBookmarklet className="text-[4rem] text-blue-500" />
-        <p className="text-[16px] ">
+        <p className="paragraph ">
           We spend a lot of time training our students on how to be safe online,
           and having strong passwords is a great place to start. But it’s also
           important to make sure you don’t leave any information behind,

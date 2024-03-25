@@ -17,8 +17,8 @@ const Sections = () => {
                   <a href="#technology" className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
-                        Get start with technology
+                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
+                        Get started with technology
                       </h3>
                     </div>
                   </a>{" "}
@@ -27,7 +27,7 @@ const Sections = () => {
                   <a href="#textbook" className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                         Think beyond the textbook
                       </h3>
                     </div>
@@ -37,7 +37,7 @@ const Sections = () => {
                   <a href="#safe" className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                         Create safe, responsible digital citizens
                       </h3>
                     </div>
@@ -50,7 +50,7 @@ const Sections = () => {
                   >
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                         Build your learning network
                       </h3>
                     </div>
@@ -60,7 +60,7 @@ const Sections = () => {
                   <a href="#tools" className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                         Tools for the classroom
                       </h3>
                     </div>

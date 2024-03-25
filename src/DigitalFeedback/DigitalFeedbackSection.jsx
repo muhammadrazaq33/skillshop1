@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import SingleStep from "../Components/SingleStep";
 import { NavLink } from "react-router-dom";
 
 const DigitalFeedbackSection = () => {
   const [activeIndex, setActiveIndex] = useState(0); // State to track active paragraph index
   const [show, setShow] = useState(false);
+  const [open, setOpen] = useState(false);
 
   const toggle = () => {
     if (show) {
@@ -13,6 +15,12 @@ const DigitalFeedbackSection = () => {
     }
   };
 
+  const toggle1 = (id) => {
+    if (open === id) {
+      return setOpen(null);
+    }
+    setOpen(id);
+  };
   const handleClick = (index) => {
     setActiveIndex(index);
   };
@@ -462,6 +470,81 @@ const DigitalFeedbackSection = () => {
       </div>
       {/*End oF fifth SeCtiON */}
 
+      {/* section */}
+      {/* Grading and returning student work */}
+      <div className="bg-[#F9F9FA] top-shadow sm:pb-16 pb-12 md:pt-24 pt-12">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
+          <h1 className="text1 leading-[2.4rem]">
+            Grading and returning student work
+          </h1>
+          <div className="flex flex-col gap-12">
+            {/* first div */}
+            <div className="grid md:grid-cols-2 grid-cols-1 gap-[2.5rem]">
+              <article className="flex flex-col gap-4">
+                <p>
+                  In Classroom, you can give a numeric grade, leave comment-only
+                  feedback, or do both. You can also return assignments without
+                  grades.
+                </p>
+                <p>
+                  Access student work within an assignment under the Classwork
+                  tab. You can make comments on an assignment any time after it
+                  has been created, including after students have submitted
+                  their work. If students need to make revisions, return the
+                  assignment and send a message along with it. Students can only
+                  see your feedback as comments once you’ve returned their work.
+                  Students can then have an opportunity to make revisions and
+                  resubmit their work.
+                </p>
+                <p>
+                  Look through the step by step instructions and then watch the
+                  video below to learn more about providing feedback and adding
+                  grades in Classroom.
+                </p>
+              </article>
+              {/* Accordian */}
+              <article className="flex flex-col justify-end gap-4 md:mt-8 mt-0">
+                <p className="font-bold">Click each step to expand it.</p>
+                {/* Accordian */}
+                <div>
+                  {data.map((curEle) => {
+                    return (
+                      <SingleStep
+                        key={curEle.id}
+                        {...curEle}
+                        open={curEle.id === open}
+                        toggle1={() => toggle1(curEle.id)}
+                      />
+                    );
+                  })}
+                </div>
+                {/*end of Accordian */}
+              </article>
+            </div>
+            {/* end of first div */}
+            {/* second div */}
+            <div className="flex flex-col gap-5">
+              <p className="font-bold">Click play to watch the video below.</p>
+              {/* video */}
+              <iframe
+                //   width="800"
+                //   height="600"
+                src="https://www.youtube.com/embed/7EHnQ0VM4KY?si=LtrXq2i2uzzHChqw"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                className="max-w-[905px] w-[92vw] m-auto md:h-[509px] min-h-[400px] "
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* end of section */}
+
+      {/* image section */}
+      <div className="bg-[url('./assets/d30.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+
       {/* 6 ScETioN */}
       {/* Success stories */}
       <div className="sm:pb-16 pb-12 md:pt-20 pt-12">
@@ -599,3 +682,45 @@ const DigitalFeedbackSection = () => {
 };
 
 export default DigitalFeedbackSection;
+
+const data = [
+  {
+    id: 1,
+    title: "Step 1",
+    info: `Open one student’s assignment in ${(
+      <strong>Docs</strong>
+    )} and give feedback, then use the  ${(
+      <strong>navigation arrows</strong>
+    )}  at the top of the document to cycle through other students’ work.`,
+  },
+  {
+    id: 2,
+    title: "Step 2",
+    info: `With this feature, you can also click the ${(
+      <strong>drop-down menu</strong>
+    )} below the student’s name to view the completion status of the assignment. If some students have not turned in their assignment, you can skip their work while providing feedback to make this process move quickly.`,
+  },
+  {
+    id: 3,
+    title: "Step 3",
+    info: `Grading assignments in Classroom is streamlined, too. After students submit an assignment in Classroom, click on the assignment from ${(
+      <strong>Stream</strong>
+    )} to open the ${(
+      <strong>Student work</strong>
+    )} page. Here, you can view each student’s work, input grades, and add comments.`,
+  },
+  {
+    id: 4,
+    title: "Step 4",
+    info: `To grade an assignment, click the student’s submission, then click on the ${(
+      <strong>Grade</strong>
+    )} section and enter the number of points you want to give them. To add a comment, simply type in the comment bar and click send.`,
+  },
+  {
+    id: 5,
+    title: "Step 5",
+    info: `Once you’ve graded the assignment and added comments, click ${(
+      <strong>Return</strong>
+    )} to send the assignment feedback and grade to your student. Once you return the assignment, students can see their grade and read the feedback you’ve provided.`,
+  },
+];
