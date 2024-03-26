@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const StudentProgressSection = () => {
   const [show, setShow] = useState(false);
@@ -99,19 +102,34 @@ const StudentProgressSection = () => {
 
           {/* cards ======> */}
           <div className="flex flex-wrap  justify-center gap-6">
-            <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
+            <article
+              data-aos="fade-left"
+              data-aos-delay="60"
+              data-aos-duration="1000"
+              className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
+            >
               <img src="./assets/form3.png" alt="" />
               <p className="text-center">
                 Recognize which student data is necessary for classroom use
               </p>
             </article>
-            <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
+            <article
+              data-aos="fade-left"
+              data-aos-delay="65"
+              data-aos-duration="1200"
+              className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
+            >
               <img src="./assets/work4.png" alt="" />
               <p className="text-center">
                 Identify effective methods for collecting student data
               </p>
             </article>
-            <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
+            <article
+              data-aos="fade-left"
+              data-aos-delay="65"
+              data-aos-duration="1500"
+              className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
+            >
               <img src="./assets/s3.png" alt="" />
               <p className="text-center">
                 Use Forms data to assess student knowledge of course material

@@ -1,5 +1,8 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const ManageSections = () => {
   return (
@@ -81,19 +84,34 @@ const ManageSections = () => {
         {/* cards ======> */}
         <div className="flex justify-center items-center">
           <div className="flex flex-wrap  item-center justify-center gap-3 sm:w-[80%] w-[100%]">
-            <article className="bg-[#E6E7E9] flex flex-col items-center py-4 rounded-lg gap-y-5 px-4 w-[18rem]  ">
+            <article
+              data-aos="fade-left"
+              data-aos-delay="50"
+              data-aos-duration="1200"
+              className="bg-[#E6E7E9] flex flex-col items-center py-4 rounded-lg gap-y-5 px-4 w-[18rem]  "
+            >
               <img src="./assets/Star.png" alt="" />
               <p className="text-center paragraph">
                 Demonstrate how to update documents in Google Drive
               </p>
             </article>
-            <article className="bg-[#E6E7E9] flex flex-col items-center  py-4 rounded-lg gap-y-5 px-4 w-[18rem] ">
+            <article
+              data-aos="fade-left"
+              data-aos-delay="65"
+              data-aos-duration="1200"
+              className="bg-[#E6E7E9] flex flex-col items-center  py-4 rounded-lg gap-y-5 px-4 w-[18rem] "
+            >
               <img src="./assets/doublestar.png" alt="" />
               <p className="text-center paragraph">
                 Use Google Drive to create documents
               </p>
             </article>
-            <article className="bg-[#E6E7E9] flex flex-col items-center  py-4 rounded-lg gap-y-5 px-4 w-[18rem] ">
+            <article
+              data-aos="fade-left"
+              data-aos-delay="80"
+              data-aos-duration="1200"
+              className="bg-[#E6E7E9] flex flex-col items-center  py-4 rounded-lg gap-y-5 px-4 w-[18rem] "
+            >
               <img src="./assets/doublestar.png" alt="" />
               <p className="text-center paragraph">
                 Use Google Drive to create documents

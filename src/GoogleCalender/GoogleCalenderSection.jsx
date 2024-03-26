@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const GoogleCalenderSection = () => {
   const [show, setShow] = useState(false);
@@ -103,7 +106,12 @@ const GoogleCalenderSection = () => {
           {/* cards ======> */}
           <div className="">
             <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
-              <article className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 md:col-span-1 ">
+              <article
+                data-aos="fade-left"
+                data-aos-delay="60"
+                data-aos-duration="1000"
+                className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 md:col-span-1 "
+              >
                 <img
                   src="./assets/cal2.png"
                   className="w-[2.2rem] h-[2.2rem]"
@@ -111,7 +119,12 @@ const GoogleCalenderSection = () => {
                 />
                 <p className="">Create events in Google Calendar</p>
               </article>
-              <article className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 md:col-span-1">
+              <article
+                data-aos="fade-left"
+                data-aos-delay="60"
+                data-aos-duration="1200"
+                className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 md:col-span-1"
+              >
                 <img
                   src="./assets/cal3.png"
                   className="w-[2.2rem] h-[2.2rem]"
@@ -121,7 +134,12 @@ const GoogleCalenderSection = () => {
                   Create customized calendars in Google Calendar
                 </p>
               </article>
-              <article className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 md:col-span-1 ">
+              <article
+                data-aos="fade-left"
+                data-aos-delay="65"
+                data-aos-duration="1500"
+                className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 md:col-span-1 "
+              >
                 <img
                   src="./assets/cal4.png"
                   className="w-[2.2rem] h-[2.2rem]"
@@ -131,7 +149,12 @@ const GoogleCalenderSection = () => {
               </article>
               {/* fourth card */}
               <div class="md:col-span-1 md:block hidden"></div>
-              <article className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 md:col-span-1 md:row-span-2 ">
+              <article
+                data-aos="fade-left"
+                data-aos-delay="65"
+                data-aos-duration="1700"
+                className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 md:col-span-1 md:row-span-2 "
+              >
                 <img
                   src="./assets/cal5.png"
                   className="w-[2.2rem] h-[2.2rem]"

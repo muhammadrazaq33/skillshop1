@@ -2,7 +2,6 @@ import React from "react";
 import ShareStudentWorkHero from "./ShareStudentWorkHero";
 import ShareWorkSection from "./ShareWorkSection";
 import ShareWorkFooter from "./ShareWorkFooter";
-import WorkSpaceFooter from "../Components/WorkSpaceFooter";
 
 const ShareStudentWork = () => {
   return (
@@ -10,7 +9,6 @@ const ShareStudentWork = () => {
       <ShareStudentWorkHero />
       <ShareWorkSection />
       <ShareWorkFooter />
-      <WorkSpaceFooter />
     </div>
   );
 };

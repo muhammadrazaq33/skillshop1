@@ -1,5 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const OrganizeSections = () => {
   return (
@@ -88,7 +91,12 @@ const OrganizeSections = () => {
 
           {/* cards ======> */}
           <div className="flex flex-wrap justify-center gap-6">
-            <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
+            <article
+              data-aos="fade-left"
+              data-aos-delay="65"
+              data-aos-duration="1200"
+              className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
+            >
               <img src="./assets/o_start.png" alt="" />
               <p className="text-center paragraph">
                 Identify how digital skills can benefit teaching and learning

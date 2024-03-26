@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import SingleStep from "../Components/SingleStep";
 import { NavLink } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const DigitalFeedbackSection = () => {
   const [activeIndex, setActiveIndex] = useState(0); // State to track active paragraph index
@@ -133,33 +136,58 @@ const DigitalFeedbackSection = () => {
 
           {/* cards ======> */}
           <div className="flex flex-wrap  justify-center gap-6">
-            <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
+            <article
+              data-aos="fade-up"
+              data-aos-delay="60"
+              data-aos-duration="1000"
+              className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
+            >
               <img src="./assets/c3.png" alt="" />
               <p className="text-center">
                 Use Forms for students to collect feedback on their work
               </p>
             </article>
-            <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
+            <article
+              data-aos="fade-up"
+              data-aos-delay="60"
+              data-aos-duration="1100"
+              className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
+            >
               <img src="./assets/gc2.png" alt="" />
               <p className="text-center">
                 Recognize the value of incorporating digital feedback for
                 students
               </p>
             </article>
-            <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
+            <article
+              data-aos="fade-up"
+              data-aos-delay="60"
+              data-aos-duration="1200"
+              className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
+            >
               <img src="./assets/gc3.png" alt="" />
               <p className="text-center">
                 Identify different strategies and tools for providing student
                 feedback
               </p>
             </article>
-            <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
+            <article
+              data-aos="fade-up"
+              data-aos-delay="65"
+              data-aos-duration="1300"
+              className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
+            >
               <img src="./assets/d4.png" alt="" />
               <p className="text-center">
                 Use comments and Workflow in Google Classroom
               </p>
             </article>
-            <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
+            <article
+              data-aos="fade-up"
+              data-aos-delay="70"
+              data-aos-duration="1500"
+              className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
+            >
               <img src="./assets/d5.png" alt="" />
               <p className="text-center">
                 Use comments and suggestion mode in Google Docs
@@ -305,7 +333,12 @@ const DigitalFeedbackSection = () => {
 
           {/* cardS */}
           <div className="flex flex-col items-center w-full max-w-[32rem] m-auto gap-16">
-            <article className="flex flex-col gap-12 items-center py-4 px-4 bg-[#F9F9FA] rounded-lg">
+            <article
+              data-aos="fade-up"
+              data-aos-delay="70"
+              data-aos-duration="1500"
+              className="flex flex-col gap-12 items-center py-4 px-4 bg-[#F9F9FA] rounded-lg"
+            >
               <img src="./assets/gc12.png" alt="" />
               <p>
                 The commenting feature in Docs is a lifesaver for my students.

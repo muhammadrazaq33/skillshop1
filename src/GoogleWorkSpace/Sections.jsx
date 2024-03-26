@@ -1,5 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const Sections = () => {
   return (
@@ -93,19 +97,34 @@ const Sections = () => {
 
         {/* cards ======> */}
         <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
-          <article className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 md:col-span-1">
+          <article
+            data-aos-delay="60"
+            data-aos-duration="1000"
+            data-aos="fade-up"
+            className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 md:col-span-1"
+          >
             <img src="./assets/Star.png" alt="" />
             <p className="text-center">
               Identify how digital skills can benefit teaching and learning
             </p>
           </article>
-          <article className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 md:col-span-1">
+          <article
+            data-aos-delay="60"
+            data-aos-duration="1100"
+            data-aos="fade-up"
+            className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 md:col-span-1"
+          >
             <img src="./assets/doublestar.png" alt="" />
             <p className="text-center">
               Recognize Google Workspace for Education applications
             </p>
           </article>
-          <article className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 md:col-span-1">
+          <article
+            data-aos-delay="65"
+            data-aos-duration="1200"
+            data-aos="fade-up"
+            className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 md:col-span-1"
+          >
             <img src="./assets/threestar.png" alt="" />
             <p className="text-center">
               Apply digital tools to support the work you currently do
@@ -114,7 +133,12 @@ const Sections = () => {
           {/* fourth card */}
           <div class="md:col-span-1 md:block hidden"></div>
           {/* fifth card */}
-          <article className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 md:col-span-1 md:row-span-2">
+          <article
+            data-aos-delay="65"
+            data-aos-duration="1500"
+            data-aos="fade-up"
+            className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 md:col-span-1 md:row-span-2"
+          >
             <img src="./assets/fourstar.png" alt="" />
             <p className="text-center">
               Illustrate how you can use technology to prepare your students for

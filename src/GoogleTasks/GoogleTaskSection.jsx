@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const GoogleTaskSection = () => {
   const [show, setShow] = useState(false);
@@ -137,17 +140,32 @@ const GoogleTaskSection = () => {
 
           {/* cards ======> */}
           <div className="flex flex-wrap  justify-center gap-6">
-            <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
+            <article
+              data-aos="fade-left"
+              data-aos-delay="60"
+              data-aos-duration="1000"
+              className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
+            >
               <img src="./assets/task4.png" alt="" />
               <p className="text-center">Manage to-do lists in Google Tasks</p>
             </article>
-            <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
+            <article
+              data-aos="fade-left"
+              data-aos-delay="65"
+              data-aos-duration="1200"
+              className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
+            >
               <img src="./assets/task5.png" alt="" />
               <p className="text-center">
                 Integrate lists in Google Tasks with Google Calendar
               </p>
             </article>
-            <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
+            <article
+              data-aos="fade-left"
+              data-aos-delay="65"
+              data-aos-duration="1500"
+              className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
+            >
               <img src="./assets/task6.png" alt="" />
               <p className="text-center">
                 Recognize how to create multi-functional notes in Google Keep

@@ -1,5 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const ConsolidateSections = () => {
   return (
@@ -70,13 +73,25 @@ const ConsolidateSections = () => {
 
         {/* cards ======> */}
         <div className="flex md:flex-row flex-col justify-center items-center gap-6">
-          <article className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 max-w-[20rem]">
+          <article
+            data-aos="fade-left"
+            data-aos-delay="50"
+            data-aos-duration="1200"
+            // data-aos-easing="ease-in-out"
+            className="bg-[#E6E7E9] grid place-items-center py-4 rounded-lg gap-y-5 px-4 max-w-[20rem]"
+          >
             <img src="./assets/Star.png" alt="" />
             <p className="text-center">
               Recognize ways to organize Google Drive
             </p>
           </article>
-          <article className="bg-[#E6E7E9] max-w-[20rem] grid place-items-center py-4 rounded-lg gap-y-5 px-4">
+          <article
+            data-aos="fade-left"
+            data-aos-delay="60"
+            data-aos-duration="1200"
+            // data-aos-easing="ease-in-out"
+            className="bg-[#E6E7E9] max-w-[20rem] grid place-items-center py-4 rounded-lg gap-y-5 px-4"
+          >
             <img src="./assets/doublestar.png" alt="" />
             <p className="text-center">
               Organize and upload documents into Google Drive

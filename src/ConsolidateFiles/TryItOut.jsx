@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const TryItOut = () => {
   const [show, setShow] = useState();
@@ -113,7 +116,12 @@ const TryItOut = () => {
           </div>
 
           {/* CARD =======> */}
-          <div className="max-w-[540px] m-auto bg-[#F9F9FA] px-8 py-5 flex flex-col items-center">
+          <div
+            data-aos="fade-up"
+            data-aos-delay="60"
+            data-aos-duration="1200"
+            className="max-w-[540px] m-auto bg-[#F9F9FA] px-8 py-5 flex flex-col items-center"
+          >
             <img src="./assets/citizen2.png" alt="" />
             <p className="text-center paragraph">
               I really like the idea of color-coding. I can organize my folders

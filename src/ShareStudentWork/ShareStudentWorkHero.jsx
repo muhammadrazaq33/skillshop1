@@ -43,7 +43,7 @@ const ShareStudentWorkHero = () => {
                 <p>Favorites</p>
               </NavLink>
             </div>
-            <p className="text-[19px]">
+            <p className="text-[19px] text-[#393b3d]">
               With the skills identified in this lesson, you will learn to
               design and customize your class site and create a convenient,
               well-designed workspace for students. Learn how to create and

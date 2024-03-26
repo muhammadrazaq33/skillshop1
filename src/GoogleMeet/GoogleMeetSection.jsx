@@ -30,7 +30,7 @@ const GoogleMeetSection = () => {
                     <a href="#StartMeeting" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Start a meeting from Gmail
                         </h3>
                       </div>
@@ -43,7 +43,7 @@ const GoogleMeetSection = () => {
                     >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Schedule a video meeting from Google Calender
                         </h3>
                       </div>
@@ -53,7 +53,7 @@ const GoogleMeetSection = () => {
                     <a href="#ShareScreen" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Share your screen in a meeting
                         </h3>
                       </div>
@@ -63,7 +63,7 @@ const GoogleMeetSection = () => {
                     <a href="#RaiseHand" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Raise your hand in a meeting
                         </h3>
                       </div>
@@ -76,7 +76,7 @@ const GoogleMeetSection = () => {
                     >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Track Attendance in Google Meet
                         </h3>
                       </div>
@@ -127,9 +127,14 @@ const GoogleMeetSection = () => {
 
           {/* cards ======> */}
           <div className="flex flex-wrap justify-center gap-6">
-            <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
+            <article
+              data-aos="fade-left"
+              data-aos-delay="65"
+              data-aos-duration="1200"
+              className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
+            >
               <img src="./assets/meet5.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 Identify the benefits of real-time, virtual communication with
                 students and guardians
               </p>
@@ -142,7 +147,7 @@ const GoogleMeetSection = () => {
       {/* SECOND seCTION */}
       <div className="sm:pt-20 pt-12 pb-10">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col sm:gap-6 gap-8">
-          <p>
+          <p className="paragraph">
             Organizing a meeting in Google Meet is a great way to connect with
             students or colleagues. With Meet, it is possible to see and hear
             the other person and have a conversation as though you were in the
@@ -154,7 +159,7 @@ const GoogleMeetSection = () => {
             <div>
               <SlBadge className="text-[2.4rem] text-[#4285f4]" />
             </div>
-            <p>
+            <p className="paragraph">
               Did you know that you can do more with Google Meet if you have the
               <strong> Teaching and Learning Upgrade</strong> or{" "}
               <strong>Education Plus</strong>
@@ -180,7 +185,7 @@ const GoogleMeetSection = () => {
             <h1 className="text1 leading-[2.4rem]">
               Start a meeting from Gmail
             </h1>
-            <p>
+            <p className="paragraph">
               Imagine having after-school hours for your students during a set
               homework time when they can ask you and each other for help, if
               needed. If you need to reply with more than a single sentence, you
@@ -191,9 +196,7 @@ const GoogleMeetSection = () => {
           </div>
 
           <div className="flex flex-col gap-2 mt-2">
-            <p className="text-[15px] font-bold mb-4">
-              Click play to watch the video below.
-            </p>
+            <p className="Bold mb-4">Click play to watch the video below.</p>
             {/* video */}
             {/* <video
             tabindex="-1"
@@ -227,11 +230,11 @@ const GoogleMeetSection = () => {
 
           {/* transcript  ==> */}
           <div className={`flex flex-col gap-5 ${show ? "block" : "hidden"}`}>
-            <p>
+            <p className="paragraph">
               To start a meeting from Gmail, click on the <strong>Meet</strong>{" "}
               button, then click <strong> New meeting</strong>.{" "}
             </p>
-            <ol className="list-decimal pl-12">
+            <ol className="list-decimal pl-12 paragraph">
               <li>
                 You'll get a pop up asking you to either share your invitation
                 or start the meeting now.
@@ -263,7 +266,7 @@ const GoogleMeetSection = () => {
           <h1 className="text1 leading-[2.4rem]">
             Schedule a video meeting from Google Calendar
           </h1>
-          <p>
+          <p className="paragraph">
             When you create an event on Google Calendar, you can add a video
             meeting link within the event. That way, everyone has the meeting
             link right there in their own calendars. Now, when you need to join
@@ -282,11 +285,13 @@ const GoogleMeetSection = () => {
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <h1 className="text">Try it out</h1>
 
-          <div className="flex flex-col gap-5">
-            <p>Schedule a video meeting from your Google Calendar.</p>
+          <div className="flex flex-col gap-6">
+            <p className="paragraph">
+              Schedule a video meeting from your Google Calendar.
+            </p>
             <div className="grid md:grid-cols-3 grid-cols-1 gap-8">
               <article className="md:col-span-2 flex flex-col gap-7">
-                <ol className="list-decimal pl-12">
+                <ol className="list-decimal pl-12 paragraph">
                   <li>
                     In Google Calendar, click <strong>Create</strong>, then
                     click <strong>Event</strong>.
@@ -308,12 +313,12 @@ const GoogleMeetSection = () => {
                     To notify guests, click <strong>Send</strong>.
                   </li>
                 </ol>
-                <div className="flex flex-col gap-4">
-                  <p>
+                <div className="flex flex-col gap-5">
+                  <p className="paragraph">
                     <strong>Google Workspace for Education users</strong>: You
                     can also add a dial-in number to the event.{" "}
                   </p>
-                  <p>
+                  <p className="paragraph">
                     <strong>Important</strong>: Guests can forward the meeting
                     link to other people. If an uninvited person tries to join a
                     meeting, participants from your organization must accept
@@ -321,7 +326,7 @@ const GoogleMeetSection = () => {
                   </p>
                   <div className="flex flex-col gap-0">
                     <p className="font-bold">Join a meeting</p>
-                    <p>
+                    <p className="paragraph">
                       You can join a video meeting from Google Meet, Google
                       Calendar, or Gmail from your computer. You can also{" "}
                       <a
@@ -336,11 +341,11 @@ const GoogleMeetSection = () => {
                       without a Google account.&nbsp;
                     </p>
                   </div>
-                  <p>
+                  <p className="paragraph">
                     Mobile users can also join meetings from their mobile using
                     the Android or iOS Google Meet app.
                   </p>
-                  <p>
+                  <p className="paragraph">
                     Users on a computer or mobile device can communicate by text
                     via the Google Meet chat feature without disrupting the
                     meeting.
@@ -366,7 +371,7 @@ const GoogleMeetSection = () => {
           <h1 className="text1 leading-[2.4rem]">
             Share your screen in a meeting
           </h1>
-          <p>
+          <p className="paragraph">
             When you’re in a video call with others, there are times when you
             might need to show them your screen. Maybe you need to demonstrate
             to your students how to solve a math problem, show them an example
@@ -388,8 +393,8 @@ const GoogleMeetSection = () => {
           <h1 className="text">Try it out</h1>
           <div className="grid md:grid-cols-3 gap-8">
             <article className="flex flex-col gap-5 md:col-span-1">
-              <p>Share your screen in Google Meet.</p>
-              <ol className="list-decimal pl-12">
+              <p className="paragraph">Share your screen in Google Meet.</p>
+              <ol className="list-decimal pl-12 paragraph">
                 <li>Open Gmail.</li>
                 <li>
                   Navigate to <strong>Meet</strong> on the left side bar, click
@@ -402,7 +407,7 @@ const GoogleMeetSection = () => {
                   Select <strong>Your entire screen, A window</strong>, or{" "}
                   <strong>A tab</strong>.
                 </li>
-                <ol className="list-decimal pl-12">
+                <ol className="list-decimal pl-12 paragraph">
                   <li>
                     If you present a Chrome tab, it shares that tab's audio by
                     default. This is useful when sharing a video clip.{" "}
@@ -414,14 +419,14 @@ const GoogleMeetSection = () => {
                     <strong>Share this tab instead</strong>.
                   </li>
                 </ol>
-                <li className="mt-2">
+                <li className="mt-3">
                   {" "}
                   Click <strong>Share</strong>.
                 </li>
               </ol>
             </article>
             <article className="md:col-span-2 flex flex-col  gap-5 md:ml-6 ml-0 justify-center">
-              <p className="font-bold">Click image to enlarge.</p>
+              <p className="Bold">Click image to enlarge.</p>
               <img src="./assets/meet9.png" alt="" />
             </article>
           </div>
@@ -439,7 +444,7 @@ const GoogleMeetSection = () => {
           <h1 className="text1 leading-[2.4rem]">
             Raise your hand in a meeting
           </h1>
-          <p>
+          <p className="paragraph">
             In a productive class discussion, all student voices can be heard.
             In Google Meet, students can take turns talking by raising their
             virtual hand without disrupting the flow of the conversation.
@@ -460,8 +465,8 @@ const GoogleMeetSection = () => {
           <h1 className="text">Try it out</h1>
           <div className="grid md:grid-cols-3 gap-8">
             <article className="flex flex-col gap-5 md:col-span-1">
-              <p>Raise your hand in a meeting</p>
-              <ol className="list-decimal pl-12">
+              <p className="paragraph">Raise your hand in a meeting</p>
+              <ol className="list-decimal pl-12 paragraph">
                 <li>
                   Join a meeting in Google Meet. You can try this on your own or
                   practice with your students in your next meeting.
@@ -477,7 +482,7 @@ const GoogleMeetSection = () => {
               </ol>
             </article>
             <article className="md:col-span-2 flex flex-col justify-end gap-5 md:ml-6 ml-0 mt-2">
-              <p className="font-bold">Click image to enlarge.</p>
+              <p className="Bold">Click image to enlarge.</p>
               <img src="./assets/meet10.png" alt="" />
             </article>
           </div>
@@ -495,8 +500,8 @@ const GoogleMeetSection = () => {
           <h1 className="text1 leading-[2.4rem]">
             Track attendance in Google Meet
           </h1>
-          <div className="flex flex-col gap-4">
-            <p>
+          <div className="flex flex-col gap-5">
+            <p className="paragraph">
               You can focus on greeting your students as they enter a meeting
               while Google Meet takes the attendance for you. This feature is
               only available in the{" "}
@@ -515,7 +520,7 @@ const GoogleMeetSection = () => {
               will automatically receive an attendance report for any meeting
               with two or more participants.
             </p>
-            <p>
+            <p className="paragraph">
               After the meeting, the meeting organizer will receive an email
               with an attached attendance report in Google Sheets, whether the
               meeting was started from Google Classroom or Google Meet. The
@@ -540,7 +545,7 @@ const GoogleMeetSection = () => {
           <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
             {/* TEXt */}
             <article className="flex flex-col gap-4 md:col-span-2">
-              <p>
+              <p className="paragraph">
                 Now that you’ve learned how Google Meet can be a powerful tool
                 for connecting your classroom, it’s your turn to reflect on what
                 you have learned.
@@ -549,7 +554,7 @@ const GoogleMeetSection = () => {
                 <p className="font-bold">
                   Consider the following and make a note of your answers.
                 </p>
-                <ol className="list-decimal pl-12">
+                <ol className="list-decimal pl-12 paragraph">
                   <li>
                     What are some situations where you could use Google Meet
                     with your students?

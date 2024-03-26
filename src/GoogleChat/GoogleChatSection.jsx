@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const GoogleChatSection = () => {
   const [activeIndex, setActiveIndex] = useState(0); // State to track active paragraph index
@@ -25,7 +28,7 @@ const GoogleChatSection = () => {
                     <a href="#GoogleChat" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Communicate with Google Chat
                         </h3>
                       </div>
@@ -35,7 +38,7 @@ const GoogleChatSection = () => {
                     <a href="#CreateChat" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Create and name group Chats
                         </h3>
                       </div>
@@ -48,7 +51,7 @@ const GoogleChatSection = () => {
                     >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Chat notifications
                         </h3>
                       </div>
@@ -58,7 +61,7 @@ const GoogleChatSection = () => {
                     <a href="#ChatHistory" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Manage/delete your chat history
                         </h3>
                       </div>
@@ -93,9 +96,14 @@ const GoogleChatSection = () => {
 
           {/* cards ======> */}
           <div className="flex flex-wrap justify-center gap-6">
-            <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
+            <article
+              data-aos="fade-up"
+              data-aos-delay="65"
+              data-aos-duration="1500"
+              className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
+            >
               <img src="./assets/chat3.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 Identify the benefits of real-time, virtual communication with
                 colleagues and guardians
               </p>
@@ -110,13 +118,13 @@ const GoogleChatSection = () => {
         <div className="max-w-[960px] w-[92vw] m-auto md:flex justify-between gap-10">
           {/* TeXT */}
           <div className="flex flex-col gap-4 md:mb-0 mb-3">
-            <p>
+            <p className="paragraph">
               instant messaging in Chat can be used in a number of ways. For
               example, you can remind staff of upcoming deadlines, use it as a
               backchannel during teacher-led instruction, or while watching an
               instructional YouTube video.
             </p>
-            <p>
+            <p className="paragraph">
               You can use Chat in your Gmail inbox or use the app. If you use a
               work or school account, your organization determines which options
               are available. Regardless of the ways you choose to incorporate
@@ -143,7 +151,7 @@ const GoogleChatSection = () => {
           <h1 className="text1 leading-[2.4rem]">
             Communicate with Google Groups
           </h1>
-          <p>
+          <p className="paragraph">
             Google Groups is an easy-to-use application that acts as a
             discussion board and mailing list to reach large groups of people,
             like your entire class or student guardians. Participants in a
@@ -165,8 +173,8 @@ const GoogleChatSection = () => {
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
           <h1 className="text">Try it out</h1>
           <div className="flex flex-col gap-5">
-            <p>Set up and communicate on Google Chat. </p>
-            <ol className="list-decimal pl-12">
+            <p className="paragraph">Set up and communicate on Google Chat. </p>
+            <ol className="list-decimal pl-12 paragraph">
               <li>
                 Start by opening <strong>Google Chat</strong> on your computer
                 by using the Chrome app or extension from the Chrome Web Store,
@@ -209,7 +217,7 @@ const GoogleChatSection = () => {
           <h1 className="text1 leading-[2.4rem]">
             Create and name group chats
           </h1>
-          <p>
+          <p className="paragraph">
             At times, you may want to include more than one person in your
             conversation and hold a group chat. You can hold one chat for
             sharing important information with all of your teachers or one chat
@@ -228,7 +236,7 @@ const GoogleChatSection = () => {
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col sm:gap-12 gap-10">
           <div className="flex flex-col gap-5">
             <h1 className="text">Try it out</h1>
-            <p>
+            <p className="paragraph">
               Have a go at setting up your own group chat or a collaborative
               space.
             </p>
@@ -239,7 +247,7 @@ const GoogleChatSection = () => {
               {/* useSTATE */}
               {/* second div */}
               <div className="flex flex-col gap-3">
-                <p className="font-bold">
+                <p className="Bold">
                   Click each tab to learn more. Click image to enlarge.
                 </p>
                 {/* buttons ===> */}
@@ -247,7 +255,7 @@ const GoogleChatSection = () => {
                   <button
                     className={`btn ${
                       activeIndex === 0 && "active1"
-                    } bg-[#dadce0] px-2 py-3 rounded-sm hover:bg-[#1A73E8] hover:text-[white]`}
+                    } bg-[#dadce0] px-2 py-3 rounded-sm duration-700 hover:bg-[#1A73E8] hover:text-[white]`}
                     onClick={() => handleClick(0)}
                   >
                     Start a group chat
@@ -255,7 +263,7 @@ const GoogleChatSection = () => {
                   <button
                     className={`btn ${
                       activeIndex === 1 && "active1"
-                    } bg-[#dadce0] px-2 py-3 rounded-sm hover:bg-[#1A73E8] hover:text-[white]`}
+                    } bg-[#dadce0] px-2 py-3 rounded-sm duration-700 hover:bg-[#1A73E8] hover:text-[white]`}
                     onClick={() => handleClick(1)}
                   >
                     Create a space
@@ -275,7 +283,7 @@ const GoogleChatSection = () => {
                       <img src="./assets/chat8.png" alt="" />
                     </div>
                     <div className="col-span-1 flex flex-col gap-4">
-                      <ol className="list-decimal pl-12">
+                      <ol className="list-decimal pl-12 paragraph">
                         <li>
                           Click the + icon at the top of the chat window.{" "}
                         </li>
@@ -303,7 +311,7 @@ const GoogleChatSection = () => {
                       <img src="./assets/chat9.png" alt="" />
                     </div>
                     <div className="flex flex-col gap-4">
-                      <p>
+                      <p className="paragraph">
                         You can create a space in Google Chat to provide a place
                         where a group can communicate and collaborate. For
                         example, if you are working on a team and want a place
@@ -312,7 +320,7 @@ const GoogleChatSection = () => {
                         your team. Students can use a chat space as a support
                         group for completing homework or studying for exams.
                       </p>
-                      <ol className="list-decimal pl-12">
+                      <ol className="list-decimal pl-12 paragraph">
                         <li>
                           At the top of the Chat window, click the + icon.
                         </li>
@@ -352,7 +360,7 @@ const GoogleChatSection = () => {
       >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text1">Chat notifications</h1>
-          <p>
+          <p className="paragraph">
             You can mute Chat notifications so that you aren’t notified every
             time someone contributes to the chat. This can help set clear
             boundaries for notifications after your work hours or when you are

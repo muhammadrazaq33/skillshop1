@@ -3,7 +3,6 @@ import GoogleChatHero from "./GoogleChatHero";
 import GoogleChatSection from "./GoogleChatSection";
 import TryItOutChat from "./TryItOutChat";
 import GoogleChatFooter from "./GoogleChatFooter";
-import WorkSpaceFooter from "../Components/WorkSpaceFooter";
 
 const GoogleChat = () => {
   return (
@@ -12,7 +11,6 @@ const GoogleChat = () => {
       <GoogleChatSection />
       <TryItOutChat />
       <GoogleChatFooter />
-      <WorkSpaceFooter />
     </div>
   );
 };

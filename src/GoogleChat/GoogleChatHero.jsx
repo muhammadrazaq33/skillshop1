@@ -43,7 +43,7 @@ const GoogleChatHero = () => {
                 <p>Favorites</p>
               </NavLink>
             </div>
-            <p className="text-[19px]">
+            <p className="text-[19px] text-[#393b3d]">
               Google Chat is a great way to efficiently communicate with
               colleagues and students in real time across different devices.
               Explore how to set up and implement processes to use this to

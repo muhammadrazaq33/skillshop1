@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const ClassSection = () => {
   const [show, setShow] = useState(false);
@@ -143,17 +146,32 @@ const ClassSection = () => {
           {/* cards ======> */}
           <div className="flex justify-center">
             <div className="flex flex-wrap  justify-center gap-6">
-              <article className="bg-[#E6E7E9] flex flex-col max-w-[18rem] w-full items-center py-4 rounded-lg gap-y-5 px-4  ">
+              <article
+                data-aos="fade-left"
+                data-aos-delay="60"
+                data-aos-duration="1000"
+                className="bg-[#E6E7E9] flex flex-col max-w-[18rem] w-full items-center py-4 rounded-lg gap-y-5 px-4  "
+              >
                 <img src="./assets/c3.png" alt="" />
                 <p className="text-center">Assign work to students</p>
               </article>
-              <article className="bg-[#E6E7E9] flex flex-col max-w-[18rem] w-full items-center py-4 rounded-lg gap-y-5 px-4">
+              <article
+                data-aos="fade-left"
+                data-aos-delay="65"
+                data-aos-duration="1200"
+                className="bg-[#E6E7E9] flex flex-col max-w-[18rem] w-full items-center py-4 rounded-lg gap-y-5 px-4"
+              >
                 <img src="./assets/gc2.png" alt="" />
                 <p className="text-center">
                   Share folders and documents from Drive
                 </p>
               </article>
-              <article className="bg-[#E6E7E9] flex flex-col max-w-[18rem] w-full items-center py-4 rounded-lg gap-y-5 px-4">
+              <article
+                data-aos="fade-left"
+                data-aos-delay="65"
+                data-aos-duration="1500"
+                className="bg-[#E6E7E9] flex flex-col max-w-[18rem] w-full items-center py-4 rounded-lg gap-y-5 px-4"
+              >
                 <img src="./assets/gc3.png" alt="" />
                 <p className="text-center">Collect student work</p>
               </article>
@@ -585,7 +603,13 @@ const ClassSection = () => {
 
           {/* cardS */}
           <div className="grid md:grid-cols-2 grid-cols-1 place-content-center gap-16">
-            <article className="flex flex-col gap-5 items-center py-4 px-4 bg-[#F9F9FA]">
+            <article
+              data-aos="fade-up"
+              data-aos-delay="70"
+              data-aos-duration="2000"
+              data-aos-easing="ease-in-out"
+              className="flex flex-col gap-5 items-center py-4 px-4 bg-[#F9F9FA]"
+            >
               <img src="./assets/gc11.png" alt="" />
               <p className="text-center">
                 I teach science, so I prefer to save class time for hands-on
@@ -597,7 +621,13 @@ const ClassSection = () => {
                 the fun stuff.
               </p>
             </article>
-            <article className="flex flex-col gap-12 items-center py-4 px-4 bg-[#F9F9FA]">
+            <article
+              data-aos="fade-up"
+              data-aos-delay="70"
+              data-aos-duration="2000"
+              data-aos-easing="ease-in-out"
+              className="flex flex-col gap-12 items-center py-4 px-4 bg-[#F9F9FA]"
+            >
               <img src="./assets/gc12.png" alt="" />
               <p className="text-center">
                 I appreciate being able to choose a due date and time for an

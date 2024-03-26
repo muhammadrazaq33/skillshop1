@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import Model from "../Components/Model";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const cards = [
   {
@@ -74,7 +77,13 @@ const SuccessStories = () => {
               {cards.map((card) => {
                 const { id, img, text } = card;
                 return (
-                  <article key={id} className="bg-[white] p-4 rounded-md">
+                  <article
+                    key={id}
+                    data-aos-delay="65"
+                    data-aos-duration="2000"
+                    data-aos="fade-up"
+                    className="bg-[white] p-4 rounded-md"
+                  >
                     {/* <div>{img}</div> */}
                     {/* {img} */}
                     <img src={img} alt="" />
@@ -278,7 +287,13 @@ const SuccessStories = () => {
                 {citizens1.map((card) => {
                   const { id, img, text } = card;
                   return (
-                    <article key={id} className="bg-[white] p-4 rounded-md">
+                    <article
+                      key={id}
+                      data-aos-delay="65"
+                      data-aos-duration="2000"
+                      data-aos="fade-up"
+                      className="bg-[white] p-4 rounded-md"
+                    >
                       {/* <div>{img}</div> */}
                       {/* {img} */}
                       <img src={img} alt="" />

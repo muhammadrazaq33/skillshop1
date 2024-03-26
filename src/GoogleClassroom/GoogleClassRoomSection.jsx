@@ -1,6 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { SlBadge } from "react-icons/sl";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const GoogleClassRoomSection = () => {
   return (
@@ -85,7 +88,12 @@ const GoogleClassRoomSection = () => {
 
           {/* cards ======> */}
           <div className="flex flex-wrap  justify-center gap-6">
-            <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
+            <article
+              data-aos="fade-left"
+              data-aos-delay="60"
+              data-aos-duration="1100"
+              className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
+            >
               <img src="./assets/c3.png" alt="" />
               <p className="text-center">Create a class in Google Classroom</p>
             </article>

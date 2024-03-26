@@ -1,5 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const CollaborationSection = () => {
   return (
@@ -51,7 +54,12 @@ const CollaborationSection = () => {
         {/* cards ======> */}
         <div className="">
           <div className="grid grid-cols-1 place-items-center">
-            <article className="bg-[#E6E7E9] max-w-[20rem] m-auto flex flex-col justify-center items-center  py-4 rounded-lg gap-y-5 px-4">
+            <article
+              data-aos="fade-left"
+              data-aos-delay="65"
+              data-aos-duration="1200"
+              className="bg-[#E6E7E9] max-w-[20rem] m-auto flex flex-col justify-center items-center  py-4 rounded-lg gap-y-5 px-4"
+            >
               <img src="./assets/Star.png" alt="" />
               <p className="text-center paragraph">
                 Identify ways to collaborate in Google Docs

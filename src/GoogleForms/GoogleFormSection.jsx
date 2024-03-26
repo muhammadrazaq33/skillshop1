@@ -3,6 +3,9 @@ import { NavLink } from "react-router-dom";
 import { FaMinus } from "react-icons/fa";
 import { FaPlus } from "react-icons/fa6";
 import { Collapse } from "react-collapse";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const GoogleFormSection = () => {
   const [display, setDisplay] = useState(false);
@@ -114,7 +117,12 @@ const GoogleFormSection = () => {
 
           {/* cards ======> */}
           <div className="flex flex-wrap  justify-center gap-6">
-            <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
+            <article
+              data-aos="fade-left"
+              data-aos-delay="60"
+              data-aos-duration="1000"
+              className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
+            >
               <img src="./assets/form3.png" alt="" />
               <p className="text-center">
                 Create surveys and quizzes in Google Forms

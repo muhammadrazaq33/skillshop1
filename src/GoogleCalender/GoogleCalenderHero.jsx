@@ -44,7 +44,7 @@ const GoogleCalenderHero = () => {
                 <p>Favorites</p>
               </NavLink>
             </div>
-            <p className="text-[19px]">
+            <p className="text-[19px] text-[#393b3d]">
               With Google Calendar, educators can save time and efficiently
               organize their schedules. In this lesson, you will learn to manage
               multiple calendars and understand how to set reminders and

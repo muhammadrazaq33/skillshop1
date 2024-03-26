@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const ShareWorkSection = () => {
   const [show, setShow] = useState(false);
@@ -34,7 +37,7 @@ const ShareWorkSection = () => {
                     <a href="#CreateSite" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Creating a site in Google Sites
                         </h3>
                       </div>
@@ -44,7 +47,7 @@ const ShareWorkSection = () => {
                     <a href="#nameSite" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Name your site
                         </h3>
                       </div>
@@ -54,7 +57,7 @@ const ShareWorkSection = () => {
                     <a href="#CreatePage" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Create pages within a site
                         </h3>
                       </div>
@@ -64,7 +67,7 @@ const ShareWorkSection = () => {
                     <a href="#AddResources" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Add text, images and resources
                         </h3>
                       </div>
@@ -74,7 +77,7 @@ const ShareWorkSection = () => {
                     <a href="#Preview" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Preview and publish
                         </h3>
                       </div>
@@ -84,7 +87,7 @@ const ShareWorkSection = () => {
                     <a href="#InviteOthers" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Invite others to edit your site
                         </h3>
                       </div>
@@ -119,15 +122,25 @@ const ShareWorkSection = () => {
 
           {/* cards ======> */}
           <div className="flex md:flex-row flex-col flex-wrap md:justify-center items-center gap-6">
-            <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
+            <article
+              data-aos="fade-left"
+              data-aos-delay="65"
+              data-aos-duration="1200"
+              className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
+            >
               <img src="./assets/work3.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 Identify the value of having a class website
               </p>
             </article>
-            <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
+            <article
+              data-aos="fade-left"
+              data-aos-delay="65"
+              data-aos-duration="1600"
+              className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
+            >
               <img src="./assets/work4.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 Create a customized website for the classroom using Google Sites
               </p>
             </article>
@@ -144,7 +157,7 @@ const ShareWorkSection = () => {
             <h1 className="text1 leading-[2.4rem]">
               Creating a site in Google Sites
             </h1>
-            <p>
+            <p className="paragraph">
               Google Sites are easy to create and personalize so students and
               teachers can be creative while building a website. For example,
               during your next design thinking activity, students can develop a
@@ -156,17 +169,17 @@ const ShareWorkSection = () => {
           <div className="md:flex justify-between gap-8">
             {/* TeXT */}
             <div className="flex flex-col gap-4">
-              <p>
+              <p className="paragraph">
                 Communicating to a wider audience keeps them informed about
                 classroom successes and emphasizes the authenticity and
                 importance of your students’ work.
               </p>
-              <p>
+              <p className="paragraph">
                 You’re likely already sharing your students’ work with the
                 community when teachers meet with guardians or display student
                 artwork on the walls.
               </p>
-              <p>
+              <p className="paragraph">
                 Read on and learn how to create and customize a site of your
                 own.
               </p>
@@ -190,13 +203,11 @@ const ShareWorkSection = () => {
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-5">
             <h1 className="text">Try it out</h1>
-            <p>Create and customize your site.</p>
+            <p className="paragraph">Create and customize your site.</p>
           </div>
 
           <div className="flex flex-col gap-2 mt-2">
-            <p className="text-[15px] font-bold mb-4">
-              Click play to watch the video below.
-            </p>
+            <p className="Bold mb-4">Click play to watch the video below.</p>
             {/* video */}
             {/* <video
             tabindex="-1"
@@ -230,14 +241,16 @@ const ShareWorkSection = () => {
 
           {/* transcript  ==> */}
           <div className={`flex flex-col gap-6 ${show ? "block" : "hidden"}`}>
-            <p>
+            <p className="paragraph">
               In this video we’ll create a new Google site, give it a name and a
               page title, and format the page title to look the way that we
               would like it to look.{" "}
             </p>
             <div className="flex flex-col gap-5">
-              <p>To start, create a new Google Site from Google Drive.</p>
-              <ol className="list-decimal pl-12">
+              <p className="paragraph">
+                To start, create a new Google Site from Google Drive.
+              </p>
+              <ol className="list-decimal pl-12 paragraph">
                 <li>
                   Click <strong>New</strong> and then <strong>More</strong>, and
                   choose <strong>Google Sites</strong>.
@@ -286,7 +299,7 @@ const ShareWorkSection = () => {
               </ol>
             </div>
 
-            <p>
+            <p className="paragraph">
               And that’s all you need to do to create and format a new Google
               Site.
             </p>
@@ -304,29 +317,29 @@ const ShareWorkSection = () => {
       >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col sm:gap-5 gap-2">
           <h1 className="text1 leading-[2.4rem]">Name your site</h1>
-          <p>Next, update the site document name, site name, and page title.</p>
+          <p className="paragraph">
+            Next, update the site document name, site name, and page title.
+          </p>
 
           <div className="mt-6 flex flex-col gap-3">
-            <p className="text-[16px] font-bold mb-3">
-              Click each button to learn more.
-            </p>
+            <p className="Bold mb-3">Click each button to learn more.</p>
 
             <div className="relative flex justify-center">
               <button
                 onClick={() => toggleModel("model1")}
-                className="bg-[#dadce099] font-bold absolute -top-[1%] -left-[1%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center hover:text-[white] hover:bg-[#1A73E8] sm:p-8 text-[20px]"
+                className="bg-[#dadce099] font-bold absolute -top-[1%] -left-[1%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center hover:text-[white] duration-700 hover:bg-[#1A73E8] sm:p-8 text-[20px]"
               >
                 1
               </button>
               <button
                 onClick={() => toggleModel("model2")}
-                className="bg-[#dadce099] text-[20px] sm:p-8 hover:bg-[#1A73E8] hover:text-[white] absolute top-[12%] -left-[1%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center"
+                className="bg-[#dadce099] text-[20px] sm:p-8 duration-700 hover:bg-[#1A73E8] hover:text-[white] absolute top-[12%] -left-[1%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center"
               >
                 2
               </button>
               <button
                 onClick={() => toggleModel("model3")}
-                className="bg-[#dadce099] text-[20px] sm:p-8 hover:bg-[#1A73E8] hover:text-[white] absolute top-[33.5%] left-[72%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center"
+                className="bg-[#dadce099] text-[20px] sm:p-8 duration-700 hover:bg-[#1A73E8] hover:text-[white] absolute top-[33.5%] left-[72%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center"
               >
                 3
               </button>
@@ -341,7 +354,7 @@ const ShareWorkSection = () => {
                 <div
                   className={`flex flex-col gap-4 max-w-[800px] pt-10 px-8 bg-white`}
                 >
-                  <p className="text-left">
+                  <p className="text-left paragraph">
                     1. The document name is the name of the file you will see in
                     Google Drive. Only editors of the site will see this name.
                   </p>
@@ -365,7 +378,7 @@ const ShareWorkSection = () => {
                 <div
                   className={`flex flex-col gap-4 max-w-[800px] pt-10 px-8 bg-white`}
                 >
-                  <p className="text-left">
+                  <p className="text-left paragraph">
                     2. Site name is the name of the site itself.
                   </p>
                   <div className="py-5 border-t text-center border-gray-400">
@@ -388,7 +401,7 @@ const ShareWorkSection = () => {
                 <div
                   className={`flex flex-col gap-4 max-w-[800px] pt-10 px-8 bg-white`}
                 >
-                  <p className="text-left">
+                  <p className="text-left paragraph">
                     3. And the page title is the eye catching text that will
                     appear at the top of the page. It will also appear in the
                     navigation menu.
@@ -417,30 +430,30 @@ const ShareWorkSection = () => {
           <h1 className="text1 leading-[2.4rem]">
             Change your site’s background image, header type, and theme
           </h1>
-          <p>
+          <p className="paragraph">
             Customize parts of your Google Site to make your creation unique.
             Change the background image, header type, and theme. Theme changes
             affect the entire site. If a theme is changed on one page, then the
             entire site will reflect the changes. Themes provide a unified style
             with consistent colors and fonts.
           </p>
-          <p>Change your site's background image, header type, and theme:</p>
+          <p className="paragraph">
+            Change your site's background image, header type, and theme:
+          </p>
 
           <div className="mt-6 flex flex-col gap-3">
-            <p className="text-[16px] font-bold mb-3">
-              Click each button to learn more.
-            </p>
+            <p className="Bold mb-3">Click each button to learn more.</p>
 
             <div className="relative flex justify-center">
               <button
                 onClick={() => toggleModel("model4")}
-                className="bg-[#dadce099] font-bold absolute top-[9%] left-[91%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center hover:text-[white] hover:bg-[#1A73E8] sm:p-8 text-[20px]"
+                className="bg-[#dadce099] font-bold absolute top-[9%] left-[91%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center hover:text-[white] duration-700 hover:bg-[#1A73E8] sm:p-8 text-[20px]"
               >
                 1
               </button>
               <button
                 onClick={() => toggleModel("model5")}
-                className="bg-[#dadce099] text-[20px] sm:p-8 hover:bg-[#1A73E8] hover:text-[white] absolute top-[19%] left-[75%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center font-bold"
+                className="bg-[#dadce099] text-[20px] sm:p-8 duration-700 hover:bg-[#1A73E8] hover:text-[white] absolute top-[19%] left-[75%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center font-bold"
               >
                 2
               </button>
@@ -456,7 +469,7 @@ const ShareWorkSection = () => {
                   className={`flex flex-col gap-4 max-w-[800px] pt-10 px-8 bg-white items-center`}
                 >
                   <h1 className="text">Themes</h1>
-                  <p className="text-left">
+                  <p className="text-left paragraph">
                     1. Select <strong> Themes</strong> to view theme options.
                   </p>
                   <div className="py-5 border-t text-center border-gray-400">
@@ -479,11 +492,11 @@ const ShareWorkSection = () => {
                 <div
                   className={`flex flex-col gap-4 max-w-[800px] pt-10 px-8 bg-white`}
                 >
-                  <p className="text-left">
+                  <p className="text-left paragraph">
                     2. Under <strong>Created by Google</strong>, select a
                     pre-made theme.
                   </p>
-                  <p>
+                  <p className="paragraph">
                     Note: You can also create a custom theme or import a custom
                     theme from another site.
                   </p>
@@ -512,7 +525,7 @@ const ShareWorkSection = () => {
       >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text1 leading-[2.4rem]">Create pages within a site</h1>
-          <p>
+          <p className="paragraph">
             If your site only has one page, that will be your homepage. Most
             sites will have more than one page so you can decide which one is
             the homepage. For example, you or your students may want different
@@ -538,7 +551,7 @@ const ShareWorkSection = () => {
           <h1 className="text1 leading-[2.4rem]">
             Add text, images, and resources
           </h1>
-          <p>
+          <p className="paragraph">
             Next, add text, images, and resources to add information to your
             site. When you add an image or text box to part of a page, grid
             lines appear to help you align text, images, and other content so
@@ -559,14 +572,16 @@ const ShareWorkSection = () => {
       <div className="sm:pt-20 pt-16 sm:pb-16 pb-12 ">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text">Try it out</h1>
-          <p>Add text, images and resources to your site.</p>
+          <p className="paragraph">
+            Add text, images and resources to your site.
+          </p>
 
           <div className="grid md:grid-cols-3 grid-cols-1 place-content-center gap-10">
             <article className="md:col-span-1">
               <img src="./assets/work11.png" alt="" />
             </article>
-            <article className="md:col-span-2">
-              <ol className="list-decimal pl-12">
+            <article className="md:col-span-2 flex flex-col gap-5">
+              <ol className="list-decimal pl-12 paragraph">
                 <li>
                   To add text and images to your site, double-click the white
                   space or select <strong>Text box</strong> from the{" "}
@@ -594,7 +609,7 @@ const ShareWorkSection = () => {
                   Drive.
                 </li>
               </ol>
-              <p className="font-bold">Click image to enlarge.</p>
+              <p className="Bold">Click image to enlarge.</p>
             </article>
           </div>
         </div>
@@ -609,7 +624,7 @@ const ShareWorkSection = () => {
       >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text1 leading-[2.4rem]">Preview and publish</h1>
-          <p>
+          <p className="paragraph">
             Finally, preview your site so you can see how the website will look
             once it’s published online. You can preview it for multiple screen
             sizes, like a computer or mobile phone. Your website will
@@ -631,13 +646,11 @@ const ShareWorkSection = () => {
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-5">
             <h1 className="text">Try it out</h1>
-            <p>Preview and publish your site.</p>
+            <p className="paragraph">Preview and publish your site.</p>
           </div>
 
           <div className="flex flex-col gap-2 mt-2">
-            <p className="text-[15px] font-bold mb-4">
-              Click play to watch the video below.
-            </p>
+            <p className="Bold mb-4">Click play to watch the video below.</p>
             {/* video */}
             {/* <video
             tabindex="-1"
@@ -671,13 +684,15 @@ const ShareWorkSection = () => {
 
           {/* transcript  ==> */}
           <div className={`flex flex-col gap-5 ${show ? "block" : "hidden"}`}>
-            <p>In this video, we'll preview and publish a Google site.</p>
+            <p className="paragraph">
+              In this video, we'll preview and publish a Google site.
+            </p>
             <div className="flex flex-col gap-5">
-              <p>
+              <p className="paragraph">
                 Before you publish your site, you can preview what it will look
                 like on different types of devices.{" "}
               </p>
-              <ol className="list-decimal pl-12">
+              <ol className="list-decimal pl-12 paragraph">
                 <li>
                   Select the <strong>Preview icon</strong> in the upper toolbar
                   to generate the preview.
@@ -722,14 +737,14 @@ const ShareWorkSection = () => {
             </div>
 
             <div className="flex flex-col gap-4">
-              <p>Your site is now live.</p>
-              <p>
+              <p className="paragraph">Your site is now live.</p>
+              <p className="paragraph">
                 You can unpublish your site at any time by clicking the dropdown
                 arrow next to the <strong>Publish</strong> option on the toolbar
                 and choosing
                 <strong> Unpublish</strong>.{" "}
               </p>
-              <p>
+              <p className="paragraph">
                 It will also give you the option to review and alter all of your
                 publish settings if you wish.
               </p>
@@ -750,7 +765,7 @@ const ShareWorkSection = () => {
           <h1 className="text1 leading-[2.4rem]">
             Invite others to edit your site
           </h1>
-          <p>
+          <p className="paragraph">
             You might want to include others as collaborators to your site. If
             you are co-teaching, you and another teacher can build a site
             together.
@@ -768,13 +783,15 @@ const ShareWorkSection = () => {
           <h1 className="text">Try it out</h1>
 
           <div className="grid md:grid-cols-2 grid-cols-1 gap-8">
-            <article className="flex flex-col gap-4">
-              <p>Invite others to collaborate on your site.</p>
+            <article className="flex flex-col gap-5">
+              <p className="paragraph">
+                Invite others to collaborate on your site.
+              </p>
               <div className="flex flex-col gap-4">
-                <p>
+                <p className="paragraph">
                   To share your site with a collaborator, follow these steps.
                 </p>
-                <ol className="list-decimal pl-12">
+                <ol className="list-decimal pl-12 paragraph">
                   <li>
                     To the left of the <strong>Publish</strong> button, click
                     the <strong>Share with others</strong> button.
@@ -785,7 +802,7 @@ const ShareWorkSection = () => {
                   </li>
                 </ol>
               </div>
-              <p dir="ltr">
+              <p dir="ltr" className="paragraph mt-3">
                 Explore the{" "}
                 <a
                   target="_blank"
@@ -799,7 +816,7 @@ const ShareWorkSection = () => {
               </p>
             </article>
             <article className="flex flex-col gap-4 mt-4">
-              <p className="font-bold">Click image to enlarge.</p>
+              <p className="Bold">Click image to enlarge.</p>
               <img src="./assets/work13.png" alt="" />
             </article>
           </div>
@@ -820,7 +837,7 @@ const ShareWorkSection = () => {
           <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
             {/* TEXt */}
             <article className="flex flex-col gap-4 md:col-span-2">
-              <p>
+              <p className="paragraph">
                 Take some time to reflect on the ways you can customize sites to
                 create a well-designed workspace for students.
               </p>
@@ -828,7 +845,7 @@ const ShareWorkSection = () => {
                 <p className="font-bold">
                   Consider the following and make a note of your answers.
                 </p>
-                <ol className="list-decimal pl-12">
+                <ol className="list-decimal pl-12 paragraph">
                   <li>
                     What are some situations where you could use Google Sites
                     within your school community?

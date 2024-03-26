@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const TryItOutChat = () => {
   const [activeModel, setActiveModel] = useState(null);
@@ -13,23 +16,21 @@ const TryItOutChat = () => {
       <div className="sm:pb-16 pb-12 shadow-inner-large bg-[#F9F9FA] sm:pt-20 pt-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col sm:gap-5 gap-2">
           <h1 className="text">Try it out</h1>
-          <p>Customize your Chat notifications. </p>
+          <p className="paragraph">Customize your Chat notifications. </p>
 
           <div className="mt-6 flex flex-col gap-3">
-            <p className="text-[16px] font-bold mb-3">
-              Click each button to learn more.
-            </p>
+            <p className="Bold mb-3">Click each button to learn more.</p>
 
             <div className="relative flex justify-center">
               <button
                 onClick={() => toggleModel("model1")}
-                className="bg-[#dadce099] absolute top-[10.6%] left-[41%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center hover:text-[white] hover:bg-[#1A73E8] sm:p-8 text-[20px]"
+                className="bg-[#dadce099] absolute top-[10.6%] left-[41%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center hover:text-[white] duration-700 hover:bg-[#1A73E8] sm:p-8 text-[20px]"
               >
                 1
               </button>
               <button
                 onClick={() => toggleModel("model2")}
-                className="bg-[#dadce099] text-[20px] sm:p-8 hover:bg-[#1A73E8] hover:text-[white] absolute top-[40.5%] left-[68%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center"
+                className="bg-[#dadce099] text-[20px] sm:p-8 duration-700 hover:bg-[#1A73E8] hover:text-[white] absolute top-[40.5%] left-[68%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center"
               >
                 2
               </button>
@@ -47,7 +48,7 @@ const TryItOutChat = () => {
                   <h1 className="text-[25px] text-center">
                     Customize notifications
                   </h1>
-                  <p className="text-left">
+                  <p className="text-left paragraph">
                     1. Click the three dots in the top right of your chat.
                   </p>
                   <div className="py-5 border-t text-center border-gray-400">
@@ -73,7 +74,7 @@ const TryItOutChat = () => {
                   <h1 className="text-[25px] text-center">
                     Mute conversations
                   </h1>
-                  <p className="text-left">
+                  <p className="text-left paragraph">
                     2. To turn notifications off, click the muted bell.
                   </p>
                   <div className="py-5 border-t text-center border-gray-400">
@@ -104,7 +105,7 @@ const TryItOutChat = () => {
           <h1 className="text1 leading-[2.4rem]">
             Manage/delete your chat history
           </h1>
-          <p>
+          <p className="paragraph">
             You can save all of your conversations in Google Chat as long as
             the&nbsp;
             <a
@@ -121,14 +122,16 @@ const TryItOutChat = () => {
             then will disappear. The chat history feature is typically turned on
             by default, but you can switch it on or off.&nbsp;
           </p>
-          <p>
+          <p className="paragraph">
             When you message a person or group in Google Chat, you can choose to
             save your conversation or have it automatically deleted after 24
             hours.
           </p>
           <div>
-            <p>When anyone in the chat turns history on or off:</p>
-            <ul className="list-disc pl-12">
+            <p className="paragraph">
+              When anyone in the chat turns history on or off:
+            </p>
+            <ul className="list-disc pl-12 paragraph">
               <li>
                 A note appears in the message stream that says history was
                 turned on or off.
@@ -151,11 +154,11 @@ const TryItOutChat = () => {
       <div className="sm:pt-20 pt-12 sm:pb-16 pb-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
           <h1 className="text">Try it out</h1>
-          <p>Manage or delete your chat history.</p>
+          <p className="paragraph">Manage or delete your chat history.</p>
           <div className="grid md:grid-cols-3 grid-cols-1 gap-[3rem]">
             {/* texT */}
             <article className="col-span-1">
-              <ol className="list-decimal pl-12">
+              <ol className="list-decimal pl-12 paragraph">
                 <li>Select a conversation from Chat.</li>
                 <li>
                   At the top, next to the contact or conversation name, click
@@ -184,9 +187,14 @@ const TryItOutChat = () => {
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col sm:gap-8 gap-6">
           <h1 className="text">Success stories</h1>
           <div className="grid sm:grid-cols-2 grid-cols-1 gap-4">
-            <article className="bg-white flex flex-col items-center gap-8 sm:px-5 px-4 sm:py-5 py-4 rounded-md">
+            <article
+              data-aos="fade-up"
+              data-aos-delay="60"
+              data-aos-duration="1200"
+              className="bg-white flex flex-col items-center gap-8 sm:px-5 px-4 sm:py-5 py-4 rounded-md"
+            >
               <img src="./assets/chat15.png" alt="" />
-              <p>
+              <p className="paragraph">
                 I hold a Google Chat opportunity once a week at the same
                 designated time with any of my colleagues to check in on
                 priorities and stay up to date on progress. They know I am
@@ -196,9 +204,14 @@ const TryItOutChat = () => {
                 connected to my team more this way.
               </p>
             </article>
-            <article className="bg-white flex flex-col items-center gap-8 sm:px-5 px-4 sm:py-5 py-4 rounded-md">
+            <article
+              data-aos="fade-up"
+              data-aos-delay="80"
+              data-aos-duration="1500"
+              className="bg-white flex flex-col items-center gap-8 sm:px-5 px-4 sm:py-5 py-4 rounded-md"
+            >
               <img src="./assets/chat16.png" alt="" />
-              <p>
+              <p className="paragraph">
                 In virtual training sessions, I create discussion questions,
                 break colleagues up into chat groups, and assign each group a
                 different discussion question. Then, I can comment and observe
@@ -223,7 +236,7 @@ const TryItOutChat = () => {
           <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
             {/* TEXt */}
             <article className="flex flex-col gap-4 md:col-span-2">
-              <p>
+              <p className="paragraph">
                 In this lesson, you learned about some ways to use Google Chat
                 to reinvent communication at your school. Now it’s your turn to
                 reflect on what you have learned.
@@ -232,7 +245,7 @@ const TryItOutChat = () => {
                 <p className="font-bold">
                   Consider the following and make a note of your answers.
                 </p>
-                <ol className="list-decimal pl-12">
+                <ol className="list-decimal pl-12 paragraph">
                   <li>
                     What are some situations where you could use Google Chat as
                     a valuable tool to communicate with your colleagues?

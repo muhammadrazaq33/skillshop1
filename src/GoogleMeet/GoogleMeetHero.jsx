@@ -43,7 +43,7 @@ const GoogleMeetHero = () => {
                 <p>Favorites</p>
               </NavLink>
             </div>
-            <p className="text-[19px]">
+            <p className="text-[19px] text-[#393b3d]">
               Make organizing meetings easy with Google Meet and bring your
               students, guardians or colleagues together, wherever they are.
               Have private, clear and flexible meetings for any agenda..

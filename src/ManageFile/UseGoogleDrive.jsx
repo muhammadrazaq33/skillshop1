@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const UseGoogleDrive = () => {
   const [activeIndex, setActiveIndex] = useState(0); // State to track active paragraph index
@@ -147,7 +150,12 @@ const UseGoogleDrive = () => {
             </div>
 
             {/* RIgHT side  */}
-            <div className="flex flex-col gap-3 px-3 py-4 col-span-1">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="60"
+              data-aos-duration="1200"
+              className="flex flex-col gap-3 px-3 py-4 col-span-1"
+            >
               <img src="./assets/student.png" alt="" />
               <p className="paragraph text-center">
                 I can create a folder for each of my classes and then share the
