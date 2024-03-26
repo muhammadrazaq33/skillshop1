@@ -9,7 +9,7 @@ const AdditionalResources = () => {
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col sm:gap-12 gap-8">
           <div className="flex flex-col sm:gap-12 gap-8">
             <h1 className="leading-[2.4rem] text4">​​Additional Resources​​</h1>
-            <p>
+            <p className="paragraph">
               Google classroom is a great tool for educators and education
               admins who want to use tech to improve collaboration and
               communication for their students, guardians, and colleagues. If
@@ -20,7 +20,9 @@ const AdditionalResources = () => {
 
           <div className="grid md:grid-cols-3 grid-cols-1 gap-2 md:gap-12">
             <article className="flex flex-col gap-6 md:col-span-2">
-              <p>To learn more about this topic, click the links below.</p>
+              <p className="paragraph">
+                To learn more about this topic, click the links below.
+              </p>
               <div className="flex flex-col gap-4 md:items-start items-center">
                 <button className="bg-[#1a73e8] text-white py-2 px-4 font-medium">
                   <a

@@ -2,7 +2,6 @@ import React from "react";
 import GoogleCalenderHero from "./GoogleCalenderHero";
 import GoogleCalenderSection from "./GoogleCalenderSection";
 import GoogleCalenderFooter from "./GoogleCalenderFooter";
-import WorkSpaceFooter from "../Components/WorkSpaceFooter";
 
 const GoogleCalender = () => {
   return (
@@ -10,7 +9,6 @@ const GoogleCalender = () => {
       <GoogleCalenderHero />
       <GoogleCalenderSection />
       <GoogleCalenderFooter />
-      <WorkSpaceFooter />
     </div>
   );
 };

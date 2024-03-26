@@ -28,64 +28,73 @@ const GoogleTaskSection = () => {
               <div className="pl-4">
                 <ul className="activitysection__list courselist">
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#CreateList" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname ">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Create to-do lists in Google Tasks
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#IntegrateList"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Integrate lists in Google Tasks with Google Calender
                         </h3>
                       </div>
-                    </NavLink>
+                    </a>
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#MultiFunctional"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Create multi-functional notes in Google Keep
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#Reminder" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Add a reminder to a note
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#AddImage" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Add an image to a note
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#CollaborateKeep"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Collaborate in Keep
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                 </ul>
               </div>
@@ -147,7 +156,9 @@ const GoogleTaskSection = () => {
               className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
             >
               <img src="./assets/task4.png" alt="" />
-              <p className="text-center">Manage to-do lists in Google Tasks</p>
+              <p className="text-center paragraph">
+                Manage to-do lists in Google Tasks
+              </p>
             </article>
             <article
               data-aos="fade-left"
@@ -156,7 +167,7 @@ const GoogleTaskSection = () => {
               className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
             >
               <img src="./assets/task5.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 Integrate lists in Google Tasks with Google Calendar
               </p>
             </article>
@@ -167,7 +178,7 @@ const GoogleTaskSection = () => {
               className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
             >
               <img src="./assets/task6.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 Recognize how to create multi-functional notes in Google Keep
               </p>
             </article>
@@ -178,18 +189,21 @@ const GoogleTaskSection = () => {
 
       {/* seCoND sEctiON */}
       {/* Create to-do lists in Google Tasks */}
-      <div className="bg-[#FFFFFF] sm:pt-20 pt-12 sm:pb-16 pb-12">
-        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4">
+      <div
+        id="CreateList"
+        className="bg-[#FFFFFF] sm:pt-20 pt-12 sm:pb-16 pb-12"
+      >
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
           <h1 className="text1 leading-[2.4rem] mb-2">
             Create to-do lists in Google Tasks
           </h1>
-          <p>
+          <p className="paragraph">
             Utilizing the Google Tasks feature inside of Gmail is the quickest
             and easiest way to transform your paper-based to-do lists into
             digital ones. Every account in Gmail has a default task list, but
             you can easily add as many lists as you’d like.
           </p>
-          <p>
+          <p className="paragraph">
             Each list gives you the option to quickly add, check off, or delete
             tasks as you deem necessary. If you want, you can even mail a list
             to a colleague for their review. You can also add subtasks and due
@@ -200,23 +214,26 @@ const GoogleTaskSection = () => {
       {/*end Of SECOnD sEctiON */}
 
       {/* IMAGE SECTION */}
-      <div className="bg-[url('./assets/task7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/task7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* THIRD sEctiON */}
       {/* Integrate lists in Google Tasks with Google Calendar */}
-      <div className=" sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#F9F9FA] top-shadow">
-        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4">
+      <div
+        id="IntegrateList"
+        className=" sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#F9F9FA] top-shadow"
+      >
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
           <h1 className="text1 leading-[2.4rem] mb-2">
             Integrate lists in Google Tasks with Google Calendar
           </h1>
-          <p>
+          <p className="paragraph">
             All of your tasks will appear as a list on the right side panel of
             your calendar regardless of a date being assigned. However, if you
             rely on Google Calendar as your daily organizational tool, you might
             find it helpful to have your task list viewable directly in your
             calendar.
           </p>
-          <p>
+          <p className="paragraph">
             To have any of your current tasks appear on your calendar, you must
             assign them a due date. Tasks with due dates will appear as an
             all-day event at the top of the day so you can easily see all of the
@@ -227,7 +244,7 @@ const GoogleTaskSection = () => {
       {/*end Of THIRD sEctiON */}
 
       {/* IMAGE SECTION */}
-      <div className="bg-[url('./assets/task8.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/task8.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* foURTh SeCTion */}
       {/* tRy IT OUt */}
@@ -235,8 +252,10 @@ const GoogleTaskSection = () => {
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-12">
           <div className="flex flex-col gap-5">
             <h1 className="text">Try it out</h1>
-            <p>Integrate lists in Google Tasks with Google Calendar.</p>
-            <ol className="list-decimal pl-12">
+            <p className="paragraph">
+              Integrate lists in Google Tasks with Google Calendar.
+            </p>
+            <ol className="list-decimal pl-12 paragraph">
               <li>
                 Assign one of your tasks a due date. When adding a new task, you
                 will see the option to add a date and time. When you assign a
@@ -252,7 +271,7 @@ const GoogleTaskSection = () => {
           </div>
 
           <div className="flex flex-col gap-10">
-            <p className="font-bold">Click image to enlarge.</p>
+            <p className="Bold">Click image to enlarge.</p>
             <img src="./assets/task9.png" className="cursor-zoom-out" alt="" />
           </div>
         </div>
@@ -260,21 +279,24 @@ const GoogleTaskSection = () => {
       {/*enD OF foURTh SeCTion */}
 
       {/* IMAGE SECTION */}
-      <div className="bg-[url('./assets/task7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/task7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* FiFTH sEctiON */}
       {/* Create multi-functional notes in Google Keep */}
-      <div className="bg-[#FFFFFF] sm:pt-20 pt-12 sm:pb-16 pb-12">
-        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4">
+      <div
+        id="MultiFunctional"
+        className="bg-[#FFFFFF] sm:pt-20 pt-12 sm:pb-16 pb-12"
+      >
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
           <h1 className="text1 leading-[2.4rem] mb-2">
             Create multi-functional notes in Google Keep
           </h1>
-          <p>
+          <p className="paragraph">
             Google Keep is another application to help you stay organized. Keep
             is a note-taking app, and you’ll find it especially useful if you
             prefer to use your mobile device to stay organized.
           </p>
-          <p>
+          <p className="paragraph">
             With Keep, you can add information, images, and text, and even
             collaborate with other users. Suddenly, your to-do list can be
             worked on and shared with others.You can record multiple notes to
@@ -291,16 +313,16 @@ const GoogleTaskSection = () => {
       {/*end Of fIFth sEctiON */}
 
       {/* IMAGE SECTION */}
-      <div className="bg-[url('./assets/task7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/task7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* sIxTh sEctiON */}
       {/* Add a reminder to a note */}
-      <div className="bg-[#FFFFFF] sm:pt-20 pt-12 sm:pb-16 pb-12">
+      <div id="Reminder" className="bg-[#FFFFFF] sm:pt-20 pt-12 sm:pb-16 pb-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4">
           <h1 className="text1 leading-[2.4rem] mb-2">
             Add a reminder to a note
           </h1>
-          <p>
+          <p className="paragraph">
             Google Keep even has reminders based on a geographic location. For
             example, if you need to stop at the office supply store by the end
             of the week, you can add the location to the note and Keep will
@@ -311,7 +333,7 @@ const GoogleTaskSection = () => {
       {/*end Of SIXtH sEctiON */}
 
       {/* IMAGE SECTION */}
-      <div className="bg-[url('./assets/task11.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/task11.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* SeVENth sEcTIOn */}
       {/* tRY It oUt */}
@@ -319,12 +341,12 @@ const GoogleTaskSection = () => {
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-5">
             <h1 className="text">Try it out</h1>
-            <p>Add a reminder to a note.</p>
+            <p className="paragraph">Add a reminder to a note.</p>
           </div>
 
           <div className="grid md:grid-cols-2 grid-cols-1 gap-12">
             <article>
-              <ol className="list-decimal pl-4">
+              <ol className="list-decimal pl-4 paragraph">
                 <li>
                   Click the <strong>Remind me</strong> icon at the bottom of the
                   note to add a reminder. Add a place, date and time, and
@@ -342,7 +364,7 @@ const GoogleTaskSection = () => {
               </ol>
             </article>
             <article className="flex flex-col gap-4 justify-end md:mt-5 mt-0">
-              <p className="font-bold">Click image to enlarge.</p>
+              <p className="Bold">Click image to enlarge.</p>
               <img src="./assets/task10.png" alt="" />
             </article>
           </div>
@@ -352,12 +374,12 @@ const GoogleTaskSection = () => {
 
       {/* 8 sEctiON */}
       {/* Add an image to a note */}
-      <div className="bg-[#FFFFFF] sm:pt-20 pt-12 sm:pb-16 pb-12">
+      <div id="AddImage" className="bg-[#FFFFFF] sm:pt-20 pt-12 sm:pb-16 pb-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4">
           <h1 className="text1 leading-[2.4rem] mb-2">
             Add an image to a note
           </h1>
-          <p>
+          <p className="paragraph">
             By utilizing the image feature on Google Keep, you can quickly
             upload images directly from your camera or photo gallery, and then
             categorize them as needed in Google Keep. Maybe you created a to-do
@@ -371,7 +393,7 @@ const GoogleTaskSection = () => {
       {/*end Of 8 sEctiON */}
 
       {/* IMAGE SECTION */}
-      <div className="bg-[url('./assets/task11.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/task11.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 9 sEcTIOn */}
       {/* tRY It oUt */}
@@ -379,12 +401,12 @@ const GoogleTaskSection = () => {
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-5">
             <h1 className="text">Try it out</h1>
-            <p>Add an image to a note.</p>
+            <p className="paragraph">Add an image to a note.</p>
           </div>
 
           <div className="grid md:grid-cols-3 grid-cols-1 gap-12">
             <article className="md:col-span-1">
-              <ol className="list-decimal pl-5">
+              <ol className="list-decimal pl-5 paragraph">
                 <li>Start a new note.</li>
                 <li>
                   Click the <strong>Add image</strong> button at the bottom of
@@ -397,7 +419,7 @@ const GoogleTaskSection = () => {
               </ol>
             </article>
             <article className="flex flex-col gap-4 justify-end md:mt-5 mt-0 md:col-span-2">
-              <p className="font-bold">Click image to enlarge.</p>
+              <p className="Bold">Click image to enlarge.</p>
               <img src="./assets/task12.png" alt="" />
             </article>
           </div>
@@ -407,11 +429,14 @@ const GoogleTaskSection = () => {
 
       {/* 10 SeCtiON */}
       {/* Collaborate in Keep */}
-      <div className="bg-[#F9F9FA] sm:pb-16 pb-12 md:pt-20 pt-12">
+      <div
+        id="CollaborateKeep"
+        className="bg-[#FFFFFF] sm:pb-16 pb-12 md:pt-20 pt-12"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem]">Collaborate in Keep</h1>
-            <p>
+            <p className="paragraph">
               You might want to add a collaborator to your note to involve a
               colleague in an idea. Or you may need to share a list of materials
               for a department-wide project.
@@ -419,9 +444,7 @@ const GoogleTaskSection = () => {
           </div>
 
           <div className="flex flex-col gap-2 mt-2">
-            <p className="text-[15px] font-bold mb-4">
-              Click play to watch the video below.
-            </p>
+            <p className="Bold mb-4">Click play to watch the video below.</p>
             {/* video */}
             {/* <video
             tabindex="-1"
@@ -456,11 +479,11 @@ const GoogleTaskSection = () => {
           {/* transcript  ==> */}
           <div className={`flex flex-col gap-8 ${show ? "block" : "hidden"}`}>
             <div className="flex flex-col gap-5">
-              <p>
+              <p className="paragraph">
                 In this video we’re going to learn how to share a Google Keeps
                 note with a collaborator.{" "}
               </p>
-              <ol className="list-decimal pl-12">
+              <ol className="list-decimal pl-12 paragraph">
                 <li>
                   To start, click on a note you already have or create a new
                   one.
@@ -487,7 +510,7 @@ const GoogleTaskSection = () => {
                 </li>
               </ol>
             </div>
-            <p>And the note is no longer shared.</p>
+            <p className="paragraph">And the note is no longer shared.</p>
           </div>
           {/* eND oF TRansCrIpt */}
         </div>
@@ -495,7 +518,7 @@ const GoogleTaskSection = () => {
       {/*End oF 10 SeCtiON */}
 
       {/* IMAGE SECTION */}
-      <div className="bg-[url('./assets/t12.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/t12.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 11 ScEtiOn */}
       {/* Reflect on what you have learned */}
@@ -506,8 +529,8 @@ const GoogleTaskSection = () => {
           </h1>
           <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
             {/* TEXt */}
-            <article className="flex flex-col gap-4 md:col-span-2">
-              <p>
+            <article className="flex flex-col gap-5 md:col-span-2">
+              <p className="paragraph">
                 Now that you’ve learned how to stay organized with Google Tasks
                 and Keep, reflect on the ways you can use Drive in your
                 classroom.
@@ -516,7 +539,7 @@ const GoogleTaskSection = () => {
                 <p className="font-bold">
                   Consider the following and make a note of your answers.
                 </p>
-                <ol className="list-decimal pl-12">
+                <ol className="list-decimal pl-12 paragraph">
                   <li>
                     When would you mostly benefit from taking notes in Google
                     Keep?

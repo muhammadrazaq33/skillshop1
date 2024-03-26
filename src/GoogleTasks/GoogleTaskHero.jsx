@@ -43,7 +43,7 @@ const GoogleTaskHero = () => {
                 <p>Favorites</p>
               </NavLink>
             </div>
-            <p className="text-[19px]">
+            <p className="text-[19px] text-[#393b3d]">
               Google Tasks and Google Keep are useful tools to help you keep
               track of notes and to-do lists, stay organized, and collaborate
               with others and works well with other tools such as Gmail and

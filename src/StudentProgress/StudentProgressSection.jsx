@@ -14,6 +14,7 @@ const StudentProgressSection = () => {
       setShow(true);
     }
   };
+
   return (
     <div>
       {/* fiRSt sECtION */}
@@ -256,7 +257,7 @@ const StudentProgressSection = () => {
       {/*End oF 3 SeCtiON */}
 
       {/* ImAge SEctION */}
-      <div className="bg-[url('./assets/form8.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/form8.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 4 SeCtiON */}
       {/* Use Google Forms for grading */}

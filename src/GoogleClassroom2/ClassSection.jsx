@@ -28,40 +28,49 @@ const ClassSection = () => {
               <div className="pl-4">
                 <ul className="activitysection__list courselist">
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#CreateAssignment"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname ">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Create an assignment in Classroom
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#CustomizeAssignment"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Customize assignments and resources
                         </h3>
                       </div>
-                    </NavLink>
+                    </a>
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#ReuseAssignment"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Reuse assignments and resources
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
                     <NavLink className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Add links, videos, and files tO assignments in
                           Classroom
                         </h3>
@@ -69,44 +78,50 @@ const ClassSection = () => {
                     </NavLink>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#ViewAssignment"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           View assignments
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#ShareFolders" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Share folders and documents from Drive
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
                     <NavLink className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Best practices for collecting work in CLassroom
                         </h3>
                       </div>
                     </NavLink>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#BestPractices"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Best practices for collecting work in Drive
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                 </ul>
               </div>
@@ -153,7 +168,7 @@ const ClassSection = () => {
                 className="bg-[#E6E7E9] flex flex-col max-w-[18rem] w-full items-center py-4 rounded-lg gap-y-5 px-4  "
               >
                 <img src="./assets/c3.png" alt="" />
-                <p className="text-center">Assign work to students</p>
+                <p className="text-center paragraph">Assign work to students</p>
               </article>
               <article
                 data-aos="fade-left"
@@ -162,7 +177,7 @@ const ClassSection = () => {
                 className="bg-[#E6E7E9] flex flex-col max-w-[18rem] w-full items-center py-4 rounded-lg gap-y-5 px-4"
               >
                 <img src="./assets/gc2.png" alt="" />
-                <p className="text-center">
+                <p className="text-center paragraph">
                   Share folders and documents from Drive
                 </p>
               </article>
@@ -173,7 +188,7 @@ const ClassSection = () => {
                 className="bg-[#E6E7E9] flex flex-col max-w-[18rem] w-full items-center py-4 rounded-lg gap-y-5 px-4"
               >
                 <img src="./assets/gc3.png" alt="" />
-                <p className="text-center">Collect student work</p>
+                <p className="text-center paragraph">Collect student work</p>
               </article>
             </div>
           </div>
@@ -183,13 +198,16 @@ const ClassSection = () => {
 
       {/* SECOND SeCtiON */}
       {/* Create an assignment in Classroom */}
-      <div className="bg-[#F9F9FA] top-shadow sm:pb-16 pb-12 md:pt-20 pt-16">
+      <div
+        id="CreateAssignment"
+        className="bg-[#F9F9FA] top-shadow sm:pb-16 pb-12 md:pt-20 pt-16"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-7">
             <h1 className="text1 leading-[2.4rem]">
               Create an assignment in Classroom
             </h1>
-            <p>
+            <p className="paragraph">
               In this lesson, you’ll learn how to create an assignment, set due
               dates, and add resources for your students using the Classwork
               page in Google Classroom. You can also use the Classwork page to
@@ -202,9 +220,7 @@ const ClassSection = () => {
           </div>
 
           <div className="flex flex-col gap-2 mt-2">
-            <p className="text-[15px] font-bold mb-4">
-              Click play to watch the video below.
-            </p>
+            <p className="Bold mb-4">Click play to watch the video below.</p>
             {/* video */}
             {/* <video
             tabindex="-1"
@@ -238,12 +254,12 @@ const ClassSection = () => {
 
           {/* transcript  ==> */}
           <div className={`flex flex-col gap-5 ${show ? "block" : "hidden"}`}>
-            <p>
+            <p className="paragraph">
               In this video we are going to create an assignment in Google
               Classroom.
             </p>
             <div>
-              <ol className="list-decimal pl-12">
+              <ol className="list-decimal pl-12 paragraph">
                 <li>
                   First, navigate to Classrom by clicking on the App menu in the
                   waffle and scrolling to Google Classroom.
@@ -291,7 +307,7 @@ const ClassSection = () => {
             </div>
           </div>
           {/* eND oF TRansCrIpt */}
-          <p>
+          <p className="paragraph">
             Watch the video below to learn more about the{" "}
             <strong>Classwork</strong> page in Google Classroom.
           </p>
@@ -300,7 +316,7 @@ const ClassSection = () => {
           <div className="">
             <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
               <div className="flex flex-col gap-2 mt-2">
-                <p className="text-[15px] font-bold mb-4">
+                <p className="Bold mb-4">
                   Click play to watch the video below.
                 </p>
                 {/* video */}
@@ -333,7 +349,10 @@ const ClassSection = () => {
 
       {/* ThiRD ScETioN */}
       {/* Customize assignments and resources */}
-      <div className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] shadow-top-bottom-inner">
+      <div
+        id="CustomizeAssignment"
+        className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] shadow-top-bottom-inner"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem]">
@@ -345,21 +364,21 @@ const ClassSection = () => {
             <article>
               <img src="./assets/gc6.png" alt="" />
             </article>
-            <article className="flex flex-col gap-4">
-              <p>
+            <article className="flex flex-col gap-5">
+              <p className="paragraph">
                 Each classroom includes a unique group of learners who may need
                 different resources at different times. With Google Classroom,
                 you can customize learning by sending specific resources to
                 individual students.{" "}
               </p>
-              <p>
+              <p className="paragraph">
                 To do this, first build an assignment. Then use the For
                 drop-down menu to click an individual or set of students to
                 receive the assignment. Take advantage of this feature to
                 challenge students who are ready to move ahead with coursework
                 or to support students who need to review course material.
               </p>
-              <p>
+              <p className="paragraph">
                 To promote collaboration, assign work to groups of students so
                 learners can work together to complete projects. If you have
                 multiple classes you want to share an assignment with, click{" "}
@@ -376,12 +395,15 @@ const ClassSection = () => {
 
       {/* FourtH sEctiON */}
       {/* Reuse assignments and resources */}
-      <div className="bg-[#FFFFFF] sm:pt-20 pt-12 sm:pb-16 pb-12">
-        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4">
+      <div
+        id="ReuseAssignment"
+        className="bg-[#FFFFFF] sm:pt-20 pt-12 sm:pb-16 pb-12"
+      >
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
           <h1 className="text1 leading-[2.4rem] mb-2">
             Reuse assignments and resources
           </h1>
-          <p>
+          <p className="paragraph">
             You may want to share the same assignments or resources across
             multiple classes, but customize them for each specific class.
             Instead of creating the same assignment from scratch, you can reuse
@@ -394,12 +416,7 @@ const ClassSection = () => {
       {/*end Of fOURth sEctiON */}
 
       {/* image section */}
-      <div className="bg-[url('./assets/gc7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
-
-      {/* IMAGE SECTION */}
-      {/* <div className="bg-wrapper mx-auto max-w-[1100px]"> */}
-      {/* <div className="bg-[url('./assets/gc7.png')] w-full h-[120px] object-cover  bg-center bg-no-repeat"></div> */}
-      {/* </div> */}
+      <div className="bg-[url('/assets/gc7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* FIfTh SeCtiON */}
       {/* Try it out */}
@@ -407,16 +424,14 @@ const ClassSection = () => {
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-5">
             <h1 className="text">Try it out</h1>
-            <p>
+            <p className="paragraph">
               Follow the steps in the video below to reuse an assignment from
               one class in another.
             </p>
           </div>
 
           <div className="flex flex-col gap-2 mt-2">
-            <p className="text-[15px] font-bold mb-4">
-              Click play to watch the video below.
-            </p>
+            <p className="Bold mb-4">Click play to watch the video below.</p>
             {/* video */}
             {/* <video
             tabindex="-1"
@@ -449,17 +464,17 @@ const ClassSection = () => {
           </div>
 
           {/* transcript  ==> */}
-          <div className={`flex flex-col gap-5 ${show ? "block" : "hidden"}`}>
-            <p>
+          <div className={`flex flex-col gap-6 ${show ? "block" : "hidden"}`}>
+            <p className="paragraph">
               In this video we will reuse an assignment post from one class in
               another class.
             </p>
-            <div>
-              <p>
+            <div className="flex flex-col gap-5">
+              <p className="paragraph">
                 So let's say we created an assignment in this class, and we want
                 to use this assignment in another class.{" "}
               </p>
-              <ol className="list-decimal pl-12">
+              <ol className="list-decimal pl-12 paragraph">
                 <li>
                   So first, navigate to the other class by clicking the{" "}
                   <strong>Main menu</strong> button here, and choosing the class
@@ -484,7 +499,7 @@ const ClassSection = () => {
                 </li>
               </ol>
             </div>
-            <p>The assignment has now been reused.</p>
+            <p className="paragraph">The assignment has now been reused.</p>
           </div>
           {/* eND oF TRansCrIpt */}
         </div>
@@ -493,21 +508,24 @@ const ClassSection = () => {
 
       {/* SIXTH ScETioN */}
       {/* View assignments */}
-      <div className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] shadow-top-bottom-inner">
+      <div
+        id="ViewAssignment"
+        className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] shadow-top-bottom-inner"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem]">View assignments</h1>
           </div>
 
           <div className="grid md:grid-cols-3 grid-cols-1 gap-12">
-            <article className="flex flex-col gap-4 md:col-span-1">
-              <p>
+            <article className="flex flex-col gap-5 md:col-span-1">
+              <p className="paragraph">
                 To view additional details about an assignment, including
                 individual student work, click the assignment. Students can see
                 all their coursework in the <strong>Stream</strong> page and
                 <strong> Classwork</strong> page.
               </p>
-              <p>
+              <p className="paragraph">
                 From these pages, students can either start working on an
                 assignment or submit their completed work.
               </p>
@@ -522,14 +540,17 @@ const ClassSection = () => {
 
       {/* 7 sEctiON */}
       {/* Share folders and documents from Drive */}
-      <div className="bg-[#FFFFFF] sm:pt-20 pt-12 sm:pb-16 pb-12">
+      <div
+        id="ShareFolders"
+        className="bg-[#FFFFFF] sm:pt-20 pt-12 sm:pb-16 pb-12"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4">
           {/* fIrsT DiV */}
           <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem] mb-2">
               Share folders and documents from Drive
             </h1>
-            <p>
+            <p className="paragraph">
               If you don’t have access to Classroom, you can create assignments,
               shared folders for classroom resources, and individual folders for
               each student so they can keep track of their work in Drive. To
@@ -537,7 +558,7 @@ const ClassSection = () => {
               or ask students to view the <strong>Shared with Me</strong>{" "}
               section in Drive.
             </p>
-            <p>
+            <p className="paragraph">
               Before sharing documents and folders, consider what access
               permission you’d like your students to have. For example, if you
               want your students to work together, give students{" "}
@@ -551,16 +572,16 @@ const ClassSection = () => {
           </div>
 
           {/* SecOND Div */}
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-5">
             <img src="./assets/gc9.png" alt="" />
-            <p>
+            <p className="paragraph">
               If you have created a worksheet you want your students to access
               but not work directly in, you can assign them the{" "}
               <strong>Viewer</strong> role and have them make a copy. This way,
               students cannot change the original document, but can instead make
               changes to their own copy.{" "}
             </p>
-            <p>
+            <p className="paragraph">
               <strong> Tip:</strong> A quick way of allowing others to create
               copies of a document in Google Docs is to share the URL with
               "copy" at the end instead of “edit.” Make sure you've shared the
@@ -592,7 +613,7 @@ const ClassSection = () => {
       {/*end Of 7 sEctiON */}
 
       {/* image section */}
-      <div className="bg-[url('./assets/gc10.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/gc10.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 8 sectIOn */}
       {/* Success stories
@@ -611,7 +632,7 @@ const ClassSection = () => {
               className="flex flex-col gap-5 items-center py-4 px-4 bg-[#F9F9FA]"
             >
               <img src="./assets/gc11.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 I teach science, so I prefer to save class time for hands-on
                 work. I provide YouTube videos and links for my students to view
                 at home in Google Classroom. Then, when they come to class,
@@ -629,7 +650,7 @@ const ClassSection = () => {
               className="flex flex-col gap-12 items-center py-4 px-4 bg-[#F9F9FA]"
             >
               <img src="./assets/gc12.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 I appreciate being able to choose a due date and time for an
                 assignment in Classroom. If my class finishes at 11:55am, that’s
                 their due date.
@@ -643,14 +664,14 @@ const ClassSection = () => {
       {/* 9 ScETioN */}
       {/* Collect student assignments in Classroom and Drive */}
       <div className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] shadow-top-bottom-inner">
-        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
           <div className="flex flex-col gap-5 mb-2">
             <h1 className="text1 leading-[2.4rem]">
               Collect student assignments in Classroom and Drive
             </h1>
           </div>
 
-          <p>
+          <p className="paragraph">
             Once you create and share an assignment in Classroom, your students
             can complete and submit their work. All sharing rights are
             controlled automatically in Classroom so educators don’t have to
@@ -659,7 +680,7 @@ const ClassSection = () => {
             with notifications. Each assignment contains the work of each
             student, keeping assignments organized and easy to sort through.{" "}
           </p>
-          <p>
+          <p className="paragraph">
             Plus, your notification emails from Classroom are now more useful.
             You and your students can tailor notification settings for email,
             and push notifications for mobile devices, so you can quickly scan
@@ -673,16 +694,19 @@ const ClassSection = () => {
 
       {/* 10 ScETioN */}
       {/* Best practices for collecting work in Drive */}
-      <div className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] top-shadow">
-        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4">
+      <div
+        id="BestPractices"
+        className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] top-shadow"
+      >
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
           <div className="flex flex-col gap-5 mb-2">
             <h1 className="text1 leading-[2.4rem]">
               Best practices for collecting work in Drive
             </h1>
           </div>
 
-          <div className="flex flex-col gap-4">
-            <p>
+          <div className="flex flex-col gap-6">
+            <p className="paragraph">
               There are several ways students can submit assignments using
               Drive. Follow the tips below to make this process easier and more
               efficient.
@@ -695,7 +719,7 @@ const ClassSection = () => {
                   name=""
                   id=""
                 />
-                <p>
+                <p className="paragraph">
                   If you have only a few students that will be working on just a
                   few assignments, ask students to individually share their
                   documents with you.
@@ -708,7 +732,7 @@ const ClassSection = () => {
                   name=""
                   id=""
                 />
-                <p>
+                <p className="paragraph">
                   Create shared folders for each student to submit their work.
                   Then, students can either create a document and move it to
                   their shared folder, or create a document within the shared
@@ -723,7 +747,7 @@ const ClassSection = () => {
                   name=""
                   id=""
                 />
-                <p>
+                <p className="paragraph">
                   Ask your students to send you a message when they’re done with
                   the assignment. In Google Docs, students and teachers have the
                   ability to send a message directly to a document’s
@@ -737,7 +761,7 @@ const ClassSection = () => {
       {/*eND OF 10 ScETioN */}
 
       {/* image section */}
-      <div className="bg-[url('./assets/gc13.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/gc13.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 11 ScEtiOn */}
       {/* Reflect on what you have learned */}
@@ -748,16 +772,16 @@ const ClassSection = () => {
           </h1>
           <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
             {/* TEXt */}
-            <article className="flex flex-col gap-4 md:col-span-2">
-              <p>
+            <article className="flex flex-col gap-5 md:col-span-2">
+              <p className="paragraph">
                 Now that you’ve learned how to assign work and collect
                 assignments with Google Classroom
               </p>
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-5">
                 <p className="font-bold">
                   Consider the following and make a note of your answers.
                 </p>
-                <ol className="list-decimal pl-12">
+                <ol className="list-decimal pl-12 paragraph">
                   <li>
                     How can I creatively engage my students in Google Classroom?
                   </li>

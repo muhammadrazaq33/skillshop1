@@ -43,7 +43,7 @@ const GoogleClassRoomHero = () => {
                 <p>Favorites</p>
               </NavLink>
             </div>
-            <p className="text-[19px]">
+            <p className="text-[19px] text-[#393b3d]">
               Create your own class using Google Classroom to assign work, share
               resources, collect assignments and give feedback.
             </p>

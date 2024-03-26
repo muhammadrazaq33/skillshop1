@@ -20,44 +20,47 @@ const GoogleClassRoomSection = () => {
               <div className="pl-4">
                 <ul className="activitysection__list courselist">
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#CreateClass" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname ">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Create a class in Google Classroom
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#AddStudents" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Add students to your class
                         </h3>
                       </div>
-                    </NavLink>
+                    </a>
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#ViewClass" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           viewing your class
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#ImportantResources"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Familiarize students with important resources
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                 </ul>
               </div>
@@ -95,7 +98,9 @@ const GoogleClassRoomSection = () => {
               className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
             >
               <img src="./assets/c3.png" alt="" />
-              <p className="text-center">Create a class in Google Classroom</p>
+              <p className="text-center paragraph">
+                Create a class in Google Classroom
+              </p>
             </article>
           </div>
         </div>
@@ -104,16 +109,19 @@ const GoogleClassRoomSection = () => {
 
       {/* SECond SeCtioN */}
       {/* Add students to your class */}
-      <div className="sm:pt-20 pt-12 pb-10 bg-[#FFFFFF] top-shadow">
+      <div
+        id="AddStudents"
+        className="sm:pt-20 pt-12 pb-10 bg-[#FFFFFF] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col sm:gap-4 gap-8">
           <h1 className="text1 leading-[2.4rem] mb-2">
             Add students to your class
           </h1>
-          <p>
+          <p className="paragraph">
             There are many ways to add students to your class. First, you can
             build a digital classroom list using Google Sheets.
           </p>
-          <p>
+          <p className="paragraph">
             Second, add students to your class to create a roster by having your
             students log in to Classroom and join your class by entering the
             class code. When you create a class in Classroom, a unique code is
@@ -122,7 +130,7 @@ const GoogleClassRoomSection = () => {
             their names will appear as active in the People page in Classroom.
             The class code is included there, too, in case you need it again.{" "}
           </p>
-          <p>
+          <p className="paragraph">
             If you want to save time, you can now also use{" "}
             <a
               target="_blank"
@@ -136,7 +144,7 @@ const GoogleClassRoomSection = () => {
             from any student information system (SIS) to automatically create
             and update courses in Google Classroom.
           </p>
-          <p>
+          <p className="paragraph">
             The third way is to enroll or add students to your class from the
             <strong>People</strong> page.
           </p>
@@ -144,7 +152,7 @@ const GoogleClassRoomSection = () => {
             <div>
               <SlBadge className="text-[2.4rem] text-[#4285f4]" />
             </div>
-            <p>
+            <p className="paragraph">
               Did you know that you can do more with Classroom if you have the
               <strong> Education Plus</strong> edition of Google Workspace for
               Education? Clever is available at no additional cost for districts
@@ -156,7 +164,7 @@ const GoogleClassRoomSection = () => {
       {/*eND oF SECond SeCtioN */}
 
       {/* imAGe sECtioN */}
-      <div className="bg-[url('./assets/c4.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/c4.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 3 SeCtiON */}
       {/* Try it out */}
@@ -164,13 +172,13 @@ const GoogleClassRoomSection = () => {
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-5">
             <h1 className="text">Try it out</h1>
-            <p>Follow the steps in the video below to enroll your students.</p>
+            <p className="paragraph">
+              Follow the steps in the video below to enroll your students.
+            </p>
           </div>
 
           <div className="flex flex-col gap-2 mt-2">
-            <p className="text-[15px] font-bold mb-4">
-              Click play to watch the video below.
-            </p>
+            <p className="Bold mb-4">Click play to watch the video below.</p>
             {/* video */}
             {/* <video
             tabindex="-1"
@@ -199,11 +207,14 @@ const GoogleClassRoomSection = () => {
 
       {/* 4 SeCtiON */}
       {/* Viewing your class */}
-      <div className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] shadow-top-bottom-inner">
-        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
-          <div className="flex flex-col gap-5">
+      <div
+        id="ViewClass"
+        className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] shadow-top-bottom-inner"
+      >
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-10">
+          <div className="flex flex-col gap-7">
             <h1 className="text1 leading-[2.4rem]">Viewing your class</h1>
-            <p>
+            <p className="paragraph">
               When students have joined your class, you can view them on the
               <strong> People</strong> page. If you’d like to add students to
               your class later in the school year, follow the steps in the
@@ -216,9 +227,7 @@ const GoogleClassRoomSection = () => {
           </div>
 
           <div className="flex flex-col gap-2 mt-2">
-            <p className="text-[15px] font-bold mb-4">
-              Click play to watch the video below.
-            </p>
+            <p className="Bold mb-4">Click play to watch the video below.</p>
             {/* video */}
             {/* <video
             tabindex="-1"
@@ -247,7 +256,7 @@ const GoogleClassRoomSection = () => {
 
       {/* 5 seCTion */}
       {/* Familiarize students with important resources */}
-      <div className="sm:pb-16 pb-12 md:pt-20 pt-12">
+      <div id="ImportantResources" className="sm:pb-16 pb-12 md:pt-20 pt-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem]">
@@ -259,14 +268,14 @@ const GoogleClassRoomSection = () => {
             <article className="">
               <img src="./assets/c6.png" className="cursor-zoom-in" alt="" />
             </article>
-            <article className="flex flex-col gap-4">
-              <p>
+            <article className="flex flex-col gap-5">
+              <p className="paragraph">
                 To share important digital materials and resources for students,
                 like a syllabus, schedule, or classroom behavior expectations,
                 you can create a <strong>Material</strong> in the{" "}
                 <strong>Classwork</strong> page.{" "}
               </p>
-              <p>
+              <p className="paragraph">
                 Adding resources in this way can help you stay organized
                 throughout the school year.
               </p>

@@ -43,7 +43,7 @@ const GoogleClassHero = () => {
                 <p className="hover:underline">Favorites</p>
               </NavLink>
             </div>
-            <p className="text-[19px]">
+            <p className="text-[19px] text-[#393b3d]">
               Use Google Classroom to create an assignment, set due dates, and
               add resources for your students and develop useful strategies for
               managing and collecting assignments using Google Classroom and

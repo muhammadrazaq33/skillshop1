@@ -34,7 +34,7 @@ const GoogleCalenderSection = () => {
                     >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname ">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Create customized calenders in Google Calender
                         </h3>
                       </div>
@@ -47,7 +47,7 @@ const GoogleCalenderSection = () => {
                     >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Share a calender
                         </h3>
                       </div>
@@ -60,7 +60,7 @@ const GoogleCalenderSection = () => {
                     >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Create additional calenders
                         </h3>
                       </div>
@@ -70,7 +70,7 @@ const GoogleCalenderSection = () => {
                     <a href="#SetReminder" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Set reminders and notifications for calender events
                         </h3>
                       </div>
@@ -117,7 +117,7 @@ const GoogleCalenderSection = () => {
                   className="w-[2.2rem] h-[2.2rem]"
                   alt=""
                 />
-                <p className="">Create events in Google Calendar</p>
+                <p className="paragraph">Create events in Google Calendar</p>
               </article>
               <article
                 data-aos="fade-left"
@@ -130,7 +130,7 @@ const GoogleCalenderSection = () => {
                   className="w-[2.2rem] h-[2.2rem]"
                   alt=""
                 />
-                <p className="text-center">
+                <p className="text-center paragraph">
                   Create customized calendars in Google Calendar
                 </p>
               </article>
@@ -145,7 +145,9 @@ const GoogleCalenderSection = () => {
                   className="w-[2.2rem] h-[2.2rem]"
                   alt=""
                 />
-                <p className="text-center">Manage multiple calendars</p>
+                <p className="text-center paragraph">
+                  Manage multiple calendars
+                </p>
               </article>
               {/* fourth card */}
               <div class="md:col-span-1 md:block hidden"></div>
@@ -160,7 +162,7 @@ const GoogleCalenderSection = () => {
                   className="w-[2.2rem] h-[2.2rem]"
                   alt=""
                 />
-                <p className="text-center">
+                <p className="text-center paragraph">
                   Set reminders and notifications for calendar events
                 </p>
               </article>
@@ -178,10 +180,10 @@ const GoogleCalenderSection = () => {
       >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-5">
-            <h1 className="text1 leading-[2.4rem]">
+            <h1 className="text1 leading-[2.4rem] mb-2">
               Create customized calendars in Google Calendar
             </h1>
-            <p>
+            <p className="paragraph">
               In addition to being an educator, you probably have a busy life
               with many different things to keep track of. Balancing a busy
               professional life with after-school activities, grading, and other
@@ -189,7 +191,7 @@ const GoogleCalenderSection = () => {
               all of these competing priorities in life, you might feel like
               there isn’t enough time to get it all done.
             </p>
-            <p>
+            <p className="paragraph">
               Google Calendar can help you stay organized and add more structure
               to a busy schedule. With Google Calendar, you can create a
               calendar for each class or subject and see them all together in
@@ -199,7 +201,7 @@ const GoogleCalenderSection = () => {
               calendar so you never forget an important meeting, school event,
               or sports activity.
             </p>
-            <p>
+            <p className="paragraph">
               In this lesson, you will learn to manage multiple calendars and
               understand how to set reminders and notifications for calendar
               events.
@@ -207,9 +209,7 @@ const GoogleCalenderSection = () => {
           </div>
 
           <div className="flex flex-col gap-2 mt-2">
-            <p className="text-[15px] font-bold mb-4">
-              Click play to watch the video below.
-            </p>
+            <p className="Bold mb-4">Click play to watch the video below.</p>
             {/* video */}
             {/* <video
             tabindex="-1"
@@ -243,7 +243,7 @@ const GoogleCalenderSection = () => {
 
           {/* transcript  ==> */}
           <div className={`flex flex-col gap-5 ${show ? "block" : "hidden"}`}>
-            <p>
+            <p className="paragraph">
               In addition to being an awesome educator, you probably have a busy
               life with many different things to keep track of. Balancing a busy
               professional life with after-school activities, grading, and other
@@ -253,11 +253,11 @@ const GoogleCalenderSection = () => {
               goodness for Google Calendar!
             </p>
             <div>
-              <p>
+              <p className="paragraph">
                 Google Calendar can help you stay organized and add more
                 structure to a busy schedule.{" "}
               </p>
-              <ol className="list-decimal pl-12">
+              <ol className="list-decimal pl-12 paragraph">
                 <li>
                   You can create a calendar for each class or subject and see
                   them all together in one location.
@@ -274,7 +274,7 @@ const GoogleCalenderSection = () => {
                 </li>
               </ol>
             </div>
-            <p>
+            <p className="paragraph">
               There is so much more to discover when you start using Google
               Calendar.
             </p>
@@ -285,7 +285,7 @@ const GoogleCalenderSection = () => {
       {/*End oF SECOND SeCtiON */}
 
       {/* IMAGE SECTION */}
-      <div className="bg-[url('./assets/cal6.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/cal6.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* THIRD sEctiON */}
       {/* Share a calendar */}
@@ -293,9 +293,9 @@ const GoogleCalenderSection = () => {
         id="ShareCalender"
         className=" sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#F9F9FA] shadow-top-bottom-inner"
       >
-        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
           <h1 className="text1 leading-[2.4rem] mb-2">Share a calendar</h1>
-          <p>
+          <p className="paragraph">
             You might want to share your calendar with individuals or groups to
             help you coordinate plans with others. For example, you can share
             your calendar with your colleagues so they can access your schedule
@@ -306,7 +306,7 @@ const GoogleCalenderSection = () => {
             calendar, so the community is made aware of practice schedules and
             sports games.
           </p>
-          <p>
+          <p className="paragraph">
             Each calendar you create can have separate permissions, sharing
             settings, and customizations that make it unique from other
             calendars. For example, easily remember events and share them with
@@ -314,7 +314,7 @@ const GoogleCalenderSection = () => {
             calendar that is shared publicly. Or, only share some calendars with
             specific members of a group, like sports teams and science clubs.
           </p>
-          <p>
+          <p className="paragraph">
             You have the flexibility to share any calendar you create, or even
             your default calendar.
           </p>
@@ -328,16 +328,16 @@ const GoogleCalenderSection = () => {
         id="AdditionalCalender"
         className="bg-[#FFFFFF] sm:pt-20 pt-12 sm:pb-16 pb-12"
       >
-        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
           <h1 className="text1 leading-[2.4rem] mb-2">
             Create additional calendars
           </h1>
-          <p>
+          <p className="paragraph">
             Your Google account comes with a default calendar that you might
             want to use as your main calendar for school. You can also add
             additional calendars for your various obligations.
           </p>
-          <p>
+          <p className="paragraph">
             Many teachers have more than a classroom to manage. You might also
             run a science competition, coordinate an after-school club, and
             coach a sports team. These responsibilities require communication
@@ -347,7 +347,7 @@ const GoogleCalenderSection = () => {
             various activities. Multiple calendars help to share vital
             information pertaining to homework, lectures, and important dates.
           </p>
-          <p>
+          <p className="paragraph">
             You can create an unlimited number of calendars to keep track of the
             different parts of your life. Setting up multiple different
             calendars can help create order and structure in your busy schedule.
@@ -357,7 +357,7 @@ const GoogleCalenderSection = () => {
       {/*end Of FOURTH sEctiON */}
 
       {/* IMAGE SECTION */}
-      <div className="bg-[url('./assets/cal7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/cal7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* fifth SeCtiON */}
       {/* Try it out */}
@@ -365,13 +365,11 @@ const GoogleCalenderSection = () => {
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-5">
             <h1 className="text">Try it out</h1>
-            <p>Create additional calendars.</p>
+            <p className="paragraph">Create additional calendars.</p>
           </div>
 
           <div className="flex flex-col gap-2 mt-2">
-            <p className="text-[15px] font-bold mb-4">
-              Click play to watch the video below.
-            </p>
+            <p className="Bold mb-4">Click play to watch the video below.</p>
             {/* video */}
             {/* <video
             tabindex="-1"
@@ -406,8 +404,10 @@ const GoogleCalenderSection = () => {
           {/* transcript  ==> */}
           <div className={`flex flex-col gap-8 ${show ? "block" : "hidden"}`}>
             <div className="flex flex-col gap-5">
-              <p>Let’s create additional calendars in Google calendar.</p>
-              <ol className="list-decimal pl-12">
+              <p className="paragraph">
+                Let’s create additional calendars in Google calendar.
+              </p>
+              <ol className="list-decimal pl-12 paragraph">
                 <li>
                   Click the <strong>Plus</strong> button next to{" "}
                   <strong>Other Calendars</strong>
@@ -438,7 +438,7 @@ const GoogleCalenderSection = () => {
                 </li>
               </ol>
             </div>
-            <p>Thank you for watching.</p>
+            <p className="paragraph">Thank you for watching.</p>
           </div>
           {/* eND oF TRansCrIpt */}
         </div>
@@ -451,11 +451,11 @@ const GoogleCalenderSection = () => {
         id="SetReminder"
         className="bg-[#FFFFFF] sm:pt-20 pt-12 sm:pb-16 pb-12"
       >
-        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
           <h1 className="text1 leading-[2.4rem] mb-2">
             Set reminders and notifications for calendar events
           </h1>
-          <p>
+          <p className="paragraph">
             To get a notification about an upcoming event on your calendar, set
             up reminders. Notifications can be sent as an email. You can change
             your notification settings for one event or multiple events. The
@@ -463,7 +463,7 @@ const GoogleCalenderSection = () => {
             customized for each event, and defaults can be established for each
             calendar.
           </p>
-          <p>
+          <p className="paragraph">
             You can change notification preferences for a single event or all
             your events. For each calendar, you can set up different reminder
             notifications. For example, set a reminder email a week ahead of
@@ -474,7 +474,7 @@ const GoogleCalenderSection = () => {
       {/*end Of SIXTH sEctiON */}
 
       {/* IMAGE SECTION */}
-      <div className="bg-[url('./assets/cal7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/cal7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* SEVENTH SeCtiON */}
       {/* Try it out */}
@@ -482,13 +482,13 @@ const GoogleCalenderSection = () => {
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-5">
             <h1 className="text">Try it out</h1>
-            <p>Sett reminders and notifications for calendar events.</p>
+            <p className="paragraph">
+              Sett reminders and notifications for calendar events.
+            </p>
           </div>
 
           <div className="flex flex-col gap-2 mt-2">
-            <p className="text-[15px] font-bold mb-4">
-              Click play to watch the video below.
-            </p>
+            <p className="Bold mb-4">Click play to watch the video below.</p>
             {/* video */}
             {/* <video
             tabindex="-1"
@@ -523,8 +523,10 @@ const GoogleCalenderSection = () => {
           {/* transcript  ==> */}
           <div className={`flex flex-col gap-8 ${show ? "block" : "hidden"}`}>
             <div className="flex flex-col gap-5">
-              <p>To change your notifications for all events:</p>
-              <ol className="list-decimal pl-12">
+              <p className="paragraph">
+                To change your notifications for all events:
+              </p>
+              <ol className="list-decimal pl-12 paragraph">
                 <li>Open Google Calendar in your browser.</li>
                 <li>
                   Click the Settings icon and select <strong>Settings</strong>.
@@ -621,7 +623,7 @@ const GoogleCalenderSection = () => {
                 </li>
               </ol>
             </div>
-            <p>Thank you for watching.</p>
+            <p className="paragraph">Thank you for watching.</p>
           </div>
           {/* eND oF TRansCrIpt */}
         </div>
@@ -629,7 +631,7 @@ const GoogleCalenderSection = () => {
       {/*End oF SEVENTH SeCtiON */}
 
       {/* IMAGE SECTION */}
-      <div className="bg-[url('./assets/cal8.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/cal8.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 8 ScEtiOn */}
       {/* Reflect on what you have learned */}
@@ -641,7 +643,7 @@ const GoogleCalenderSection = () => {
           <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
             {/* TEXt */}
             <article className="flex flex-col gap-4 md:col-span-2">
-              <p>
+              <p className="paragraph">
                 Now that you’ve learned how to schedule and plan effective
                 meetings with Google Calendar, reflect on how you might use
                 these features.
@@ -650,7 +652,7 @@ const GoogleCalenderSection = () => {
                 <p className="font-bold">
                   Consider the following and make a note of your answers.
                 </p>
-                <ol className="list-decimal pl-12">
+                <ol className="list-decimal pl-12 paragraph">
                   <li>
                     How can Google Calendar help you stay organized and on track
                     with daily obligations?

@@ -239,3 +239,8 @@ html {
   line-height: 1.25;
   font-weight: 600;
 }
+.slider1 {
+  font-size: 3rem;
+  width: 5rem;
+  height: 5rem;
+}
