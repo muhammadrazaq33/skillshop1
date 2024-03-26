@@ -43,7 +43,7 @@ const DigitalFeedbackHero = () => {
                 <p className="hover:underline">Favorites</p>
               </NavLink>
             </div>
-            <p className="text-[19px]">
+            <p className="text-[19px] text-[#393b3d]">
               With Google tools, you can provide feedback throughout the entire
               lifecycle of an assignment, meaning feedback can be shared in real
               time, inside or outside of the classroom. In this lesson, you’ll

@@ -43,7 +43,7 @@ const GoogleFormsHero = () => {
                 <p className="hover:underline">Favorites</p>
               </NavLink>
             </div>
-            <p className="text-[19px]">
+            <p className="text-[19px] text-[#393b3d]">
               Create quizzes and surveys for your classroom with Google Forms
               and use Google sheets to review results. Collaborate with
               colleagues and enhance your performance data within your

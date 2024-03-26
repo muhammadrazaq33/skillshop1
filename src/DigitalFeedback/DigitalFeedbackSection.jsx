@@ -42,50 +42,53 @@ const DigitalFeedbackSection = () => {
               <div className="pl-4">
                 <ul className="activitysection__list courselist">
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#GiveFeedback" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname ">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Give feedback for student growth
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#GiveFeedback1"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Give feedback with Google Docs and Classroom
                         </h3>
                       </div>
-                    </NavLink>
+                    </a>
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#Grading" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Grading and returning student work
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#Suggest" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Suggest edits
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
                     <NavLink className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Give feedback with Forms
                         </h3>
                       </div>
@@ -143,7 +146,7 @@ const DigitalFeedbackSection = () => {
               className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
             >
               <img src="./assets/c3.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 Use Forms for students to collect feedback on their work
               </p>
             </article>
@@ -154,7 +157,7 @@ const DigitalFeedbackSection = () => {
               className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
             >
               <img src="./assets/gc2.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 Recognize the value of incorporating digital feedback for
                 students
               </p>
@@ -166,7 +169,7 @@ const DigitalFeedbackSection = () => {
               className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
             >
               <img src="./assets/gc3.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 Identify different strategies and tools for providing student
                 feedback
               </p>
@@ -178,7 +181,7 @@ const DigitalFeedbackSection = () => {
               className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
             >
               <img src="./assets/d4.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 Use comments and Workflow in Google Classroom
               </p>
             </article>
@@ -189,7 +192,7 @@ const DigitalFeedbackSection = () => {
               className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
             >
               <img src="./assets/d5.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 Use comments and suggestion mode in Google Docs
               </p>
             </article>
@@ -200,20 +203,20 @@ const DigitalFeedbackSection = () => {
 
       {/* sECoND SectION */}
       {/* Give feedback for student growth */}
-      <div className="sm:pt-16 pt-12">
+      <div id="GiveFeedback" className="sm:pt-16 pt-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col sm:gap-12 gap-10">
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem] mb-2">
               Give feedback for student growth
             </h1>
-            <p>
+            <p className="paragraph">
               Students learn best when they are given feedback on how to improve
               their work and what to do differently. It’s equally important to
               provide students with positive feedback so they know what they’re
               doing well. Learning how to give and receive feedback is also
               important for their future career growth in almost any field.
             </p>
-            <p>
+            <p className="paragraph">
               Google tools can help you facilitate students’ peer-to-peer
               feedback and student-teacher feedback. With Google tools, you can
               provide feedback throughout the entire lifecycle of an assignment,
@@ -227,13 +230,13 @@ const DigitalFeedbackSection = () => {
               {/* useSTATE */}
               {/* second div */}
               <div className="flex flex-col gap-3">
-                <p className="font-bold">Click each tab to learn more.</p>
+                <p className="Bold">Click each tab to learn more.</p>
                 {/* buttons ===> */}
                 <div className="grid sm:grid-cols-2 grid-cols-1 gap-3 ">
                   <button
                     className={`btn ${
                       activeIndex === 0 && "active1"
-                    } bg-[#dadce0] px-2 py-3 rounded-sm hover:bg-[#1A73E8] hover:text-[white]`}
+                    } bg-[#dadce0] px-2 py-3 rounded-sm duration-700 hover:bg-[#1A73E8] hover:text-[white]`}
                     onClick={() => handleClick(0)}
                   >
                     Give feedback in Google Docs
@@ -241,7 +244,7 @@ const DigitalFeedbackSection = () => {
                   <button
                     className={`btn ${
                       activeIndex === 1 && "active1"
-                    } bg-[#dadce0] px-2 py-3 rounded-sm hover:bg-[#1A73E8] hover:text-[white]`}
+                    } bg-[#dadce0] px-2 py-3 rounded-sm duration-700 hover:bg-[#1A73E8] hover:text-[white]`}
                     onClick={() => handleClick(1)}
                   >
                     Insert comments
@@ -261,7 +264,7 @@ const DigitalFeedbackSection = () => {
                       <img src="./assets/d1.png" alt="" />
                     </div>
                     <div className="flex flex-col gap-4">
-                      <p>
+                      <p className="paragraph">
                         To give feedback in Google Docs, you can use the comment
                         feature or suggest changes directly in a student’s
                         assignment. Students can also use these features to
@@ -275,10 +278,10 @@ const DigitalFeedbackSection = () => {
                   <div
                     className={`${
                       activeIndex === 1 ? "block" : "hidden"
-                    }  px-6 grid md:grid-cols-2 grid-cols-1 gap-6`}
+                    }  px-6 grid md:grid-cols-2 grid-cols-1 gap-10`}
                   >
                     <div className="flex flex-col gap-4">
-                      <ol className="list-decimal pl-12">
+                      <ol className="list-decimal pl-12 paragraph">
                         <li>
                           To add comments directly in Google Docs, click the
                           text that you want to leave feedback on, and insert a
@@ -322,7 +325,7 @@ const DigitalFeedbackSection = () => {
       {/*EnD of SEConD SectION */}
 
       {/* ImaGE SeCtiON */}
-      <div className="bg-[url('./assets/d6.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/d6.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 3 sectIOn */}
       {/* Success stories
@@ -340,7 +343,7 @@ const DigitalFeedbackSection = () => {
               className="flex flex-col gap-12 items-center py-4 px-4 bg-[#F9F9FA] rounded-lg"
             >
               <img src="./assets/gc12.png" alt="" />
-              <p>
+              <p className="paragraph">
                 The commenting feature in Docs is a lifesaver for my students.
                 They comment heavily on each other’s work through a peer
                 feedback protocol we have in place. As they type comments in the
@@ -359,7 +362,10 @@ const DigitalFeedbackSection = () => {
 
       {/* 4 ScETioN */}
       {/* Give feedback with Google Docs and Classroom */}
-      <div className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] top-shadow">
+      <div
+        id="GiveFeedback1"
+        className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-12">
           <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem]">
@@ -368,8 +374,8 @@ const DigitalFeedbackSection = () => {
           </div>
 
           <div className="grid md:grid-cols-2 grid-cols-1 gap-16">
-            <article className="flex flex-col gap-4">
-              <p>
+            <article className="flex flex-col gap-5">
+              <p className="paragraph">
                 Students can create documents to complete their assignments and
                 upload them to an assignment in Classroom for review. There are
                 several efficient methods of feedback and grading you can
@@ -377,7 +383,7 @@ const DigitalFeedbackSection = () => {
                 including the comment bank and assignment grading workflow
                 features.
               </p>
-              <p>
+              <p className="paragraph">
                 If your students complete an assignment in Google Docs and
                 submit it via Classroom, you can use the comment bank to store
                 the comments you’ve made on a student’s document that you might
@@ -397,7 +403,7 @@ const DigitalFeedbackSection = () => {
       {/*eND OF 4 ScETioN */}
 
       {/* ImaGE SeCtiON */}
-      <div className="bg-[url('./assets/d10.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/d10.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* FIfTh SeCtiON */}
       {/* Try it out */}
@@ -405,16 +411,14 @@ const DigitalFeedbackSection = () => {
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-5">
             <h1 className="text">Try it out</h1>
-            <p>
+            <p className="paragraph">
               Add comments to student work as well as add comments to a comment
               bank.
             </p>
           </div>
 
           <div className="flex flex-col gap-2 mt-2">
-            <p className="text-[15px] font-bold mb-4">
-              Click play to watch the video below.
-            </p>
+            <p className="Bold mb-4">Click play to watch the video below.</p>
             {/* video */}
             {/* <video
             tabindex="-1"
@@ -448,12 +452,12 @@ const DigitalFeedbackSection = () => {
 
           {/* transcript  ==> */}
           <div className={`flex flex-col gap-10 ${show ? "block" : "hidden"}`}>
-            <div className="flex flex-col gap-4">
-              <p>
+            <div className="flex flex-col gap-5">
+              <p className="paragraph">
                 In this video, we'll add comments to student work in Google
                 Classroom and also add to our comment bank.
               </p>
-              <ol className="list-decimal pl-12">
+              <ol className="list-decimal pl-12 paragraph">
                 <li>
                   First, navigate to the <strong>Classwork</strong> page and
                   open up an assignment that students have submitted.
@@ -496,7 +500,9 @@ const DigitalFeedbackSection = () => {
                 </li>
               </ol>
             </div>
-            <p>And that is how to use the comments function.</p>
+            <p className="paragraph">
+              And that is how to use the comments function.
+            </p>
           </div>
           {/* eND oF TRansCrIpt */}
         </div>
@@ -505,21 +511,24 @@ const DigitalFeedbackSection = () => {
 
       {/* section */}
       {/* Grading and returning student work */}
-      <div className="bg-[#F9F9FA] top-shadow sm:pb-16 pb-12 md:pt-24 pt-12">
+      <div
+        id="Grading"
+        className="bg-[#F9F9FA] top-shadow sm:pb-16 pb-12 md:pt-24 pt-12"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text1 leading-[2.4rem]">
             Grading and returning student work
           </h1>
           <div className="flex flex-col gap-12">
             {/* first div */}
-            <div className="grid md:grid-cols-2 grid-cols-1 gap-[2.5rem]">
-              <article className="flex flex-col gap-4">
-                <p>
+            <div className="grid md:grid-cols-2 grid-cols-1 gap-[3rem]">
+              <article className="flex flex-col gap-5">
+                <p className="paragraph">
                   In Classroom, you can give a numeric grade, leave comment-only
                   feedback, or do both. You can also return assignments without
                   grades.
                 </p>
-                <p>
+                <p className="paragraph">
                   Access student work within an assignment under the Classwork
                   tab. You can make comments on an assignment any time after it
                   has been created, including after students have submitted
@@ -529,7 +538,7 @@ const DigitalFeedbackSection = () => {
                   Students can then have an opportunity to make revisions and
                   resubmit their work.
                 </p>
-                <p>
+                <p className="paragraph">
                   Look through the step by step instructions and then watch the
                   video below to learn more about providing feedback and adding
                   grades in Classroom.
@@ -537,7 +546,7 @@ const DigitalFeedbackSection = () => {
               </article>
               {/* Accordian */}
               <article className="flex flex-col justify-end gap-4 md:mt-8 mt-0">
-                <p className="font-bold">Click each step to expand it.</p>
+                <p className="Bold">Click each step to expand it.</p>
                 {/* Accordian */}
                 <div>
                   {data.map((curEle) => {
@@ -557,7 +566,7 @@ const DigitalFeedbackSection = () => {
             {/* end of first div */}
             {/* second div */}
             <div className="flex flex-col gap-5">
-              <p className="font-bold">Click play to watch the video below.</p>
+              <p className="Bold">Click play to watch the video below.</p>
               {/* video */}
               <iframe
                 //   width="800"
@@ -590,8 +599,8 @@ const DigitalFeedbackSection = () => {
             <article className="justify-self-center">
               <img src="./assets/d11.png" alt="" />
             </article>
-            <article className="flex flex-col gap-4">
-              <p>
+            <article className="flex flex-col gap-5">
+              <p className="paragraph">
                 “I love working in Google Classroom! After a piece of work has
                 been handed in I give my students feedback in a couple of ways.
                 I assign a point value for each assignment and give a number
@@ -612,13 +621,16 @@ const DigitalFeedbackSection = () => {
 
       {/* 7 ScETioN */}
       {/* Suggest edits in Google Docs */}
-      <div className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] top-shadow">
+      <div
+        id="Suggest"
+        className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-12">
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-8">
             <h1 className="text1 leading-[2.4rem]">
               Suggest edits in Google Docs
             </h1>
-            <p>
+            <p className="paragraph">
               Suggesting mode is a great tool for giving feedback to students
               that they can learn from. While the comment feature is great for
               discussion, it’s not as useful for pointing out misplaced commas,
@@ -646,7 +658,7 @@ const DigitalFeedbackSection = () => {
               <img src="./assets/d12.png" alt="" />
             </article>
             <article className="md:col-span-2">
-              <p>
+              <p className="paragraph">
                 “Sometimes people give more honest feedback if it is anonymous.
                 Giving constructive, honest but kind feedback anonymously has to
                 be taught. Our drama students practice this a lot through Google
@@ -682,18 +694,18 @@ const DigitalFeedbackSection = () => {
           </h1>
           <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
             {/* TEXt */}
-            <article className="flex flex-col gap-4 md:col-span-2">
-              <p>
+            <article className="flex flex-col gap-5 md:col-span-2">
+              <p className="paragraph">
                 Now that you’ve learned how to give feedback using Google
                 Workspace for Education, think about how you could use
                 Classroom, Docs, and Forms, or a combination of these, to
                 provide feedback to your students.
               </p>
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-5">
                 <p className="font-bold">
                   Consider the following and make a note of your answers.
                 </p>
-                <ol className="list-decimal pl-12">
+                <ol className="list-decimal pl-12 paragraph">
                   <li>
                     Think about the last two pieces of work you gave handwritten
                     feedback on. How could you use Google tools to give feedback

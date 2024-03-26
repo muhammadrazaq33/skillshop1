@@ -31,64 +31,67 @@ const GoogleFormSection = () => {
               <div className="pl-4">
                 <ul className="activitysection__list courselist">
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#UseGoogleForm"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname ">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Use Google Forms to create a survey Or Quiz
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#AddQuestion" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Add questions in Google Forms
                         </h3>
                       </div>
-                    </NavLink>
+                    </a>
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#EditQuestion" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Editing a question in Google Forms
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#MakeQuestion" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Make questions required{" "}
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#FinalizeForm" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Finalize your form
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#SendForm" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Send your form
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                 </ul>
               </div>
@@ -124,7 +127,7 @@ const GoogleFormSection = () => {
               className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
             >
               <img src="./assets/form3.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 Create surveys and quizzes in Google Forms
               </p>
             </article>
@@ -135,7 +138,7 @@ const GoogleFormSection = () => {
 
       {/* 2 ScETioN */}
       {/* Use Google Forms to create a survey or quiz */}
-      <div className="sm:pb-16 pb-12 md:pt-20 pt-12">
+      <div id="UseGoogleForm" className="sm:pb-16 pb-12 md:pt-20 pt-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-12">
           <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem]">
@@ -145,7 +148,7 @@ const GoogleFormSection = () => {
 
           <div className="grid md:grid-cols-2 grid-cols-1 gap-x-16 gap-y-6">
             <article className="flex flex-col gap-4">
-              <p>
+              <p className="paragraph">
                 Google Forms is a great tool for collecting and analyzing data.
                 It provides a fast way to grade assessments and access
                 easy-to-read performance data so you can better understand your
@@ -164,7 +167,7 @@ const GoogleFormSection = () => {
               <img src="./assets/form5.png" alt="" />
             </article>
             <article className="flex flex-col gap-4">
-              <p>
+              <p className="paragraph">
                 Forms are easy to change if you need to add or delete questions
                 on a survey or quiz. You can also collaborate with colleagues on
                 a form. For example, if you were making a unit assessment for a
@@ -181,8 +184,6 @@ const GoogleFormSection = () => {
 
       {/* ImAge SEctION */}
       <div className="bg-[url('./assets/form6.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
-      {/* Bg-IMAGE */}
-      {/* <div className="bg-[url('./assets/form6.png')] h-[120px] sm:max-w-full max-w-[500px] m-auto bg-center bg-cover"></div> */}
 
       {/* 3 ScETioN */}
       {/* Try it out */}
@@ -190,24 +191,24 @@ const GoogleFormSection = () => {
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-12">
           <div className="flex flex-col gap-5">
             <h1 className="text">Try it out</h1>
-            <p>Creating a form in Google Forms.</p>
+            <p className="paragraph">Creating a form in Google Forms.</p>
           </div>
 
           <div className="grid md:grid-cols-3 grid-cols-1 gap-x-16 gap-y-6">
             <article className="flex flex-col gap-5 md:col-span-2">
-              <p className="font-bold">Click the image to enlarge.</p>
+              <p className="Bold">Click the image to enlarge.</p>
               <img src="./assets/form7.png" alt="" />
             </article>
-            <article className="flex flex-col justify-center gap-4 md:col-span-1">
-              <ol className="list-decimal pl-12">
+            <article className="flex flex-col justify-center gap-10 md:col-span-1">
+              <ol className="list-decimal pl-12 paragraph">
                 <li>Open the apps menu.</li>
                 <li>
                   Then click on <strong>Forms</strong>.
                 </li>
                 <li>Click on the plus button to create a new form.</li>
-                <li></li>
+                <li>Rename your form “Classroom Survey.”</li>
               </ol>
-              <p>
+              <p className="paragraph">
                 Tip: You can also go directly to{" "}
                 <a
                   target="_blank"
@@ -227,13 +228,16 @@ const GoogleFormSection = () => {
 
       {/* 4 SeCtiON */}
       {/* Add questions in Google Forms */}
-      <div className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] top-shadow">
+      <div
+        id="AddQuestion"
+        className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#FFFFFF] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-6">
             <h1 className="text1 leading-[2.4rem]">
               Add questions in Google Forms
             </h1>
-            <p>
+            <p className="paragraph">
               There are many types of questions you can ask with Google Forms
               including multiple choice, text input, checkboxes, and scales. You
               can also add videos and images to make your quiz or survey more
@@ -242,7 +246,7 @@ const GoogleFormSection = () => {
           </div>
 
           <div className="flex flex-col gap-2 mt-2">
-            <p className="text-[15px] font-bold mb-4">
+            <p className="Bold mb-4">
               Watch the video below to learn more about adding questions in
               Google Forms.
             </p>
@@ -273,17 +277,20 @@ const GoogleFormSection = () => {
       {/*End oF 4 SeCtiON */}
 
       {/* ImAge SEctION */}
-      <div className="bg-[url('./assets/form8.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('./assets/form6.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 5 ScETioN */}
       {/* Editing a question in Google Forms */}
-      <div className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#FFFFFF]">
+      <div
+        id="EditQuestion"
+        className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#FFFFFF]"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-12">
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-6">
             <h1 className="text1 leading-[2.4rem]">
               Editing a question in Google Forms
             </h1>
-            <p>
+            <p className="paragraph">
               As you create your quiz, you can edit or change questions as
               needed. To change the title of a question, simply click in the
               title text box and retype the question or title. To change the
@@ -293,7 +300,7 @@ const GoogleFormSection = () => {
           </div>
 
           <div className="grid place-content-center ">
-            <p className="font-bold">Click the image to enlarge.</p>
+            <p className="Bold">Click the image to enlarge.</p>
             <article className="flex flex-col items-center gap-5 mt-3">
               <img src="./assets/form10.png" alt="" />
             </article>
@@ -311,16 +318,16 @@ const GoogleFormSection = () => {
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-10">
           <div className="flex flex-col gap-5">
             <h1 className="text">Try it out</h1>
-            <p>Edit a question type in a form.</p>
+            <p className="paragraph">Edit a question type in a form.</p>
           </div>
 
           <div className="grid md:grid-cols-2 grid-cols-1 gap-x-16 gap-y-6">
             <article className="flex flex-col gap-5">
-              <p className="font-bold">Click the image to enlarge.</p>
+              <p className="Bold">Click the image to enlarge.</p>
               <img src="./assets/form13.png" alt="" />
             </article>
             <article className="flex flex-col justify-center gap-4">
-              <ol className="list-decimal pl-12">
+              <ol className="list-decimal pl-12 paragraph">
                 <li>
                   In your form, select a question you’ve added and change the
                   title.{" "}
@@ -335,7 +342,10 @@ const GoogleFormSection = () => {
 
       {/* 7 ScETioN */}
       {/* Make questions required */}
-      <div className="sm:pb-20 pb-12 md:pt-28 pt-12 bg-[#F9F9FA] shadow-top-bottom-inner">
+      <div
+        id="MakeQuestion"
+        className="sm:pb-20 pb-12 md:pt-28 pt-12 bg-[#F9F9FA] shadow-top-bottom-inner"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-12">
           <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem]">Make questions required</h1>
@@ -343,16 +353,16 @@ const GoogleFormSection = () => {
 
           <div className="grid md:grid-cols-2 grid-cols-1 gap-x-16 gap-y-6">
             <article className="flex flex-col gap-5">
-              <p className="font-bold">Click the image to enlarge.</p>
+              <p className="Bold">Click the image to enlarge.</p>
               <img src="./assets/form15.svg" alt="" />
             </article>
-            <article className="flex flex-col justify-center gap-4">
-              <p>
+            <article className="flex flex-col justify-center gap-5">
+              <p className="paragraph">
                 Within Google Forms, there are a lot of options for customizing
                 your quiz or survey. You can make questions required or
                 optional.{" "}
               </p>
-              <p>
+              <p className="paragraph">
                 To make a question <strong>required</strong>, click the Required
                 switch on each individual question. To make all questions
                 required, navigate to the <strong>Settings</strong> tab in your
@@ -369,17 +379,17 @@ const GoogleFormSection = () => {
 
       {/* 8 ScETioN */}
       {/* Finalize your form */}
-      <div className="sm:pb-16 pb-12 md:pt-20 pt-12">
-        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-10">
-          <div className="flex flex-col gap-5">
+      <div id="FinalizeForm" className="sm:pb-16 pb-12 md:pt-20 pt-12">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-16">
+          <div className="flex flex-col gap-6">
             <h1 className="text1 leading-[2.4rem]">Finalize your form</h1>
-            <p>
+            <p className="paragraph">
               To finalize your form, click on the <strong>Settings</strong> tab
               and click the switch for making your form a quiz. This will allow
               you to make an answer key for your survey or quiz and customize a
               variety of settings on your form including:
             </p>
-            <ul className="list-disc pl-12">
+            <ul className="list-disc pl-12 paragraph">
               <li>When grades will be released to students.</li>
               <li>
                 If the quiz is locked, meaning students won’t be allowed to have
@@ -395,17 +405,17 @@ const GoogleFormSection = () => {
 
           <div className="grid md:grid-cols-3 grid-cols-1 gap-x-16 gap-y-6">
             <article className="flex flex-col gap-5 md:col-span-2">
-              <p className="font-bold">Click the image to enlarge.</p>
+              <p className="Bold">Click the image to enlarge.</p>
               <img src="./assets/form17.png" alt="" />
             </article>
             <article className="flex flex-col justify-center gap-4 md:col-span-1">
-              <p className="text-[15px]">
+              <p className="paragraph">
                 In <strong>Settings</strong>, you can also customize the
                 presentation of your quiz or survey by adding a completion bar,
                 shuffling the question order, or adding a confirmation message
                 to alert students that their responses have been recorded.
               </p>
-              <p className="text-[15px]">
+              <p className="paragraph">
                 To choose correct answers and point values for each question,
                 navigate back to the <strong>Questions</strong> tab, select a
                 question, then click <strong>Answer key</strong>. Add the point
@@ -420,20 +430,21 @@ const GoogleFormSection = () => {
 
       {/* 4 SeCtiON */}
       {/* Send your form */}
-      <div className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] top-shadow">
+      <div
+        id="SendForm"
+        className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
-          <div className="flex flex-col gap-5">
+          <div className="flex flex-col gap-6">
             <h1 className="text1 leading-[2.4rem]">Send your form</h1>
-            <p>
+            <p className="paragraph">
               After you have created your form, share it with your students to
               complete.
             </p>
           </div>
 
           <div className="flex flex-col gap-2 mt-2">
-            <p className="text-[15px] font-bold mb-4">
-              Click play to watch the video below.
-            </p>
+            <p className="Bold mb-4">Click play to watch the video below.</p>
             {/* video */}
             {/* <video
             tabindex="-1"
@@ -461,7 +472,7 @@ const GoogleFormSection = () => {
       {/*End oF 4 SeCtiON */}
 
       {/* ImAge SEctION */}
-      <div className="bg-[url('./assets/form8.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('./public/assets/form8.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 8 ScETioN */}
       {/* Try it out */}
@@ -469,19 +480,23 @@ const GoogleFormSection = () => {
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-5">
             <h1 className="text">Try it out</h1>
-            <p>Create and share quizzes in Google Forms.</p>
+            <p className="paragraph">
+              Create and share quizzes in Google Forms.
+            </p>
           </div>
           {/* first div */}
           <div className="grid md:grid-cols-2 grid-cols-1 gap-x-12 gap-y-4">
-            <article className="flex flex-col gap-4">
-              <p>
+            <article className="flex flex-col gap-5">
+              <p className="paragraph">
                 A history teacher needs students to have a thorough
                 understanding of the events that led to World War I. Before
                 beginning the lesson, the teacher wants to assess what each
                 student already knows about World War I and have them answer a
                 few open-ended questions about the topic.
               </p>
-              <p>How might the teacher use Google Forms in this scenario?</p>
+              <p className="paragraph">
+                How might the teacher use Google Forms in this scenario?
+              </p>
             </article>
             <article className="flex flex-col gap-5">
               <img src="./assets/form18.png" alt="" />
@@ -489,7 +504,7 @@ const GoogleFormSection = () => {
           </div>
           {/* second div faq */}
           <div className="flex flex-col gap-5">
-            <p className="font-bold">Click below to expand each item.</p>
+            <p className="Bold">Click below to expand each item.</p>
             <div className="flex flex-col gap-6">
               <article
                 onClick={toggle}
@@ -505,7 +520,7 @@ const GoogleFormSection = () => {
                 <p className="text-[18px]">Try it out: solution</p>
               </article>
               <Collapse isOpened={display}>
-                <p className="text-[16px]">
+                <p className="paragraph">
                   The teacher can use Google Forms to gather a variety of answer
                   types from students. For the factual questions, the teacher
                   can use multiple choice, checkboxes, or dropdown question
@@ -536,16 +551,16 @@ const GoogleFormSection = () => {
           </h1>
           <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
             {/* TEXt */}
-            <article className="flex flex-col gap-4 md:col-span-2">
-              <p>
+            <article className="flex flex-col gap-5 md:col-span-2">
+              <p className="paragraph">
                 Now that you’ve learned how to use Google Forms, reflect on the
                 ways you can use Drive in your classroom.
               </p>
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-5">
                 <p className="font-bold">
                   Consider the following and make a note of your answers.
                 </p>
-                <ol className="list-decimal pl-12">
+                <ol className="list-decimal pl-12 paragraph">
                   <li>
                     How might you collborate with a colleague on a Google Form?
                   </li>
