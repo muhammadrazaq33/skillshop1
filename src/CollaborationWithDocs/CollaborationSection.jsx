@@ -17,7 +17,7 @@ const CollaborationSection = () => {
                   <a href="#ShareDocuments" className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                         Share your live document
                       </h3>
                     </div>
@@ -53,7 +53,7 @@ const CollaborationSection = () => {
           <div className="grid grid-cols-1 place-items-center">
             <article className="bg-[#E6E7E9] max-w-[20rem] m-auto flex flex-col justify-center items-center  py-4 rounded-lg gap-y-5 px-4">
               <img src="./assets/Star.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 Identify ways to collaborate in Google Docs
               </p>
             </article>

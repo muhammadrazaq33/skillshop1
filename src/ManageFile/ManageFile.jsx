@@ -4,7 +4,6 @@ import ManageSections from "./ManageSections";
 import UseGoogleDrive from "./UseGoogleDrive";
 import ManageVideoSectIon from "./ManageVideoSectIon";
 import ManageFooter from "./ManageFooter";
-import WorkSpaceFooter from "../Components/WorkSpaceFooter";
 
 const ManageFile = () => {
   return (
@@ -14,7 +13,6 @@ const ManageFile = () => {
       <UseGoogleDrive />
       <ManageVideoSectIon />
       <ManageFooter />
-      <WorkSpaceFooter />
     </div>
   );
 };

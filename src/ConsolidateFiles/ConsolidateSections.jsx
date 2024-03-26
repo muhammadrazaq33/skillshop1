@@ -17,7 +17,7 @@ const ConsolidateSections = () => {
                   <a href="#startDrive" className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname ">
+                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                         Get started Google Drive
                       </h3>
                     </div>
@@ -27,7 +27,7 @@ const ConsolidateSections = () => {
                   <a href="#UploadMaterial" className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                         Upload your materials
                       </h3>
                     </div>
@@ -37,7 +37,7 @@ const ConsolidateSections = () => {
                   <a href="#OrganizeItems" className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                         Organize your items in Drive
                       </h3>
                     </div>

@@ -43,7 +43,7 @@ const ManageFileHeader = () => {
                 <p>Favorites</p>
               </NavLink>
             </div>
-            <p className="text-[19px]">
+            <p className="text-[19px]  text-[#393b3d]">
               Google Drive lets you create, update and share your documents all
               in one consolidate place. Share resources and learning materials
               with students and collaborate your colleagues.

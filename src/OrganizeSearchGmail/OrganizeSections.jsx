@@ -22,7 +22,7 @@ const OrganizeSections = () => {
                     >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px]activitysection__itemname ">
+                        <h3 className="sm:text-[22px] text-[11.8px]activitysection__itemname section_links">
                           Prioritize your emails
                         </h3>
                       </div>
@@ -35,7 +35,7 @@ const OrganizeSections = () => {
                     >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Highlight important emails
                         </h3>
                       </div>
@@ -45,7 +45,7 @@ const OrganizeSections = () => {
                     <a href="#StarMessage" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Star important messages
                         </h3>
                       </div>
@@ -55,7 +55,7 @@ const OrganizeSections = () => {
                     <a href="#SearchInbox" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Search your inbox
                         </h3>
                       </div>
@@ -90,7 +90,7 @@ const OrganizeSections = () => {
           <div className="flex flex-wrap justify-center gap-6">
             <article className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 ">
               <img src="./assets/o_start.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 Identify how digital skills can benefit teaching and learning
               </p>
             </article>
@@ -103,19 +103,19 @@ const OrganizeSections = () => {
         <div className="max-w-[960px] w-[92vw] m-auto grid md:grid-cols-2 grid-cols-1 gap-8 gap-y-4">
           {/* TeXT */}
           <div className="flex flex-col gap-4">
-            <p>
+            <p className="paragraph">
               With Gmail, you can stay organized by categorizing emails in a
               variety of ways. For example, you could group emails by person or
               topic so you can quickly find tomorrow’s agenda for the meeting
               you are leading.
             </p>
-            <p>
+            <p className="paragraph">
               You can also organize your inbox to find important emails more
               quickly. Create filters, customize your inbox type, apply stars to
               similar types of conversations, and apply multiple labels for a
               single message.
             </p>
-            <p>
+            <p className="paragraph">
               Review the skills below and make your inbox a little easier to
               manage.
             </p>

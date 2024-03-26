@@ -107,7 +107,7 @@ const StartWithTechnology = () => {
               <button
                 className={`btn ${
                   activeIndex === 0 && "active1"
-                } bg-[#dadce0] px-2 py-3 rounded-sm hover:bg-[#1A73E8] hover:text-[white]`}
+                } bg-[#dadce0] px-2 py-3 rounded-sm duration-700 hover:bg-[#1A73E8] hover:text-[white]`}
                 onClick={() => handleClick(0)}
               >
                 Technology integration
@@ -115,7 +115,7 @@ const StartWithTechnology = () => {
               <button
                 className={`btn ${
                   activeIndex === 1 && "active1"
-                } bg-[#dadce0] px-2 py-3 rounded-sm hover:bg-[#1A73E8] hover:text-[white]`}
+                } bg-[#dadce0] px-2 py-3 rounded-sm duration-700 hover:bg-[#1A73E8] hover:text-[white]`}
                 onClick={() => handleClick(1)}
               >
                 Using digital tools
@@ -123,7 +123,7 @@ const StartWithTechnology = () => {
               <button
                 className={`btn ${
                   activeIndex === 2 && "active1"
-                } bg-[#dadce0] px-2 py-3 rounded-sm hover:bg-[#1A73E8] hover:text-[white]`}
+                } bg-[#dadce0] px-2 py-3 rounded-sm duration-700 hover:bg-[#1A73E8] hover:text-[white]`}
                 onClick={() => handleClick(2)}
               >
                 Differentiation

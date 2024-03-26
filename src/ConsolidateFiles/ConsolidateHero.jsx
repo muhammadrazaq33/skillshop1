@@ -52,7 +52,7 @@ const ConsolidateHero = () => {
                 <p>Favorites</p>
               </NavLink>
             </div>
-            <p className="text-[19px]">
+            <p className="text-[19px] text-[#393b3d]">
               Learning how to consolidate and organize your digital materials
               using Drive is a great way to integrate technology into your
               classroom. Keep in mind, this is just a quick overview of what you

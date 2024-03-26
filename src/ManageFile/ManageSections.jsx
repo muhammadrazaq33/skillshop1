@@ -17,7 +17,7 @@ const ManageSections = () => {
                   <a href="#google" className="smo double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="sm:text-[22px] text-[11.8px]activitysection__itemname">
+                      <h3 className="sm:text-[22px] text-[11.8px]activitysection__itemname section_links">
                         Use Google Drive to create a document{" "}
                       </h3>
                     </div>
@@ -27,7 +27,7 @@ const ManageSections = () => {
                   <a href="#shareFiles" className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                         Shares files and folders
                       </h3>
                     </div>
@@ -37,7 +37,7 @@ const ManageSections = () => {
                   <a href="#ConvertFiles" className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                         Convert your files
                       </h3>
                     </div>
@@ -47,7 +47,7 @@ const ManageSections = () => {
                   <a href="#Collaboration" className="double_click_protection">
                     <div className="courselist__marker1"></div>
                     <div className="courselist__itemcontent">
-                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                      <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                         Collaborating on Drive
                       </h3>
                     </div>
@@ -83,19 +83,19 @@ const ManageSections = () => {
           <div className="flex flex-wrap  item-center justify-center gap-3 sm:w-[80%] w-[100%]">
             <article className="bg-[#E6E7E9] flex flex-col items-center py-4 rounded-lg gap-y-5 px-4 w-[18rem]  ">
               <img src="./assets/Star.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 Demonstrate how to update documents in Google Drive
               </p>
             </article>
             <article className="bg-[#E6E7E9] flex flex-col items-center  py-4 rounded-lg gap-y-5 px-4 w-[18rem] ">
               <img src="./assets/doublestar.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 Use Google Drive to create documents
               </p>
             </article>
             <article className="bg-[#E6E7E9] flex flex-col items-center  py-4 rounded-lg gap-y-5 px-4 w-[18rem] ">
               <img src="./assets/doublestar.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 Use Google Drive to create documents
               </p>
             </article>

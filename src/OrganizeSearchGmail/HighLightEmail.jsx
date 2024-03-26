@@ -20,32 +20,30 @@ const HighLightEmail = () => {
         className="bg-[#F9F9FA] top-shadow sm:pb-16 pb-12 sm:pt-20 pt-12"
       >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
-          <div className="flex flex-col gap-4 mb-4">
+          <div className="flex flex-col gap-5 mb-4">
             <h1 className="text1 leading-[2.4rem] mb-3">
               Highlight important emails
             </h1>
-            <p>
+            <p className="paragraph">
               When sending an urgent or time-sensitive email message to your
               team, you can let recipients know a message needs their attention.
               Just add an appropriate heading to the subject of your message to
               highlight your request.
             </p>
-            <p>
+            <p className="paragraph">
               To avoid missing important incoming messages, set up a filter and
               automatically apply a label to your messages. Labels are custom
               tags that help to categorize conversations so you can find and
               organize emails easily.
             </p>
-            <p>
+            <p className="paragraph">
               With labels in Gmail, you have the flexibility to categorize your
               emails however you want.
             </p>
           </div>
 
           <div className="flex flex-col gap-2">
-            <p className="text-[15px] font-bold mb-4">
-              Click play to watch the video below.
-            </p>
+            <p className="Bold mb-4">Click play to watch the video below.</p>
             {/* video */}
             {/* <video
             tabindex="-1"
@@ -80,8 +78,10 @@ const HighLightEmail = () => {
           {/* transcript  ==> */}
           <div className={`flex flex-col gap-6 ${show ? "block" : "hidden"}`}>
             <div className="flex flex-col gap-5">
-              <p>Adding labels in Gmail can help you organise your messaged.</p>
-              <ol className="list-decimal pl-12">
+              <p className="paragraph">
+                Adding labels in Gmail can help you organise your messaged.
+              </p>
+              <ol className="list-decimal pl-12 paragraph">
                 <li>
                   Click on the plus button next to{" "}
                   <span className="font-bold">Label</span>.{" "}
@@ -102,7 +102,7 @@ const HighLightEmail = () => {
               </ol>
             </div>
 
-            <p>
+            <p className="paragraph">
               Now, you can assign this label to existing or incoming emails.
             </p>
           </div>
@@ -111,8 +111,8 @@ const HighLightEmail = () => {
           {/* BELOW transcRiPt paRAGraph */}
           <div className="flex flex-col gap-10">
             <div className="flex flex-col gap-5">
-              <p>You can use labels to:</p>
-              <ol className="list-decimal pl-12">
+              <p className="paragraph">You can use labels to:</p>
+              <ol className="list-decimal pl-12 paragraph">
                 <li>
                   Track the status of student projects. For example, create the
                   labels "Student: In Progress" and "Student: Done" to indicate
@@ -128,7 +128,7 @@ const HighLightEmail = () => {
               </ol>
             </div>
 
-            <p>
+            <p className="paragraph">
               When you get an email from someone, its importance is indicated
               with a label (yellow marker) next to the sender’s name. You can
               manually add yellow markers, but Gmail also tries to predict what
@@ -148,7 +148,7 @@ const HighLightEmail = () => {
       <div className="pt-16 pb-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text">Try it out</h1>
-          <p>
+          <p className="paragraph">
             Highlight important emails in your inbox by following these steps.
           </p>
           <div className="grid md:grid-cols-2 grid-cols-1 gap-12">
@@ -156,11 +156,11 @@ const HighLightEmail = () => {
               <img src="./assets/gmail6.png" alt="" />
             </article>
             <article className="flex flex-col gap-4">
-              <p>
+              <p className="paragraph">
                 Practice creating a label in Gmail to automatically categorize
                 incoming messages.
               </p>
-              <ol className="list-decimal pl-12">
+              <ol className="list-decimal pl-12 paragraph">
                 <li>
                   From an email, click <span className="font-bold">Labels</span>{" "}
                   and <span className="font-bold">Create new</span>.
@@ -183,7 +183,7 @@ const HighLightEmail = () => {
       >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text1 leading-[2.4rem]">Star important messages</h1>
-          <p>
+          <p className="paragraph">
             Another way you can organize your inbox is by marking emails as
             Starred so you can return to them and respond later. For example,
             you might receive an important message during the school day that
@@ -202,23 +202,23 @@ const HighLightEmail = () => {
       <div className="sm:pb-16 pb-12 sm:pt-20 pt-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
           <h1 className="text">Try it out</h1>
-          <p>Star important emails in your inbox.</p>
+          <p className="paragraph">Star important emails in your inbox.</p>
 
           {/* iMAge & butTonS */}
           <div className="mt-6">
-            <p className="font-bold mb-3">Click each button to learn more.</p>
+            <p className="Bold mb-3">Click each button to learn more.</p>
 
             <div className="relative">
               {/* BuTTonS */}
               <button
                 onClick={() => setOpen(1)}
-                className="bg-[#dadce099] absolute top-[25.6%] left-[22%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center hover:text-[white] hover:bg-[#1A73E8] sm:p-8 text-[20px]"
+                className="bg-[#dadce099] absolute top-[25.6%] left-[22%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center hover:text-[white] duration-700 hover:bg-[#1A73E8] sm:p-8 text-[20px]"
               >
                 1
               </button>
               <button
                 onClick={() => setOpen(2)}
-                className="bg-[#dadce099] text-[20px] sm:p-8 hover:bg-[#1A73E8] hover:text-[white] absolute top-[22.5%] left-[12%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center"
+                className="bg-[#dadce099] text-[20px] sm:p-8 duration-700 hover:bg-[#1A73E8] hover:text-[white] absolute top-[22.5%] left-[12%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center"
               >
                 2
               </button>
@@ -239,7 +239,7 @@ const HighLightEmail = () => {
             }`}
           >
             <h1 className="text-[25px] text-center">Star Messages</h1>
-            <p className="text-left">
+            <p className="text-left paragraph">
               1. Click the <span className="font-bold">Starred</span> icon on
               the left of each message in your inbox.
             </p>
@@ -261,7 +261,7 @@ const HighLightEmail = () => {
           >
             <h1 className="text-[25px] text-center">See Starred Messages</h1>
             <div className="flex flex-col gap-3">
-              <p>
+              <p className="paragraph">
                 2. To see all your starred emails, in the left sidebar, click
                 <span className="font-bold"> Starred</span>.
               </p>
@@ -286,8 +286,8 @@ const HighLightEmail = () => {
         className="sm:pb-16 pb-12 sm:pt-20 pt-12 bg-[#F9F9FA] top-shadow"
       >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
-          <h1 className="text1 leading-[2.4rem]">Search your inbox</h1>
-          <p>
+          <h1 className="text1 leading-[2.4rem] mb-1">Search your inbox</h1>
+          <p className="paragraph">
             If you need to search for a specific email in your inbox, Gmail has
             a search function to help you. Whether emails have a label, filter,
             or star, the search feature in Gmail allows you to find any message
@@ -295,7 +295,7 @@ const HighLightEmail = () => {
             on sender, content, time, and attachment using the search bar at the
             top of your inbox.
           </p>
-          <p>
+          <p className="paragraph">
             This is helpful if you forget to add a label or mark an email as
             starred or if you need to find an email you didn’t think you would
             need later. For example, if a student says they emailed you a
@@ -313,21 +313,23 @@ const HighLightEmail = () => {
       <div className="sm:pb-16 pb-12 sm:pt-20 pt-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text">Try it out</h1>
-          <p>Search your inbox using search criteria in the search box.</p>
+          <p className="paragraph">
+            Search your inbox using search criteria in the search box.
+          </p>
           <div className="grid md:grid-cols-2 grid-cols-1 gap-12">
             <article>
               <img src="./assets/gmail9.jpeg" alt="" />
             </article>
             <article className="flex flex-col gap-4">
-              <p>Open Gmail.</p>
+              <p className="paragraph">Open Gmail.</p>
               <div>
-                <ol className="list-decimal pl-12">
+                <ol className="list-decimal pl-12 paragraph">
                   <li>
                     At the top, in the search box, enter your search criteria.
                   </li>
                 </ol>
 
-                <ul className="list-disc pl-20">
+                <ul className="list-disc pl-20 paragraph">
                   <li>
                     Type in a person’s email address, a subject line or any
                     keyword you can think of that would help identify the email
@@ -340,7 +342,7 @@ const HighLightEmail = () => {
                   </li>
                 </ul>
               </div>
-              <p>Click Search.</p>
+              <p className="paragraph">Click Search.</p>
             </article>
           </div>
         </div>
@@ -357,7 +359,7 @@ const HighLightEmail = () => {
           <div className="md:flex justify-between items-center gap-10">
             {/* TEXt */}
             <article className="flex flex-col gap-4">
-              <p>
+              <p className="paragraph">
                 Now that you’ve learned how to organize your Gmail, reflect on
                 the ways you can use the labels, stars, and priority inbox
                 features in your classroom.
@@ -366,7 +368,7 @@ const HighLightEmail = () => {
                 <p className="font-bold">
                   Consider the following and make a note of your answers.
                 </p>
-                <ol className="list-decimal pl-12">
+                <ol className="list-decimal pl-12 paragraph">
                   <li>
                     What are one or two ways you might be able to organize
                     existing content for your classroom?{" "}

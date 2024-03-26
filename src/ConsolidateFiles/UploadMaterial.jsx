@@ -55,11 +55,11 @@ const UploadMaterial = () => {
 
           {/* transcript  ==> */}
           <div className={`flex flex-col gap-6 ${show ? "block" : "hidden"}`}>
-            <p>
+            <p className="paragraph">
               Let's show you how to set up a file and folder in Google Drive.{" "}
             </p>
 
-            <ol className="list-decimal pl-12">
+            <ol className="list-decimal pl-12 paragraph">
               <li>
                 To find Google Drive, click on the waffle, then click on the
                 Google Drive icon.
@@ -81,9 +81,11 @@ const UploadMaterial = () => {
               </li>
             </ol>
 
-            <p>Now let's show you how to upload a new file.</p>
+            <p className="paragraph mt-2">
+              Now let's show you how to upload a new file.
+            </p>
 
-            <ol className="list-decimal pl-12">
+            <ol className="list-decimal pl-12 paragraph">
               <li>
                 Click <span className="font-bold">New</span>, then select{" "}
                 <span className="font-bold">File upload</span>.
@@ -101,7 +103,7 @@ const UploadMaterial = () => {
               </li>
             </ol>
 
-            <p>
+            <p className="paragraph">
               And there you have it, creating a folder and uploading a file in
               Google Drive.
             </p>
@@ -114,36 +116,36 @@ const UploadMaterial = () => {
         id="OrganizeItems"
         className="sm:pt-20 pt-12 sm:pb-16 pb-12 bg-[#FFFFFF]"
       >
-        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-4">
-          <h1 className="text1 leading-[2.4rem]">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
+          <h1 className="text1 leading-[2.4rem] mb-2">
             Organize your items in Google Drive
           </h1>
-          <p>
+          <p className="paragraph">
             In Google Drive, you can upload, view, share, and edit documents,
             slideshows, spreadsheets, photos, and videos. Once you’ve uploaded
             something to Drive, it’s saved to the cloud. Unlike saving files on
             a computer’s hard drive, files saved in the cloud are accessible
             from any device as long as you are logged into your Google account.
           </p>
-          <p>
+          <p className="paragraph">
             So if you’re working on a lesson plan on your classroom computer,
             you can also work on it later in the computer lab, or on your laptop
             at home. You can drag and drop content into Drive from your laptop
             or desktop. You can also upload content into Drive from your mobile
             device.
           </p>
-          <p>
+          <p className="paragraph">
             Once you create or upload files in Google Drive, you can create
             folders to store your content. Creating folders makes it easier to
             organize and share similar materials so you can find what you need.{" "}
           </p>
-          <p>
+          <p className="paragraph">
             Once you’ve created a folder, you can drag and drop files that
             belong together to the same location, then rename the folder to
             describe its contents. After renaming your folders, you can change
             their color to make documents even easier to find.{" "}
           </p>
-          <p>
+          <p className="paragraph">
             For example, maybe you want a separate folder for assessments and
             worksheets. Color-coding these folders can make it easier when
             searching for a math worksheet or a history test answer key.

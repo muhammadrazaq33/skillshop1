@@ -43,7 +43,7 @@ const CollaborationHero = () => {
                 <p>Favorites</p>
               </NavLink>
             </div>
-            <p className="text-[19px]">
+            <p className="text-[19px] text-[#393b3d]">
               One of the greatest benefits of using Google Workspace for
               Education is the ability to collaborate with colleagues and
               students on a document in real-time, or at different times, making

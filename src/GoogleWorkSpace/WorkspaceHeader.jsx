@@ -54,7 +54,7 @@ const WorkspaceHeader = () => {
                 <p>Favorites</p>
               </NavLink>
             </div>
-            <p className="text-[19px]">
+            <p className="text-[19px] text-[#393b3d]">
               Explore the many ways Google Workspace for Education tools can be
               used in the classroom.
             </p>

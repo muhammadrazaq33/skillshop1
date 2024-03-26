@@ -12,9 +12,9 @@ const PrioritizeEmail = () => {
         className="bg-[#F9F9FA] sm:pb-16 pb-12 sm:pt-20 pt-12 top-shadow"
       >
         <div className="max-w-[960px] w-[92vw] m-auto">
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem]">Prioritize your emails</h1>
-            <p className="mt-2">
+            <p className="mt-2 paragraph">
               If your inbox fills up quickly throughout the day, you can enable
               a setting called <span className="font-bold">Priority Inbox</span>{" "}
               to help you organize your emails. When you enable the{" "}
@@ -26,12 +26,12 @@ const PrioritizeEmail = () => {
               </span>{" "}
               and <span className="font-bold">Everything else</span>.
             </p>
-            <p>
+            <p className="paragraph">
               Gmail will notice your complex email habits — the emails you open,
               mark as important, delete, label, and star — and prioritize those
               conversations at the top of your inbox.{" "}
             </p>
-            <p>
+            <p className="paragraph">
               For example, <span className="font-bold">Priority Inbox</span>{" "}
               will recognize that your administrator sends emails that are
               significant to you, categorize them under{" "}
@@ -43,7 +43,7 @@ const PrioritizeEmail = () => {
 
           {/* image div */}
           <div className="flex flex-col gap-6 mt-12">
-            <p className="font-bold">Click play to watch the video below.</p>
+            <p className="Bold">Click play to watch the video below.</p>
             {/* <img src="./assets/m_1.png" alt="" /> */}
             {/* <video
               preload="auto"
@@ -71,35 +71,33 @@ const PrioritizeEmail = () => {
       <div className="sm:pb-16 pb-12 sm:pt-20 pt-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
           <h1 className="text">Try it out</h1>
-          <p>Here's an overview of the Priority Inbox.</p>
+          <p className="paragraph">Here's an overview of the Priority Inbox.</p>
 
           <div className="mt-6">
-            <p className="text-[16px] font-bold mb-3">
-              Click each button to learn more.
-            </p>
+            <p className="Bold mb-3">Click each button to learn more.</p>
 
             <div className="relative">
               <button
                 onClick={() => setShow(1)}
-                className="bg-[#dadce099] absolute top-[10.6%] left-[83%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center hover:text-[white] hover:bg-[#1A73E8] sm:p-8 text-[20px]"
+                className="bg-[#dadce099] absolute top-[10.6%] left-[83%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center hover:text-[white] duration-700 hover:bg-[#1A73E8] sm:p-8 text-[20px]"
               >
                 1
               </button>
               <button
                 onClick={() => setShow(2)}
-                className="bg-[#dadce099] text-[20px] sm:p-8 hover:bg-[#1A73E8] hover:text-[white] absolute top-[20.5%] left-[31%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center"
+                className="bg-[#dadce099] text-[20px] sm:p-8 duration-700 hover:bg-[#1A73E8] hover:text-[white] absolute top-[20.5%] left-[31%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center"
               >
                 2
               </button>
               <button
                 onClick={() => setShow(3)}
-                className="bg-[#dadce099] text-[20px] sm:p-8 hover:bg-[#1A73E8] hover:text-[white] absolute top-[30.5%] left-[46%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center"
+                className="bg-[#dadce099] text-[20px] sm:p-8 duration-700 hover:bg-[#1A73E8] hover:text-[white] absolute top-[30.5%] left-[46%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center"
               >
                 3
               </button>
               <button
                 onClick={() => setShow(4)}
-                className="bg-[#dadce099] text-[20px] sm:p-8 hover:bg-[#1A73E8] hover:text-[white] absolute top-[60.5%] left-[12%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center"
+                className="bg-[#dadce099] text-[20px] sm:p-8 duration-700 hover:bg-[#1A73E8] hover:text-[white] absolute top-[60.5%] left-[12%] w-[50px] overflow-visible cursor-pointer h-[50px] rounded-[50%] grid place-content-center"
               >
                 4
               </button>
@@ -119,7 +117,7 @@ const PrioritizeEmail = () => {
             }`}
           >
             <h1 className="text-[25px] text-center">Locating Inbox Settings</h1>
-            <p className="text-left">
+            <p className="text-left paragraph">
               1. Click the Settings icon, then click See all settings.
             </p>
             <div className="py-5 border-t text-center border-gray-400">
@@ -140,11 +138,11 @@ const PrioritizeEmail = () => {
           >
             <h1 className="text-[25px] text-center">Priority Inbox</h1>
             <div className="flex flex-col gap-3">
-              <p>
+              <p className="paragraph">
                 2. Click the Inbox tab. In the Inbox type dropdown menu, select
                 <span className="font-bold"> Priority Inbox</span>.
               </p>
-              <p>
+              <p className="paragraph">
                 Note: By default Priority Inbox separates important emails into
                 3 sections:{" "}
                 <span className="font-bold">Important and unread, Starred</span>
@@ -171,7 +169,7 @@ const PrioritizeEmail = () => {
           >
             <h1 className="text-[25px] text-center">Show and hide emails</h1>
             <div className="">
-              <p>
+              <p className="paragraph">
                 3. To select which emails you want to prioritize, select the
                 drop down menu and choose{" "}
                 <span className="font-bold">Priority inbox</span>.
@@ -196,7 +194,7 @@ const PrioritizeEmail = () => {
           >
             <h1 className="text-[25px] text-center">Inbox sections</h1>
             <div className="">
-              <p>
+              <p className="paragraph">
                 4. This is the section to focus on when defining your priority
                 sections.
               </p>

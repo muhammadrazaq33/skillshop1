@@ -217,7 +217,7 @@ const GoogleTaskSection = () => {
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-12">
           <div className="flex flex-col gap-5">
             <h1 className="text">Try it out</h1>
-            <p>Create additional calendars.</p>
+            <p>Integrate lists in Google Tasks with Google Calendar.</p>
             <ol className="list-decimal pl-12">
               <li>
                 Assign one of your tasks a due date. When adding a new task, you
