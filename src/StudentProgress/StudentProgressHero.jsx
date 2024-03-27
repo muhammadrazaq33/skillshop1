@@ -44,7 +44,7 @@ const StudentProgressHero = () => {
                 <p className="hover:underline">Favorites</p>
               </NavLink>
             </div>
-            <p className="text-[19px]">
+            <p className="text-[19px] text-[#393b3d]">
               Explore how use the results of your Google Forms data to assess
               student knowledge and inform their personal learning goals.
             </p>

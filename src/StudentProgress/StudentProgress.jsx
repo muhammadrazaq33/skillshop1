@@ -2,7 +2,6 @@ import React from "react";
 import StudentProgressHero from "./StudentProgressHero";
 import StudentProgressSection from "./StudentProgressSection";
 import StudentProgressFooter from "./StudentProgressFooter";
-import WorkSpaceFooter from "../Components/WorkSpaceFooter";
 
 const StudentProgress = () => {
   return (
@@ -10,7 +9,6 @@ const StudentProgress = () => {
       <StudentProgressHero />
       <StudentProgressSection />
       <StudentProgressFooter />
-      <WorkSpaceFooter />
     </div>
   );
 };

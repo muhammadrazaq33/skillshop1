@@ -29,44 +29,53 @@ const StudentProgressSection = () => {
               <div className="pl-4">
                 <ul className="activitysection__list courselist">
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#AssessStudent"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname ">
-                          Assess student Knowledge with
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
+                          Assess student Knowledge with Google Forms
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#ViewGoogleForm"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           View Google Form responses
                         </h3>
                       </div>
-                    </NavLink>
+                    </a>
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#UseGoogleForm"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Use Google Forms for grading
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#KeepYourForm" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Keep your Forms anonymous
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                 </ul>
               </div>
@@ -110,7 +119,7 @@ const StudentProgressSection = () => {
               className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
             >
               <img src="./assets/form3.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 Recognize which student data is necessary for classroom use
               </p>
             </article>
@@ -121,7 +130,7 @@ const StudentProgressSection = () => {
               className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
             >
               <img src="./assets/work4.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 Identify effective methods for collecting student data
               </p>
             </article>
@@ -132,7 +141,7 @@ const StudentProgressSection = () => {
               className="bg-[#E6E7E9] flex flex-col max-w-[20rem] items-center py-4 rounded-lg gap-y-5 px-4 "
             >
               <img src="./assets/s3.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 Use Forms data to assess student knowledge of course material
               </p>
             </article>
@@ -143,7 +152,7 @@ const StudentProgressSection = () => {
 
       {/* SEcOnD SecTion  */}
       {/* Assess student knowledge with Google Forms */}
-      <div className="py-16">
+      <div id="AssessStudent" className="py-16">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-6">
           <h1 className="text1 leading-[2.4rem]">
             Assess student knowledge with Google Forms
@@ -151,8 +160,8 @@ const StudentProgressSection = () => {
 
           <div className="grid md:grid-cols-2 grid-cols-1 gap-10 gap-y-4">
             {/* TeXT */}
-            <div className="flex flex-col gap-4">
-              <p>
+            <div className="flex flex-col gap-5">
+              <p className="paragraph">
                 Forms can be used to assess student knowledge and uncover which
                 areas of a topic you need to focus on. Students can even use
                 Forms to assess their own learning and set personal learning
@@ -176,7 +185,10 @@ const StudentProgressSection = () => {
 
       {/* 3 SeCtiON */}
       {/* View Google Form responses */}
-      <div className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] top-shadow">
+      <div
+        id="ViewGoogleForm"
+        className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem]">
@@ -186,22 +198,22 @@ const StudentProgressSection = () => {
 
           {/* FiRsT DIv */}
           <div className="grid md:grid-cols-3 grid-cols-1 gap-12">
-            <article className="flex flex-col gap-4 md:col-span-2">
-              <p>
+            <article className="flex flex-col gap-5 md:col-span-2">
+              <p className="paragraph">
                 After you send your form to students, you can easily check their
                 individual responses or a summary on the{" "}
                 <strong>Responses</strong> tab. The <strong>Questions</strong>{" "}
                 tab brings you back to the questions you created.
               </p>
-              <p>
+              <p className="paragraph">
                 To analyze your responses further, you can send them to a
                 spreadsheet.
               </p>
-              <p>
+              <p className="paragraph">
                 You might want to view responses in a spreadsheet to sort and
                 filter them for review or to average student grades.{" "}
               </p>
-              <p>
+              <p className="paragraph">
                 The spreadsheet is linked to your form, so responses appear in
                 real time.
               </p>
@@ -213,16 +225,14 @@ const StudentProgressSection = () => {
 
           {/* SeconD Div */}
           <div className="flex flex-col gap-6">
-            <p>
+            <p className="paragraph">
               Watch the videos below to learn more about how to view responses
               in Google Forms and Google Sheets.
             </p>
             <div className="grid md:grid-cols-2 grid-cols-1 gap-12">
-              <article className="flex flex-col gap-4">
+              <article className="flex flex-col gap-5">
                 <p className="font-bold">View responses as a summary</p>
-                <p className="font-semibold">
-                  Click play to watch the video below.
-                </p>
+                <p className="Bold">Click play to watch the video below.</p>
                 <iframe
                   //   width="800"
                   //   height="600"
@@ -236,9 +246,7 @@ const StudentProgressSection = () => {
               </article>
               <article className="flex flex-col gap-4">
                 <p className="font-bold">View responses individually</p>
-                <p className="font-semibold">
-                  Click play to watch the video below.
-                </p>
+                <p className="Bold">Click play to watch the video below.</p>
                 <iframe
                   //   width="800"
                   //   height="600"
@@ -261,18 +269,21 @@ const StudentProgressSection = () => {
 
       {/* 4 SeCtiON */}
       {/* Use Google Forms for grading */}
-      <div className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] top-shadow">
+      <div
+        id="UseGoogleForm"
+        className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem] mb-1">
               Use Google Forms for grading
             </h1>
-            <p>
+            <p className="paragraph">
               You might already use a printed version of a rubric to assess
               student work. Speed up grading by creating your rubric in Google
               Forms instead.
             </p>
-            <p>
+            <p className="paragraph">
               For example, create a basic grid-style rubric in Google Forms.
               Each row of your form should include an element of the project or
               paper to assess, like, “student presents information in a logical
@@ -281,13 +292,13 @@ const StudentProgressSection = () => {
               to 4. As you review the project, quickly click your rating for
               each element.{" "}
             </p>
-            <p>
+            <p className="paragraph">
               You can also use this type of form for student presentations. Just
               quickly fill out the form and move on to the next student form in
               real time. You could even take this idea to the next level and
               have students peer or self-assess using a similar form.
             </p>
-            <p>
+            <p className="paragraph">
               Check out this{" "}
               <a
                 target="_blank"
@@ -310,16 +321,14 @@ const StudentProgressSection = () => {
       {/* FIfTh SeCtiON */}
       {/* Try it out */}
       <div className="bg-[#FFFFFF] sm:pb-16 pb-12 md:pt-20 pt-16">
-        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
+        <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-10">
           <div className="flex flex-col gap-5">
             <h1 className="text">Try it out</h1>
-            <p>Create a grid-type rubric.</p>
+            <p className="paragraph">Create a grid-type rubric.</p>
           </div>
 
           <div className="flex flex-col gap-2 mt-2">
-            <p className="text-[15px] font-bold mb-4">
-              Click play to watch the video below.
-            </p>
+            <p className="Bold mb-4">Click play to watch the video below.</p>
             {/* video */}
             {/* <video
             tabindex="-1"
@@ -354,12 +363,12 @@ const StudentProgressSection = () => {
           {/* transcript  ==> */}
           <div className={`flex flex-col gap-8 ${show ? "block" : "hidden"}`}>
             {/* First div */}
-            <div className="flex flex-col gap-4">
-              <p>
+            <div className="flex flex-col gap-5">
+              <p className="paragraph">
                 In this video, we'll create a grid type rubric using Google
                 forms.
               </p>
-              <ol className="list-decimal pl-12">
+              <ol className="list-decimal pl-12 paragraph">
                 <li>
                   This type of rubric can be used when assessing student work
                   with a rubric. It can also be used by students when doing a
@@ -426,9 +435,9 @@ const StudentProgressSection = () => {
               </ol>
             </div>
             {/* seconD diV */}
-            <div className="flex flex-col gap-4">
-              <p>Now it’s time to preview your form.</p>
-              <ol className="list-decimal pl-12">
+            <div className="flex flex-col gap-5">
+              <p className="paragraph">Now it’s time to preview your form.</p>
+              <ol className="list-decimal pl-12 paragraph">
                 <li>
                   Click the <strong>Preview</strong> icon in the{" "}
                   <strong>Form header</strong>
@@ -465,7 +474,7 @@ const StudentProgressSection = () => {
                 </li>
               </ol>
             </div>
-            <p>
+            <p className="paragraph">
               This is why Google Forms is a great tool for students and
               teachers.
             </p>
@@ -477,19 +486,22 @@ const StudentProgressSection = () => {
 
       {/* 6 SeCtiON */}
       {/* Keep your Google Forms anonymous */}
-      <div className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] top-shadow">
+      <div
+        id="KeepYourForm"
+        className="sm:pb-16 pb-12 md:pt-20 pt-12 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem] mb-1">
               Keep your Google Forms anonymous
             </h1>
-            <p>
+            <p className="paragraph">
               To keep forms anonymous, do not add a name section and do not
               collect email addresses. You may want to do this for a feedback
               form so students feel comfortable being honest about their
               responses
             </p>
-            <p>
+            <p className="paragraph">
               When you’re done grading and writing feedback, turn all that
               feedback into a spreadsheet. The data is automatically collected
               in a spreadsheet in Google Sheets. Share that spreadsheet with
@@ -516,17 +528,17 @@ const StudentProgressSection = () => {
           </h1>
           <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
             {/* TEXt */}
-            <article className="flex flex-col gap-4 md:col-span-2">
-              <p>
+            <article className="flex flex-col gap-5 md:col-span-2">
+              <p className="paragraph">
                 Now that you’ve learned how to use Google Forms to collect and
                 assess student knowledge, it’s your turn to reflect on what you
                 have learned.
               </p>
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-5">
                 <p className="font-bold">
                   Consider the following and make a note of your answers.
                 </p>
-                <ol className="list-decimal pl-12">
+                <ol className="list-decimal pl-12 paragraph">
                   <li>
                     How can you use Google Forms to assess student knowledge?
                   </li>

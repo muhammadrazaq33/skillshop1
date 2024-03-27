@@ -41,7 +41,7 @@ const StudentGrowthHero = () => {
                 <p className="hover:underline">Favorites</p>
               </NavLink>
             </div>
-            <p className="text-[19px]">
+            <p className="text-[19px] text-[#393b3d]">
               Organize, sort, and filter student data using Google Sheets. Use
               formulas and functions in Google Sheets to find a student's grade,
               average the class's grade on a particular assignment, and track

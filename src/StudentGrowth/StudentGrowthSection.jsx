@@ -28,64 +28,70 @@ const StudentGrowthSection = () => {
               <div className="pl-4">
                 <ul className="activitysection__list courselist">
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#FindAverage" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname ">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Find the average and sum of student grades
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#AverageScore" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Find the average score of the whole class
                         </h3>
                       </div>
-                    </NavLink>
+                    </a>
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#SearchFormula"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Search for formulas and functions in Google Sheets
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#Counting" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Counting the number of values in a range
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a href="#FindRange" className="double_click_protection">
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Find the minimum or maximum number in a range
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                   <li className="activitysection__item courselist__item">
-                    <NavLink className="double_click_protection">
+                    <a
+                      href="#FindUniqueValue"
+                      className="double_click_protection"
+                    >
                       <div className="courselist__marker1"></div>
                       <div className="courselist__itemcontent">
-                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname">
+                        <h3 className="sm:text-[22px] text-[11.8px] activitysection__itemname section_links">
                           Finding unique values from a range
                         </h3>
                       </div>
-                    </NavLink>{" "}
+                    </a>{" "}
                   </li>
                 </ul>
               </div>
@@ -121,7 +127,9 @@ const StudentGrowthSection = () => {
               className="bg-[#E6E7E9] grid place-items-center max-w-[18rem] py-4 rounded-lg gap-y-5 px-4  w-full"
             >
               <img src="./assets/meet5.png" alt="" />
-              <p className="text-center">Organize data in Google Sheets</p>
+              <p className="text-center paragraph">
+                Organize data in Google Sheets
+              </p>
             </article>
             <article
               data-aos="fade-left"
@@ -130,7 +138,7 @@ const StudentGrowthSection = () => {
               className="bg-[#E6E7E9] grid place-items-center max-w-[18rem] py-4 rounded-lg gap-y-5 px-4 w-full"
             >
               <img src="./assets/gc2.png" alt="" />
-              <p className="text-center">
+              <p className="text-center paragraph">
                 Identify methods for analyzing student data in Google Sheets
               </p>
             </article>
@@ -141,13 +149,13 @@ const StudentGrowthSection = () => {
 
       {/* 2 SeCtiON */}
       {/* Find the average and sum of student grades */}
-      <div className="sm:pb-16 pb-12 md:pt-20 pt-12">
+      <div id="FindAverage" className="sm:pb-16 pb-12 md:pt-20 pt-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem] mb-1">
               Find the average and sum of student grades
             </h1>
-            <p>
+            <p className="paragraph">
               Keeping track of student grades is a vital part of teaching.
               Google Sheets can be used as a digital gradebook to help you stay
               organized. It will even do some math calculations for you with the
@@ -155,22 +163,22 @@ const StudentGrowthSection = () => {
             </p>
           </div>
           <div className="flex flex-col gap-5">
-            <p className="font-semibold">Click to enlarge.</p>
+            <p className="Bold">Click to enlarge.</p>
             <img src="./assets/g2.png" className="" alt="" />
           </div>
-          <div className="flex flex-col gap-4">
-            <p>
+          <div className="flex flex-col gap-5">
+            <p className="paragraph">
               Every formula in Sheets has to start with an equals sign (=). That
               tells Sheets that this is a function rather than ordinary text or
               numbers.
             </p>
-            <p>
+            <p className="paragraph">
               After that will be the formula name, followed by the range of data
               being referred to. For example, the formula:{" "}
               <strong>“=Average(A1:A5)” </strong>
               averages together the cells from A1 to A5.{" "}
             </p>
-            <p>
+            <p className="paragraph">
               Alternatively, if you needed to add together all the values in the
               “A” column, you could use <strong>(A:A)</strong> for your
               formula’s range:
@@ -189,11 +197,11 @@ const StudentGrowthSection = () => {
       <div className="py-16">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-5">
           <h1 className="text">Try it out</h1>
-          <p>
+          <p className="paragraph">
             Practice finding the average grade for individual students in a
             spreadsheet using a formula.{" "}
           </p>
-          <p>
+          <p className="paragraph">
             Check out the
             <a
               target="_blank"
@@ -212,13 +220,16 @@ const StudentGrowthSection = () => {
 
       {/* 4 SeCtiON */}
       {/* Find the average score of the whole class */}
-      <div className="sm:pb-16 pb-12 md:pt-32 pt-16 bg-[#F9F9FA] top-shadow">
+      <div
+        id="AverageScore"
+        className="sm:pb-16 pb-12 md:pt-32 pt-16 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem] mb-1">
               Find the average score of the whole class
             </h1>
-            <p>
+            <p className="paragraph">
               You may need to find the average score of your entire class for
               school reports or reviews. In the example above, you found the
               average grade for each individual student. You can use the same
@@ -240,9 +251,11 @@ const StudentGrowthSection = () => {
             <h1 className="text">Try it out</h1>
           </div>
           {/* SECOND DIV */}
-          <div className="flex flex-col gap-4">
-            <p>Find the average score of your students using sheets</p>
-            <ol className="list-decimal pl-12">
+          <div className="flex flex-col gap-5">
+            <p className="paragraph">
+              Find the average score of your students using sheets
+            </p>
+            <ol className="list-decimal pl-12 paragraph">
               <li>
                 Select every number in the header column{" "}
                 <strong>"Average"</strong>. Do so by clicking on the first
@@ -269,7 +282,7 @@ const StudentGrowthSection = () => {
           </div>
           {/* THIRD DIV */}
           <div className="flex flex-col gap-12">
-            <p className="font-semibold">Click to enlarge.</p>
+            <p className="Bold">Click to enlarge.</p>
             <img src="./assets/g5.png" className="" alt="" />
           </div>
         </div>
@@ -278,20 +291,23 @@ const StudentGrowthSection = () => {
 
       {/* 6 SeCtiON */}
       {/* Search for formulas and functions in Google Sheets */}
-      <div className="sm:pb-16 pb-12 md:pt-28 pt-16 bg-[#F9F9FA] top-shadow">
+      <div
+        id="SearchFormula"
+        className="sm:pb-16 pb-12 md:pt-28 pt-16 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
-          <div className="flex flex-col gap-4">
-            <h1 className="text1 leading-[2.4rem] mb-1">
+          <div className="flex flex-col gap-5">
+            <h1 className="text1 leading-[2.4rem] mb-2">
               Search for formulas and functions in Google Sheets
             </h1>
-            <p>
+            <p className="paragraph">
               Determining which formula or function to use depends on the type
               of data you are working with. A good place to start is to search
               the functions list to see what is available and which functions
               you might find most useful. Use keywords to see if any formulas
               can do what you’re looking for.
             </p>
-            <p>
+            <p className="paragraph">
               For example, search for “case” to find a formula that will
               instantly change text into lowercase. You can search, “sort” to
               sort the selected rows by the values or by alphabetical order in
@@ -322,12 +338,12 @@ const StudentGrowthSection = () => {
             <h1 className="text">Try it out</h1>
           </div>
           {/* SECOND DIV */}
-          <div className="flex flex-col gap-4">
-            <p>
+          <div className="flex flex-col gap-5">
+            <p className="paragraph">
               Search and add a few popular functions. First, sort a sheet
               alphabetically.
             </p>
-            <ol className="list-decimal pl-12">
+            <ol className="list-decimal pl-12 paragraph">
               <li>
                 To search for a function, select a cell in your spreadsheet. For
                 this example, select cell C1, the cell with the text Last Name.
@@ -349,7 +365,7 @@ const StudentGrowthSection = () => {
           </div>
           {/* THIRD DIV */}
           <div className="flex flex-col gap-6 md:mt-8 sm:mt-6 mt-4">
-            <p className="font-semibold">Click to enlarge.</p>
+            <p className="Bold">Click to enlarge.</p>
             <img src="./assets/g6.png" className="" alt="" />
           </div>
         </div>
@@ -358,13 +374,16 @@ const StudentGrowthSection = () => {
 
       {/* 8 SeCtiON */}
       {/* Counting the number of values in a range */}
-      <div className="sm:pb-16 pb-12 md:pt-28 pt-16 bg-[#F9F9FA] top-shadow">
+      <div
+        id="Counting"
+        className="sm:pb-16 pb-12 md:pt-28 pt-16 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem] mb-1">
               Counting the number of values in a range
             </h1>
-            <p>
+            <p className="paragraph">
               Use the formula =Count(A:A) when you need to know how many values
               are in a range. It’s important to note that =Count works for
               counting numbers and =CountA works for counting cells with text
@@ -389,9 +408,9 @@ const StudentGrowthSection = () => {
             <h1 className="text">Try it out</h1>
           </div>
           {/* SECOND DIV */}
-          <div className="flex flex-col gap-4">
-            <p>Try these formulas</p>
-            <ol className="list-decimal pl-12">
+          <div className="flex flex-col gap-5">
+            <p className="paragraph">Try these formulas</p>
+            <ol className="list-decimal pl-12 paragraph">
               <li>
                 Select cells <strong>B2</strong> to <strong>B15</strong> in the
                 example project.
@@ -414,7 +433,7 @@ const StudentGrowthSection = () => {
           </div>
           {/* THIRD DIV */}
           <div className="flex flex-col gap-6 mt-3">
-            <p className="font-semibold">Click to enlarge.</p>
+            <p className="Bold">Click to enlarge.</p>
             <img src="./assets/g7.png" className="" alt="" />
           </div>
         </div>
@@ -423,14 +442,17 @@ const StudentGrowthSection = () => {
 
       {/* 10 SeCtiON */}
       {/* Find the minimum or maximum number in a range */}
-      <div className="sm:pb-16 pb-12 md:pt-28 pt-16 bg-[#F9F9FA] top-shadow">
+      <div
+        id="FindRange"
+        className="sm:pb-16 pb-12 md:pt-28 pt-16 bg-[#F9F9FA] top-shadow"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
           {/* first div */}
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem] mb-1">
               Find the minimum or maximum number in a range
             </h1>
-            <p>
+            <p className="paragraph">
               You might need to find the lowest and highest grade on an
               assignment. This is helpful if you need to calculate a grade
               curve. You can use the MIN and MAX functions to quickly find this
@@ -440,7 +462,7 @@ const StudentGrowthSection = () => {
 
           {/* second div */}
           <div className="flex flex-col gap-6 mt-3">
-            <p className="font-semibold">Click to enlarge.</p>
+            <p className="Bold">Click to enlarge.</p>
             <img src="./assets/g8.png" className="" alt="" />
           </div>
         </div>
@@ -459,9 +481,9 @@ const StudentGrowthSection = () => {
             <h1 className="text">Try it out</h1>
           </div>
           {/* SECOND DIV */}
-          <div className="flex flex-col gap-4">
-            <p>Use the max and min functions.</p>
-            <ol className="list-decimal pl-12">
+          <div className="flex flex-col gap-5">
+            <p className="paragraph">Use the max and min functions.</p>
+            <ol className="list-decimal pl-12 paragraph">
               <li>
                 In the example project, select cells <strong>E2 to E15</strong>.
               </li>
@@ -491,14 +513,14 @@ const StudentGrowthSection = () => {
           </div>
           {/* 3 div */}
           <div className="flex flex-col gap-5">
-            <p>
+            <p className="paragraph">
               The lowest score will appear in the next, blank cell in column F.
             </p>
-            <p>In the example project, it is 56.</p>
+            <p className="paragraph">In the example project, it is 56.</p>
           </div>
           {/* 4 DIV */}
           <div className="flex flex-col gap-6 mt-3">
-            <p className="font-semibold">Click to enlarge.</p>
+            <p className="Bold">Click to enlarge.</p>
             <img src="./assets/g9.png" className="" alt="" />
           </div>
         </div>
@@ -507,18 +529,21 @@ const StudentGrowthSection = () => {
 
       {/* 12 SeCtiON */}
       {/* Finding unique values from a range */}
-      <div className="bg-[#F9F9FA] top-shadow sm:pb-16 pb-12 md:pt-28 pt-16">
+      <div
+        id="FindUniqueValue"
+        className="bg-[#F9F9FA] top-shadow sm:pb-16 pb-12 md:pt-28 pt-16"
+      >
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-8">
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-5">
             <h1 className="text1 leading-[2.4rem]">
               Finding unique values from a range
             </h1>
-            <p className="mt-2">
+            <p className="mt-2 paragraph">
               Use “=Unique(A:A)” when you need to find a list of all the unique
               values in a column (column “A” in this case). In effect, this
               formula removes duplicates and can be a very handy technique.{" "}
             </p>
-            <p>
+            <p className="paragraph">
               For example, if students entered their names into a form, you
               could use “=Unique” to get an error-free list of every student who
               has participated, even if they submitted the form more than once.
@@ -526,9 +551,7 @@ const StudentGrowthSection = () => {
           </div>
 
           <div className="flex flex-col gap-2 mt-2">
-            <p className="text-[15px] font-bold mb-4">
-              Click play to watch the video below.
-            </p>
+            <p className="Bold mb-4">Click play to watch the video below.</p>
             {/* video */}
             {/* <video
             tabindex="-1"
@@ -563,28 +586,28 @@ const StudentGrowthSection = () => {
           {/* transcript  ==> */}
           <div className={`flex flex-col gap-8 ${show ? "block" : "hidden"}`}>
             {/* First div */}
-            <div className="flex flex-col gap-4">
-              <p>
+            <div className="flex flex-col gap-5">
+              <p className="paragraph">
                 In this video we will use the unique function in Google sheets
                 to create a list of unique entries to a form.
               </p>
-              <p>
+              <p className="paragraph">
                 So say, for example, you have a form that students fill out and
                 they fill it out multiple times. Maybe it's something that they
                 fill out every week or every day and you want to see who has
                 filled it out at least one time.
               </p>
-              <p>You need a list of unique names.</p>
-              <p>
+              <p className="paragraph">You need a list of unique names.</p>
+              <p className="paragraph">
                 So in this case, I have a sheet. It has several students
                 repeated.
               </p>
-              <div className="flex flex-col gap-4">
-                <p>
+              <div className="flex flex-col gap-5">
+                <p className="paragraph">
                   And so if I want to just see a list of those who have filled
                   it out at least one time, I can use the UNIQUE function.
                 </p>
-                <ol className="list-decimal pl-12">
+                <ol className="list-decimal pl-12 paragraph">
                   <li>
                     To do that, go to the cell where you want to list the unique
                     values and type the <strong>Equals</strong> symbol, then
@@ -602,14 +625,18 @@ const StudentGrowthSection = () => {
                   </li>
                 </ol>
               </div>
-              <div className="flex flex-col gap-4 mt-2">
-                <p>Now I have a list of unique entries.</p>
-                <p>
+              <div className="flex flex-col gap-5 mt-2">
+                <p className="paragraph">
+                  Now I have a list of unique entries.
+                </p>
+                <p className="paragraph">
                   These are the students who have filled out my form at least
                   one time.I can also see on this list if I have any missing
                   students.
                 </p>
-                <p>And that is the unique function in Google sheets.</p>
+                <p className="paragraph">
+                  And that is the unique function in Google sheets.
+                </p>
               </div>
             </div>
           </div>
@@ -631,17 +658,17 @@ const StudentGrowthSection = () => {
           </h1>
           <div className="grid md:grid-cols-3 grid-cols-1 gap-10">
             {/* TEXt */}
-            <article className="flex flex-col gap-4 md:col-span-2">
-              <p>
+            <article className="flex flex-col gap-5 md:col-span-2">
+              <p className="paragraph">
                 Now that you’ve learned how Google Sheets can help you collect
                 data to evaluate student growth more efficiently, reflect on the
                 ways you can use Drive in your classroom.
               </p>
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-5">
                 <p className="font-bold">
                   Consider the following and make a note of your answers.
                 </p>
-                <ol className="list-decimal pl-12">
+                <ol className="list-decimal pl-12 paragraph">
                   <li>
                     What formulas might be most useful for you to use when
                     analyzing assignment or class data?
