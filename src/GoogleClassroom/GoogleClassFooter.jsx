@@ -74,7 +74,7 @@ const GoogleClassFooter = () => {
       {/* END OF SECOND LasT fOoter */}
 
       {/*  FOoTeR */}
-      <div className="bg-[url('./assets/c7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/c7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
     </div>
   );
 };

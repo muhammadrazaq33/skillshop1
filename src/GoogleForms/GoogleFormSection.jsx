@@ -183,7 +183,7 @@ const GoogleFormSection = () => {
       {/*eND OF 2 ScETioN */}
 
       {/* ImAge SEctION */}
-      <div className="bg-[url('./assets/form6.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/form6.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 3 ScETioN */}
       {/* Try it out */}
@@ -277,7 +277,7 @@ const GoogleFormSection = () => {
       {/*End oF 4 SeCtiON */}
 
       {/* ImAge SEctION */}
-      <div className="bg-[url('./assets/form6.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/form6.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 5 ScETioN */}
       {/* Editing a question in Google Forms */}
@@ -310,7 +310,7 @@ const GoogleFormSection = () => {
       {/*eND OF 5 ScETioN */}
 
       {/* ImAge SEctION */}
-      <div className="bg-[url('./assets/form11.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/form11.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 6 ScETioN */}
       {/* Try it out */}
@@ -472,7 +472,7 @@ const GoogleFormSection = () => {
       {/*End oF 4 SeCtiON */}
 
       {/* ImAge SEctION */}
-      <div className="bg-[url('./public/assets/form8.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/public/assets/form8.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 8 ScETioN */}
       {/* Try it out */}
@@ -540,7 +540,7 @@ const GoogleFormSection = () => {
       {/*eND OF 7 ScETioN */}
 
       {/* ImAge SEctION */}
-      <div className="bg-[url('./assets/form19.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/form19.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 11 ScEtiOn */}
       {/* Reflect on what you have learned */}

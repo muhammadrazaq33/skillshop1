@@ -585,7 +585,7 @@ const DigitalFeedbackSection = () => {
       {/* end of section */}
 
       {/* image section */}
-      <div className="bg-[url('./assets/d30.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/d30.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 6 ScETioN */}
       {/* Success stories */}
@@ -647,7 +647,7 @@ const DigitalFeedbackSection = () => {
       {/*eND OF 7 ScETioN */}
 
       {/* ImaGE SeCtiON */}
-      <div className="bg-[url('./assets/d10.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/d10.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 8 SEctIon */}
       <div className="sm:pb-16 pb-12 md:pt-20 pt-12">
@@ -683,7 +683,7 @@ const DigitalFeedbackSection = () => {
       {/*eNd Of  8 SEctIon */}
 
       {/* ImaGE SeCtiON */}
-      <div className="bg-[url('./assets/d13.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/d13.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 9 ScEtiOn */}
       {/* Reflect on what you have learned */}

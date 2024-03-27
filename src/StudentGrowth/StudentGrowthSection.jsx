@@ -190,7 +190,7 @@ const StudentGrowthSection = () => {
       {/*End oF 2 SeCtiON */}
 
       {/* ImAge SEctION */}
-      <div className="bg-[url('./assets/g3.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/g3.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 3 SecTion  */}
       {/* Try it out */}
@@ -241,7 +241,7 @@ const StudentGrowthSection = () => {
       {/*End oF 4 SeCtiON */}
 
       {/* ImAge SEctION */}
-      <div className="bg-[url('./assets/g4.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/g4.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 5 SeCtiON */}
       {/* Try it out */}
@@ -328,7 +328,7 @@ const StudentGrowthSection = () => {
       {/*End oF 6 SeCtiON */}
 
       {/* ImAge SEctION */}
-      <div className="bg-[url('./assets/g4.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/g4.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 7 SeCtiON */}
       {/* Try it out */}
@@ -398,7 +398,7 @@ const StudentGrowthSection = () => {
 
       {/* ImAge SEctION */}
 
-      <div className="bg-[url('./assets/g4.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/g4.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 9 SeCtiON */}
       {/* Try it out */}
@@ -471,7 +471,7 @@ const StudentGrowthSection = () => {
 
       {/* ImAge SEctION */}
 
-      <div className="bg-[url('./assets/g4.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/g4.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 11 SeCtiON */}
       {/* Try it out */}
@@ -647,7 +647,7 @@ const StudentGrowthSection = () => {
 
       {/* ImAge SEctION */}
 
-      <div className="bg-[url('./assets/g11.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/g11.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* 13 ScEtiOn */}
       {/* Reflect on what you have learned */}
