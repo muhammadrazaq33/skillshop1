@@ -229,7 +229,7 @@ const StartWithTechnology = () => {
 
       {/* IMage SeCtiON */}
       <div className="">
-        <div className="bg-[url('./public/assets/awards.png')] bg-center bg-no-repeat bg-cover h-[70px] sm:h-[110px] md:h-[120px]"></div>
+        <div className="bg-[url('/assets/awards.png')] bg-center bg-no-repeat bg-cover h-[70px] sm:h-[110px] md:h-[120px]"></div>
       </div>
     </>
   );

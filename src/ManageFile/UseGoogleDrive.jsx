@@ -206,7 +206,7 @@ const UseGoogleDrive = () => {
 
       {/* IMage SeCtiON */}
       <div className="">
-        <div className="bg-[url('./assets/google_drive_items1.png')] bg-center bg-no-repeat bg-cover h-[70px] sm:h-[110px] md:h-[120px]"></div>
+        <div className="bg-[url('/assets/google_drive_items1.png')] bg-center bg-no-repeat bg-cover h-[70px] sm:h-[110px] md:h-[120px]"></div>
       </div>
 
       {/* fifth section */}
@@ -311,7 +311,7 @@ const UseGoogleDrive = () => {
       </div>
 
       {/* IMAGE SECTION */}
-      <div className="bg-[url('./assets/google_item2.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/google_item2.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
 
       {/* lEt's looK AT a scenARIO */}
       {/* sEventh SectIon */}
@@ -437,7 +437,7 @@ const UseGoogleDrive = () => {
       </div>
 
       {/* image SEctION */}
-      <div className="bg-[url('./assets/img1.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/img1.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
     </div>
   );
 };

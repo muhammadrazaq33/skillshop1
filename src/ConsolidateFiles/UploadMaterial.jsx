@@ -154,7 +154,7 @@ const UploadMaterial = () => {
       </div>
 
       {/* THIrd section iMAGE ====> */}
-      <div className="bg-[url('./assets/google_drive_items.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/google_drive_items.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
     </div>
   );
 };
