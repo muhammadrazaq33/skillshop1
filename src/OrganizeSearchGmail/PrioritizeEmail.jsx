@@ -65,7 +65,7 @@ const PrioritizeEmail = () => {
         </div>
       </div>
       {/* iMagE sECTIOn */}
-      <div className="bg-[url('./assets/gmail2.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/gmail2.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
       {/* TRY IT ouT */}
       {/* SEcONd SECTiON */}
       <div className="sm:pb-16 pb-12 sm:pt-20 pt-12">

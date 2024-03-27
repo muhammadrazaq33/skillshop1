@@ -141,7 +141,7 @@ const HighLightEmail = () => {
         </div>
       </div>
       {/* IMaGE SeCtIon */}
-      <div className="bg-[url('./assets/gmail4.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/gmail4.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
       {/* END oF imAge SecTION */}
       {/* SeCONd SeCtioN  */}
       {/* try It out */}
@@ -195,7 +195,7 @@ const HighLightEmail = () => {
       </div>
       {/* eND of ThirD sEcTIOn */}
       {/* /IMAGE sEctIOn */}
-      <div className="bg-[url('./assets/gmail7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/gmail7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
       {/* /EnD OF IMAGE sEctIOn */}
       {/* FourtH secTIOn  */}
       {/* Try it out */}
@@ -306,7 +306,7 @@ const HighLightEmail = () => {
       </div>
       {/* eND of fiftH sEcTIOn */}
       {/* /IMAGE sEctIOn */}
-      <div className="bg-[url('./assets/gmail7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/gmail7.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
       {/* /EnD OF IMAGE sEctIOn */}
       {/* SiXth SeCtioN  */}
       {/* try It out */}
@@ -349,7 +349,7 @@ const HighLightEmail = () => {
       </div>
       {/* eND oF sIxth SECtiOn */}
       {/* IMAGE SeCTIOn */}
-      <div className="bg-[url('./assets/gmail10.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
+      <div className="bg-[url('/assets/gmail10.png')] md:h-[120px] sm:h-[110px] h-[70px] bg-no-repeat bg-center bg-cover "></div>
       {/* SeveNTH seCTIon */}
       <div className="sm:pt-20 pt-16 pb-12">
         <div className="max-w-[960px] w-[92vw] m-auto flex flex-col gap-2">
