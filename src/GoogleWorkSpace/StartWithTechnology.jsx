@@ -123,7 +123,7 @@ const StartWithTechnology = () => {
               <button
                 className={`btn ${
                   activeIndex === 2 && "active1"
-                } bg-[#dadce0] px-2 py-3 rounded-sm duration-700 hover:bg-[#1A73E8] hover:text-[white]`}
+                } bg-[#dadce0] px-2 py-3 rounded-sm dura hover:bg-[#1A73E8] hover:text-[white]`}
                 onClick={() => handleClick(2)}
               >
                 Differentiation
@@ -229,7 +229,7 @@ const StartWithTechnology = () => {
 
       {/* IMage SeCtiON */}
       <div className="">
-        <div className="bg-[url('./assets/awards.png')] bg-center bg-no-repeat bg-cover h-[70px] sm:h-[110px] md:h-[120px]"></div>
+        <div className="bg-[url('./public/assets/awards.png')] bg-center bg-no-repeat bg-cover h-[70px] sm:h-[110px] md:h-[120px]"></div>
       </div>
     </>
   );
